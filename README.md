@@ -1,4 +1,4 @@
-# Yale Life Science Funding Finder
+# Life Science Funding Finder
 
 Grants, fellowships, career awards, pilot funds and student programs for Yale life scientists: cell and molecular biology, stem cells and regeneration, skin biology, immunology and fibrosis, cancer, neuroscience, genetics, microbiology, metabolism and aging, women's health, cardiovascular, computational, translational and ecological research.
 
