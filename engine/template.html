@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Life Science Funding Finder</title>
+<meta name="description" content="Grants, fellowships, career awards, pilot funds and student programs for Yale life scientists, with Yale internal and limited-submission steps.">
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Libre+Franklin:wght@400;500;600;700&display=swap">
+/*CSS*/
+
+<div class="site">
+  <div class="site-in">
+    <div class="site-top">
+      <div style="display:flex;flex-direction:column;gap:2px"><span class="site-kicker">Yale Life Sciences</span><span class="site-title">Funding Finder</span></div>
+      <span class="site-meta">Each program checked against the funder's own page</span>
+    </div>
+    <nav aria-label="Page sections">
+      <a href="#find">Find funding</a>
+      <a href="#allSec">Programs and deadlines</a>
+      <a href="#changedSec">What's changed</a>
+    </nav>
+  </div>
+</div>
+<div class="wrap">
+  <header id="find">
+    <h1>Funding for life-science research, fellowships and training</h1>
+    <p>NIH and other federal mechanisms, foundation grants, early-career and established-investigator awards, postdoctoral and graduate fellowships, undergraduate summer programs, and Yale pilot and seed funds, across cell and molecular biology, development and regeneration, immunology, neuroscience, cancer, genetics and the rest of the life sciences. Choose your area and career stage. Programs open to every field appear under every area, and Yale's internal and limited-submission steps are shown next to each external deadline.</p>
+  </header>
+
+  <div class="banner" id="banner">Loading the program list…</div>
+
+  <section>
+    <span class="steplbl">Research area</span>
+    <div class="fields" id="fields"></div>
+  </section>
+
+  <section>
+    <span class="steplbl">Career stage</span>
+    <nav class="stages" role="tablist" id="stages" aria-label="Career stage"></nav>
+  </section>
+
+  <div class="elig">
+    <span class="steplbl">Eligibility</span>
+    <label><input type="checkbox" id="noUS"> Hide programs limited to US citizens and permanent residents</label>
+    <label><input type="checkbox" id="noNom"> Hide programs that need a nomination or limited submission</label>
+  </div>
+
+  <div class="context" id="context"></div>
+
+  <div class="panel" id="notes"></div>
+
+  <section id="allSec">
+    <h2 id="allTitle">Programs and deadlines</h2>
+    <p class="sub" id="allSub"></p>
+    <div class="controls">
+      <div class="chips" id="dueChips"></div>
+      <div class="chips" id="statusChips"></div>
+      <div class="chips" id="catChips"></div>
+      <label class="chips"><span class="lbl">Find</span><input id="q" class="search" type="search" placeholder="e.g. K99, HHMI, fibrosis, new"></label>
+    </div>
+    <div class="tablebox">
+      <table>
+        <thead><tr>
+          <th><button data-sort="deadline">Deadline ↕</button></th>
+          <th><button data-sort="name">Program ↕</button></th>
+          <th>Status</th>
+          <th>Award</th>
+          <th>Eligibility and notes</th>
+        </tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div class="formrow"><button class="btn primary" id="viewAllBtn" hidden></button><span class="msg" id="pickCount"></span><button class="btn" id="pickAllBtn" type="button">Tick all shown</button><button class="btn" id="pickClearBtn" type="button">Clear ticks</button><button class="btn primary" id="icsBtn" type="button">Add ticked to my calendar</button><button class="btn" id="csvBtn" type="button">Download ticked as CSV</button><span class="msg" id="csvMsg"></span></div>
+  </section>
+
+  <section id="changedSec">
+    <h2>What's changed at funders</h2>
+    <ul class="changes" id="changes"></ul>
+  </section>
+
+  <footer id="foot">Programs are compiled from each funder's official page and from Yale's public research-office and center pages. Open means a deadline is posted. Rolling means applications are accepted at any time. Watch means the program recurs but its next deadline is not posted yet. Yale's full limited-submission list is in InfoReady (NetID required), so confirm internal dates there. Deadlines move: check the linked page before committing.</footer>
+</div>
+<div class="site-foot"><div class="site-foot-in"><span>Built for Yale life scientists by Valerie Horsley (MCDB and Dermatology). Not an official Yale University page. Page design and export code adapted from Chiara Mingarelli's <a href="https://github.com/ChiaraMingarelli/funding-finders">Funding Finders</a> (MIT License). Made with Claude Opus 5.5 by Anthropic.</span><span id="footDate"></span></div></div>
+
+<!-- SNAPSHOT:START -->
+<script id="snapshot" type="application/json">{{snapshot}}</script>
+<!-- SNAPSHOT:END -->
+<script>
+/*EXPORT*/
+expInit("lsff-picked",()=>DATA,"life-science-funding");
+let EXP_SHOWN=[];
+function expBar(r){EXP_SHOWN=r;const n=expPicked().length;$("icsBtn").disabled=!n;$("csvBtn").disabled=!n;$("pickCount").textContent=n?`${n} ticked for export`:"Tick the programs you're interested in to export them.";}
+
+const TODAY = new Date(); TODAY.setHours(0,0,0,0);
+const FIELDS = [
+  {k:"cell", n:"Cell & Molecular Biology", c:["cell","struct"]},
+  {k:"stem", n:"Stem Cells, Development & Regeneration", c:["stem"]},
+  {k:"derm", n:"Skin Biology & Dermatology", c:["derm"]},
+  {k:"imm", n:"Immunology, Inflammation & Fibrosis", c:["imm","fib"]},
+  {k:"cancer", n:"Cancer Biology", c:["cancer"]},
+  {k:"neuro", n:"Neuroscience", c:["neuro"]},
+  {k:"gen", n:"Genetics & Genomics", c:["gen"]},
+  {k:"micro", n:"Microbiology & Infectious Disease", c:["micro"]},
+  {k:"metab", n:"Metabolism, Aging & Endocrinology", c:["metab","aging"]},
+  {k:"repro", n:"Women's & Reproductive Health", c:["repro"]},
+  {k:"cardio", n:"Cardiovascular Biology", c:["cardio"]},
+  {k:"comp", n:"Computational & Quantitative Biology", c:["comp"]},
+  {k:"trans", n:"Translational, Clinical & Bioengineering", c:["trans","bioeng"]},
+  {k:"eco", n:"Ecology & Evolution", c:["eco"]},
+  {k:"*", n:"All areas", x:true}
+];
+const TAGN = {cell:"Cell & molecular",struct:"Biochemistry & structural",stem:"Stem cells & regeneration",derm:"Skin & dermatology",imm:"Immunology",fib:"Fibrosis & autoimmunity",cancer:"Cancer",neuro:"Neuroscience",gen:"Genetics & genomics",micro:"Microbiology & infection",metab:"Metabolism & endocrinology",aging:"Aging",repro:"Women's & reproductive health",cardio:"Cardiovascular",comp:"Computational biology",trans:"Translational & clinical",bioeng:"Bioengineering",eco:"Ecology & evolution",all:"All areas"};
+const STAGES = [
+  {k:"tt", n:"Faculty (early career)"},{k:"ten", n:"Faculty (established)"},{k:"pd", n:"Postdocs"},{k:"gr", n:"Graduate students"},{k:"ug", n:"Undergraduates"}
+];
+const STATUS = {open:"Open", rolling:"Rolling", watch:"Watch", closed:"Closed"};
+const FNAME = Object.fromEntries(FIELDS.map(f=>[f.k,f.n])); const FCODES = Object.fromEntries(FIELDS.map(f=>[f.k,f.c||[]]));
+const $ = id => document.getElementById(id);
+const fmt = iso => new Date(iso+"T00:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"});
+const days = iso => Math.round((new Date(iso+"T00:00:00")-TODAY)/86400000);
+const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => (typeof u==="string" && /^https:\/\//i.test(u)) ? u : "";
+const isoOk = s => typeof s==="string" && /^\d{4}-\d{2}-\d{2}$/.test(s);
+const dcls = k => k<=14?"d-hot":k<=45?"d-warm":"d-cool";
+const future = x => isoOk(x.d) && days(x.d)>=0;
+const effStatus = x => (x.s==="open" && isoOk(x.d) && days(x.d)<0) ? "closed" : (STATUS[x.s]?x.s:"watch");
+const arr = v => Array.isArray(v)?v:[];
+const ls = {get:k=>{try{return localStorage.getItem(k);}catch(e){return null;}}, set:(k,v)=>{try{localStorage.setItem(k,v);}catch(e){}}};
+
+let SNAP={programs:[],status:{},notes:{}};
+try{ SNAP=JSON.parse(document.getElementById("snapshot").textContent); }catch(e){}
+let DATA=arr(SNAP.programs), META=SNAP.status||{}, NOTES=SNAP.notes||{};
+let field="*", stage="tt", fStatus="active", fCat="All", q="", sortKey="deadline", sortDir=1, fDue="42", noUS=false, noNom=false;
+{
+  const h=location.hash.replace("#",""); if(STAGES.some(s=>s.k===h)) stage=h;
+  const sf=ls.get("lsff-field"), ss=ls.get("lsff-stage");
+  if(sf && FNAME[sf]) field=sf; if(!h && ss && STAGES.some(s=>s.k===ss)) stage=ss;
+  noUS=ls.get("lsff-nous")==="1"; noNom=ls.get("lsff-nonom")==="1";
+}
+$("noUS").checked=noUS; $("noNom").checked=noNom;
+const save=()=>{ls.set("lsff-field",field);ls.set("lsff-stage",stage);ls.set("lsff-nous",noUS?"1":"0");ls.set("lsff-nonom",noNom?"1":"0");};
+
+const inField = (x,f=field) => f==="*" || arr(x.fields).includes("all") || arr(x.fields).some(c=>(FCODES[f]||[]).includes(c));
+const inStage = (x,s=stage) => arr(x.stages).includes(s);
+const eligible = x => !(noUS && x.us) && !(noNom && x.nom);
+const active = x => effStatus(x)!=="closed";
+const scope = () => DATA.filter(x=>inField(x)&&inStage(x)&&eligible(x));
+
+function banner(){
+  const b=$("banner");
+  if(!DATA.length){ b.textContent="No programs loaded."; return; }
+  const lc=isoOk(META.lastChecked)?fmt(META.lastChecked):"—";
+  const la=DATA.reduce((m,x)=>isoOk(x.added)&&x.added>m?x.added:m,"");
+  b.innerHTML=`<span><b>${DATA.length}</b> programs · last checked <b>${esc(lc)}</b>${la?` · newest additions <b>${esc(fmt(la))}</b>`:""}</span>`;
+  $("footDate").textContent=isoOk(META.lastChecked)?`Catalog checked ${fmt(META.lastChecked)}`:"";
+}
+function fieldButtons(){
+  const box=$("fields");
+  box.innerHTML=FIELDS.map(f=>{
+    const n=DATA.filter(x=>inField(x,f.k)&&inStage(x)&&eligible(x)&&active(x)).length;
+    return `<button class="fbtn${f.x?" x":""}" data-k="${f.k}" aria-pressed="${f.k===field}"><span class="fn">${f.n}</span><span class="fc">${n} program${n===1?"":"s"}</span></button>`;
+  }).join("");
+  box.querySelectorAll(".fbtn").forEach(b=>b.onclick=()=>{field=b.dataset.k;fCat="All";save();renderAll();});
+}
+function stageTabs(){
+  const nav=$("stages");
+  nav.innerHTML=STAGES.map(s=>{
+    const rows=DATA.filter(x=>inField(x)&&inStage(x,s.k)&&eligible(x));
+    const soon=rows.filter(x=>future(x)&&active(x)&&days(x.d)<=30).length;
+    return `<button class="stage" role="tab" data-k="${s.k}" aria-selected="${s.k===stage}"><span class="sn">${s.n}</span><span class="sc">${rows.filter(active).length} active · ${soon} due in 30 d</span></button>`;
+  }).join("");
+  nav.querySelectorAll(".stage").forEach(b=>b.onclick=()=>{stage=b.dataset.k;fCat="All";save();renderAll();});
+}
+function context(){
+  const rows=scope(); const sN=STAGES.find(s=>s.k===stage).n;
+  const up=rows.filter(x=>future(x)&&active(x));
+  $("context").innerHTML=`<span><b>${esc(FNAME[field])}</b> · ${esc(sN)}</span>`+
+    `<span class="stat"><b>${up.filter(x=>days(x.d)<=30).length}</b> due in 30 days</span>`+
+    `<span class="stat"><b>${rows.filter(x=>x.s==="rolling").length}</b> rolling</span>`+
+    `<span class="stat"><b>${rows.filter(x=>x.s==="watch").length}</b> on watch</span>`+
+    `<span class="stat"><b>${rows.length}</b> programs</span>`;
+}
+const nextDate = x => { const c=[]; if(future(x)) c.push(x.d); if(x.yale && isoOk(x.yale.d) && days(x.yale.d)>=0) c.push(x.yale.d); return c.sort()[0]||null; };
+function notes(){
+  const n=NOTES[stage]; const box=$("notes");
+  if(!n||!arr(n.items).length){box.hidden=true;return;} box.hidden=false;
+  box.innerHTML=`<h2>${esc(n.title||"")}</h2><ul>${arr(n.items).map(i=>`<li><b>${esc(i.b)}</b> ${esc(i.t)}</li>`).join("")}</ul>`;
+}
+function changes(){
+  const c=arr(NOTES.changes); $("changedSec").hidden=!c.length;
+  $("changes").innerHTML=c.map(c=>`<li><b>${esc(c.b)}</b>${esc(c.t)}</li>`).join("");
+}
+function chips(){
+  const dc=$("dueChips"), isN=fStatus==="new";
+  const dues=[["new","New this week"],["42","Due in the next 6 weeks"],["all","All"]];
+  dc.innerHTML=`<span class="lbl">Show</span>`+dues.map(([k,l])=>`<button class="chip" data-k="${k}" aria-pressed="${k==="new"?isN:!isN&&k===fDue}">${l}</button>`).join("");
+  dc.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{const k=b.dataset.k; if(k==="new") fStatus=isN?"active":"new"; else {fDue=k; if(isN) fStatus="active";} render();});
+  const opts=[["active","Active (open, rolling, watch)"],["open","Open"],["rolling","Rolling"],["watch","Watch"]];
+  const stVal=fStatus==="new"?"active":fStatus;
+  $("statusChips").innerHTML=`<label class="lbl" for="statusSel">Status</label><select class="sel" id="statusSel">${opts.map(([k,l])=>`<option value="${k}"${k===stVal?" selected":""}>${l}</option>`).join("")}</select>`;
+  $("statusSel").onchange=e=>{fStatus=e.target.value;render();};
+  const cats=["All",...[...new Set(scope().map(x=>x.c))].filter(Boolean).sort()];
+  if(!cats.includes(fCat)) fCat="All";
+  $("catChips").innerHTML=`<label class="lbl" for="catSel">Type</label><select class="sel" id="catSel">${cats.map(k=>`<option value="${esc(k)}"${k===fCat?" selected":""}>${k==="All"?"All types":esc(k)}</option>`).join("")}</select>`;
+  $("catSel").onchange=e=>{fCat=e.target.value;render();};
+}
+function isNew(x){return isoOk(x.added)&&(!isoOk(META.launch)||x.added>META.launch)&&days(x.added)>=-7&&days(x.added)<=0;}
+function noWin(){return fStatus==="new"||q==="new";}
+function filtered(due=fDue){
+  let r=scope().filter(x=>{
+    const st=effStatus(x);
+    if(fStatus==="new"){if(!isNew(x)) return false;}
+    else if(fStatus==="active"&&st==="closed") return false;
+    if(!["active","new"].includes(fStatus)&&st!==fStatus) return false;
+    if(fCat!=="All"&&x.c!==fCat) return false;
+    if(due!=="all"&&!noWin()){const nd=nextDate(x); if(!nd||days(nd)>+due) return false;}
+    if(q==="new"){if(!isNew(x)) return false;}
+    else if(q){const h=[x.n,x.f,x.e,x.a,x.c,x.dt,arr(x.fields).map(f=>TAGN[f]||f).join(" "),x.yale?x.yale.t:""].join(" ").toLowerCase(); if(!h.includes(q)) return false;}
+    return true;});
+  const order={open:1,rolling:2,watch:3,closed:4};
+  const key=x=>{const nd=nextDate(x); return nd?"0"+nd:order[effStatus(x)]+"";};
+  r.sort((a,b)=> sortKey==="name" ? sortDir*String(a.n).localeCompare(String(b.n)) : sortDir*key(a).localeCompare(key(b)));
+  return r;
+}
+function render(){
+  chips();
+  $("allTitle").textContent=`Programs and deadlines · ${FNAME[field]} · ${STAGES.find(s=>s.k===stage).n}`;
+  let r=filtered(), autoAll=false;
+  if(fDue!=="all"&&!noWin()&&!r.length){const ra=filtered("all"); if(ra.length){r=ra;autoAll=true;}}
+  expBar(r);
+  const windowed=fDue!=="all"&&!noWin()&&!autoAll, more=windowed?filtered("all").length-r.length:0;
+  $("allSub").textContent=(autoAll?`Nothing is due in the next 6 weeks for this selection, so all ${r.length} program${r.length===1?" is":"s are"} shown, soonest deadline first.`:windowed?`${r.length} program${r.length===1?"":"s"} due in the next 6 weeks, soonest first.${more?` ${more} more have later, rolling or not-yet-announced deadlines.`:""}`:`${r.length} program${r.length===1?"":"s"}, soonest deadline first.`)+((fStatus==="new"||q==="new")?" Showing programs added in the last 7 days.":"")+" When a Yale internal step comes first, its date is shown first.";
+  if(autoAll) $("dueChips").querySelectorAll(".chip").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.k==="all")));
+  const vb=$("viewAllBtn"); vb.hidden=!(windowed&&more); vb.textContent=`View all ${r.length+more} programs`;
+  vb.onclick=()=>{fDue="all";render();$("allSec").scrollIntoView({block:"start"});};
+  $("rows").innerHTML=r.map(x=>{
+    const st=effStatus(x);
+    let dl;
+    const yFut=x.yale&&isoOk(x.yale.d)&&days(x.yale.d)>=0, yFirst=yFut&&(!future(x)||x.yale.d<x.d);
+    const cd=k=>`<span class="${dcls(k)}">(${k===0?"today":k+"d"})</span>`;
+    if(yFirst){const k=days(x.yale.d);
+      dl=`${fmt(x.yale.d)} ${cd(k)}<span class="ylab">Yale internal</span><span class="ext">External deadline: ${future(x)?fmt(x.d):"to be announced"}</span><small>${esc(x.dt)}</small>`;}
+    else if(future(x)){dl=`${fmt(x.d)} ${cd(days(x.d))}<small>${esc(x.dt)}</small>`;}
+    else if(isoOk(x.d)){dl=`—<small>Last: ${fmt(x.d)}. ${esc(x.dt)}</small>`;}
+    else dl=`—<small>${esc(x.dt)}</small>`;
+    if(x.yale){ const yd=yFirst?"Yale step":isoOk(x.yale.d)?(days(x.yale.d)>=0?`Yale: ${fmt(x.yale.d)}`:`Yale internal deadline passed: ${fmt(x.yale.d)}`):"Yale step"; dl+=`<span class="yd">${esc(yd)}. ${esc(x.yale.t)}</span>`; }
+    const tags=(isNew(x)?`<span class="tag new" title="Added ${esc(fmt(x.added))}">New</span>`:"")+(arr(x.fields).includes("all")?`<span class="tag">all fields</span>`:arr(x.fields).map(f=>`<span class="tag">${esc(TAGN[f]||f)}</span>`).join(""))
+      +(x.us?`<span class="tag flag">US citizens/PR</span>`:"")+(x.nom?`<span class="tag flag">nomination / limited</span>`:"");
+    const yl=x.yale&&safeUrl(x.yale.u)?`<a href="${esc(safeUrl(x.yale.u))}" target="_blank" rel="noopener">Yale page</a>`:"";
+    const meta=[expCalLinks(x),yl,isoOk(x.checked)?`checked ${fmt(x.checked)}`:""].filter(Boolean).map(m=>`<span>${m}</span>`).join("");
+    return `<tr><td class="dl" data-l="">${dl}</td>
+      <td data-l="" style="min-width:240px"><div class="pname"><input type="checkbox" class="pickbox" data-pick="${esc(x.id)}" ${EXP.picked.has(x.id)?"checked":""} aria-label="Tick ${esc(x.n)} for export" title="Tick to export">${safeUrl(x.u)?`<a href="${esc(safeUrl(x.u))}" target="_blank" rel="noopener">${esc(x.n)}</a>`:esc(x.n)}</div><div class="funder">${esc(x.f)} · ${esc(x.c)}</div><div class="tags">${tags}</div>${meta?`<div class="meta">${meta}</div>`:""}</td>
+      <td data-l=""><span class="pill s-${st}">${STATUS[st]}</span></td>
+      <td data-l="${x.a?"Award":""}" style="min-width:160px">${esc(x.a)}</td>
+      <td data-l="Eligibility and notes" style="min-width:300px"><div class="note">${esc(x.e)}${x.unv?` <span class="unv">unconfirmed: ${esc(x.unv)}</span>`:""}</div></td></tr>`;
+  }).join("")||`<tr><td colspan="5" class="empty">${windowed?"Nothing due in the next 6 weeks for this selection.":"No programs match these filters."}</td></tr>`;
+  $("rows").querySelectorAll("[data-pick]").forEach(cb=>cb.onchange=()=>{expToggle(cb.dataset.pick,cb.checked);expBar(EXP_SHOWN);});
+}
+function renderAll(){banner();fieldButtons();stageTabs();context();notes();changes();render();}
+
+$("icsBtn").onclick=()=>expSaveFile("ics",$("csvMsg"));
+$("csvBtn").onclick=()=>expSaveFile("csv",$("csvMsg"));
+$("pickAllBtn").onclick=()=>{EXP_SHOWN.forEach(x=>EXP.picked.add(x.id));expSave();render();};
+$("pickClearBtn").onclick=()=>{EXP.picked.clear();expSave();render();$("csvMsg").textContent="";};
+document.querySelectorAll("th button").forEach(b=>b.onclick=()=>{const k=b.dataset.sort;if(sortKey===k)sortDir*=-1;else{sortKey=k;sortDir=1;}render();});
+$("q").addEventListener("input",e=>{q=e.target.value.trim().toLowerCase();render();});
+$("noUS").onchange=e=>{noUS=e.target.checked;save();renderAll();};
+$("noNom").onchange=e=>{noNom=e.target.checked;save();renderAll();};
+renderAll();
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "tt": {"title": "Tips for early-career faculty", "items": [
+    {"b": "Start limited submissions early.", "t": "Yale runs internal competitions on InfoReady (NetID required): a letter of intent about 14 weeks and an internal application about 12 weeks before the funder's deadline. Rows tagged nomination / limited need this step."},
+    {"b": "Scholar programs run once a year.", "t": "Pew, Searle, Rita Allen, Beckman, Klingenstein-Simons and similar awards closed their 2026 cycles between July and November, so they are on Watch until the next call is posted."},
+    {"b": "NIH caps applications.", "t": "Each PI can have at most six NIH applications counted per calendar year, so plan R01, R21 and DP2 submissions together."}
+  ]},
+  "ten": {"title": "Tips for established faculty", "items": [
+    {"b": "Several large foundations limit applications per institution.", "t": "W. M. Keck and Mathers each take up to three applications from Yale, so these go through an internal selection first."},
+    {"b": "Mid-career awards are easy to miss.", "t": "Search for 'mid-career' or 'established' to find awards such as the Dermatology Foundation mid-career awards and the Alzheimer's Association Zenith Fellows."}
+  ]},
+  "pd": {"title": "Tips for postdocs", "items": [
+    {"b": "Most named fellowships are due December to March.", "t": "HHMI Hanna Gray, Damon Runyon, Jane Coffin Childs, CRI Irvington and EMBO all have posted deadlines this winter. LSRF and Helen Hay Whitney are on Watch until their next call."},
+    {"b": "Check institute rules for K99 and F32.", "t": "NCI stopped taking parent F32 applications in December 2024 and left the parent K99 in 2025; other institutes still use both."},
+    {"b": "No late F32 applications.", "t": "Since August 2026 NIH accepts no late F-series applications, so the posted date is final."}
+  ]},
+  "gr": {"title": "Tips for graduate students", "items": [
+    {"b": "F31 dates are final.", "t": "NIH no longer accepts late F-series applications, and the separate F31 diversity track ended in May 2025; apply through the parent F31."},
+    {"b": "Travel awards add up.", "t": "Keystone, ASCB, ISSCR and GSA all offer trainee travel or scholarship awards tied to meeting dates."}
+  ]},
+  "ug": {"title": "Tips for undergraduates", "items": [
+    {"b": "Summer research deadlines cluster in January and February.", "t": "Cold Spring Harbor, Jackson Laboratory, Rockefeller SURF, Amgen Scholars and the NIH Summer Internship Program are all due between mid-January and early February."},
+    {"b": "Planning a gap year?", "t": "The NIH Postbac IRTA program takes applications on a rolling basis."}
+  ]},
+  "changes": [
+    {"b": "NIH application cap", "t": "Each PI can have at most six NIH applications counted per calendar year (NOT-OD-25-132)."},
+    {"b": "NIH late submissions", "t": "Continuous submission ended in August 2026. Late applications must arrive within two weeks, and F-series and SBIR/STTR applications cannot be late at all (NOT-OD-26-064)."},
+    {"b": "F99/K00 is now NIH-wide", "t": "The predoctoral-to-postdoctoral transition award is now a parent announcement open across NIH institutes (PA-27-037)."},
+    {"b": "F31 diversity track ended", "t": "NIH ended the separate diversity F31 in May 2025. Applicants use the parent F31."},
+    {"b": "Funders renamed or winding down", "t": "The Leukemia & Lymphoma Society now funds fellows as Blood Cancer United. The Ford Foundation fellowships are winding down, the Mitchell Scholarship is paused, and Canada replaced Banting with a new federal postdoc program."}
+  ]
+}

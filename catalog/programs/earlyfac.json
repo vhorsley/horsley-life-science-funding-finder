@@ -1,0 +1,606 @@
+[
+ {
+  "id": "pew-biomedical-scholars",
+  "n": "Pew Scholars Program in the Biomedical Sciences",
+  "f": "The Pew Charitable Trusts",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Next cycle expected to open around April 2027 (2027-class cycle: institutional nominations due May 13, 2026; applications due Sept 3, 2026)",
+  "a": "$300,000 over 4 years ($75,000/year)",
+  "e": "Assistant professors running an independent lab; for the 2027 class, appointment no earlier than June 10, 2023 (about 3 years). One nominee per invited institution; at most two applications in total.",
+  "u": "https://www.pew.org/en/projects/pew-biomedical-scholars/to-apply",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "yale": {
+   "d": null,
+   "t": "Yale runs an internal limited-submission competition via InfoReady; internal applications are typically due about 12 weeks before the sponsor deadline.",
+   "u": "https://research-support.yale.edu/office-of-sponsored-projects/funding/limited-submissions"
+  },
+  "unv": "Dates for the 2028-class cycle are not posted yet.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "searle-scholars",
+  "n": "Searle Scholars Program",
+  "f": "Kinship Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Next invitation to institutions expected June 1, 2027; 2027-competition applications were due Sept 30, 2026",
+  "a": "$450,000 over 3 years",
+  "e": "Must be in a first tenure-track (or equivalent) assistant professor position; for the 2027 competition the start date had to be on or after May 1, 2025. Only institution-nominated candidates may apply.",
+  "u": "https://searlescholars.org/application-information/award-cycle-dates/",
+  "fields": [
+   "cell",
+   "struct",
+   "gen",
+   "imm",
+   "neuro",
+   "micro"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "yale": {
+   "d": null,
+   "t": "Yale internal limited-submission competition via InfoReady; internal deadline typically about 12 weeks before the sponsor deadline.",
+   "u": "https://research-support.yale.edu/office-of-sponsored-projects/funding/limited-submissions"
+  },
+  "unv": "Award amount ($450,000/3 years) taken from a university limited-submission page, not stated on the Searle site pages read.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "rita-allen-scholars",
+  "n": "Rita Allen Foundation Scholars",
+  "f": "Rita Allen Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Next cycle expected to open around July 2027 (2027 cycle: nominations due Sept 3, 2026; applications due Oct 14, 2026)",
+  "a": "Up to $110,000 per year for up to 5 years",
+  "e": "Early-career investigators, usually in a recent first faculty appointment, in cancer, immunology, or neuroscience. Requires nomination by an invited institution.",
+  "u": "https://ritaallen.org/scholars/",
+  "fields": [
+   "cancer",
+   "imm",
+   "neuro"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "yale": {
+   "d": null,
+   "t": "Yale internal limited-submission competition via InfoReady.",
+   "u": "https://research-support.yale.edu/office-of-sponsored-projects/funding/limited-submissions"
+  },
+  "unv": "2027-cycle dates came from a university limited-submission page; the foundation's 2027 guidelines were not read directly.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "beckman-young-investigators",
+  "n": "Beckman Young Investigator Program",
+  "f": "Arnold and Mabel Beckman Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "LOI portal generally open June–August each year; exact 2027 LOI date not posted",
+  "a": "About $600,000 over 4 years; no indirect costs",
+  "e": "Tenure-track faculty within the first four years (2027 program: start after 1/1/2022 and by 7/31/2026), no more than 10 years past terminal degree, and at most $225,000/year in direct external funding. Needs endorsements from the chief academic officer and dean; US citizenship or permanent residency required by interview. No clinical research or single-target drug discovery.",
+  "u": "https://beckman-foundation.org/programs/beckman-young-investigator/",
+  "fields": [
+   "cell",
+   "struct",
+   "bioeng",
+   "comp",
+   "neuro",
+   "gen"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": true,
+  "nom": false,
+  "unv": "Exact LOI deadline for the next cycle not posted.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "sloan-research-fellowships",
+  "n": "Sloan Research Fellowships",
+  "f": "Alfred P. Sloan Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Next nomination window expected mid-2027 (2027 fellowships closed Sept 15, 2026)",
+  "a": "$75,000 over 2 years",
+  "e": "Tenure-track, untenured faculty at US or Canadian degree-granting institutions with a PhD in chemistry, computer science, Earth system science, economics, mathematics, neuroscience, physics, or a related field. Life scientists are eligible mainly through neuroscience; there is no separate molecular or computational biology category. Requires a nomination letter from a department head or senior researcher.",
+  "u": "https://sloan.org/fellowships",
+  "fields": [
+   "neuro",
+   "comp"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "unv": "Official Sloan page read showed outdated (2025-cycle) dates; the Sept 15, 2026 closing date came from a secondary listing.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "packard-fellowships",
+  "n": "Packard Fellowships for Science and Engineering",
+  "f": "David and Lucile Packard Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Next cycle expected to start around Jan 2027 (2026 cycle: nominations due Mar 15, 2026; materials due Apr 20, 2026)",
+  "a": "$875,000 over 5 years",
+  "e": "Faculty in the first three years of their careers in natural/physical sciences (including biology) or engineering; clinical research is not funded. Presidents of 50 invited universities may nominate up to two candidates each.",
+  "u": "https://www.packard.org/what-we-fund/science/packard-fellowships-for-science-and-engineering/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "yale": {
+   "d": null,
+   "t": "Yale internal limited-submission competition via InfoReady, if Yale is among the invited universities.",
+   "u": "https://research-support.yale.edu/office-of-sponsored-projects/funding/limited-submissions"
+  },
+  "unv": "2027 dates not posted; whether Yale is invited in 2027 not confirmed.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "damon-runyon-rachleff-innovation",
+  "n": "Damon Runyon-Rachleff Innovation Award",
+  "f": "Damon Runyon Cancer Research Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Last deadline was July 1, 2026; next deadline not posted",
+  "a": "$400,000 over 2 years; select awardees can get up to 2 more years (up to $800,000)",
+  "e": "Tenure-track assistant professors in the first five years of their first tenure-track post (cut-off July 1, 2021 for the 2026 round), plus some senior clinical fellows and distinguished fellows. Non-US citizens at US institutions eligible. Must commit 80% of time to research; no institutional nomination needed.",
+  "u": "https://www.damonrunyon.org/for-scientists/application-guidelines/innovation",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "tt",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "2027 deadline not posted.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "damon-runyon-clinical-investigator",
+  "n": "Damon Runyon Clinical Investigator Award",
+  "f": "Damon Runyon Cancer Research Foundation",
+  "c": "Career award",
+  "s": "open",
+  "d": "2027-01-19",
+  "dt": "Applications due Jan 19, 2027, 4:00 pm ET",
+  "a": "$600,000 over 3 years; plus up to $100,000 toward medical school debt",
+  "e": "Physician-scientists (MD/DO/MD-PhD) in an independent assistant professor post, within four years of faculty appointment, licensed and board-eligible in the US, without R01-equivalent funding, with 80% research effort and a mentor. Only invited institutions may apply, up to three nominations each.",
+  "u": "https://www.damonrunyon.org/for-scientists/application-guidelines/clinical-investigator",
+  "fields": [
+   "cancer",
+   "trans"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "yale": {
+   "d": null,
+   "t": "Limited to three nominations per institution; Yale's internal selection step was not found publicly.",
+   "u": "https://medicine.yale.edu/cancer/research/funding-opportunities/"
+  },
+  "unv": "Whether Yale is on the invited-institution list was not checked; the page's eligibility cut-off date (July 1, 2023) may not be updated for the 2027 deadline.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "v-foundation-v-scholar",
+  "n": "V Scholar Grant (Kimmel Scholar successor)",
+  "f": "V Foundation for Cancer Research",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Estimated: nominations May 2027, applications June 2027; exact dates come in the RFA",
+  "a": "$600,000 (per Yale Cancer Center listing)",
+  "e": "Assistant professors (or equivalent) in the first five years of appointment, with at least two years of postdoc training, no R01-equivalent, and under $1M in career non-mentored direct funding. US citizen or permanent resident. Invited institutions only (NCI cancer centers and a few others).",
+  "u": "https://www.v.org/researcher-resources/grant-faqs/",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": true,
+  "nom": true,
+  "yale": {
+   "d": null,
+   "t": "Yale Cancer Center runs an internal competition; the call is usually released around April through Yale InfoReady.",
+   "u": "https://medicine.yale.edu/cancer/research/funding-opportunities/"
+  },
+  "unv": "V Foundation lists only estimated months; award amount taken from Yale Cancer Center page, not the V Foundation page.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "mcknight-scholar-awards",
+  "n": "McKnight Scholar Awards",
+  "f": "McKnight Endowment Fund for Neuroscience",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Next deadline expected around Nov 2027 (2026 round closed Nov 3, 2026)",
+  "a": "$225,000 over 3 years ($75,000/year); no indirect costs",
+  "e": "Neuroscience assistant professors (tenure-track) at US nonprofit institutions with fewer than five years in rank (cumulative). No tenure, no prior McKnight award, at most two prior rounds.",
+  "u": "https://www.mcknight.org/programs/the-mcknight-endowment-fund-for-neuroscience/scholar-awards/how-to-apply/",
+  "fields": [
+   "neuro"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Next-round deadline not posted.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "klingenstein-simons-neuroscience",
+  "n": "Klingenstein-Simons Fellowship Awards in Neuroscience",
+  "f": "Esther A. and Joseph Klingenstein Fund and Simons Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Recurs annually around Feb 1 (per university listings); 2027 date not confirmed on the funder page",
+  "a": "Historically $75,000 per year for 3 years",
+  "e": "Early-career tenure-track investigators in basic or clinical neuroscience relevant to neurological and psychiatric disorders, typically within a few years of finishing training.",
+  "u": "https://klingenstein.org/esther-a-joseph-klingenstein-fund/neuroscience/applying/",
+  "fields": [
+   "neuro"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Funder page could not be retrieved; Feb 1 date and award amount come from university listings and an older Simons Foundation notice. Nomination rules not confirmed.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "whitehall-research-grants",
+  "n": "Whitehall Foundation Research Grants",
+  "f": "Whitehall Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Multiple LOI rounds per year; specific dates not confirmed",
+  "a": "not listed",
+  "e": "Basic research in vertebrate and invertebrate neurobiology at US nonprofit institutions; aimed at assistant professors and independent investigators who are not yet heavily funded.",
+  "u": "https://whitehall.org",
+  "fields": [
+   "neuro"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "The Whitehall site's deadline and budget sections could not be read; dates, amounts and eligibility details not confirmed.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "mallinckrodt-foundation-grant",
+  "n": "Edward Mallinckrodt, Jr. Foundation Grant Program",
+  "f": "Edward Mallinckrodt, Jr. Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Next deadline expected around July 2027 (2026 cycle due July 1, 2026)",
+  "a": "$75,000 per year for 3 years (per university listing)",
+  "e": "Tenure-track faculty in years one to four holding an MD and/or PhD, without an R01-equivalent award. Limited submission; invited institutions nominate.",
+  "u": "https://emallinckrodtfoundation.org/funding/grant-program/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "yale": {
+   "d": null,
+   "t": "Yale internal limited-submission competition via InfoReady.",
+   "u": "https://research-support.yale.edu/office-of-sponsored-projects/funding/limited-submissions"
+  },
+  "unv": "Funder page could not be retrieved; details from a university limited-submission page.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "vallee-scholars",
+  "n": "Vallee Scholars Program",
+  "f": "The Bert L and N Kuggie Vallee Foundation",
+  "c": "Career award",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "Dean/Chair nomination letter due Dec 1, 2026; nominee's full application and references due Feb 1, 2027",
+  "a": "$400,000 over up to 4 years; no applicant salary",
+  "e": "PhD/MD within 12 years and independent for 6 years or fewer at the application deadline. One nominee per invited institution; Yale is on the 2027 invited list.",
+  "u": "https://thevalleefoundation.org/programs/yia/faq",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "yale": {
+   "d": null,
+   "t": "Yale must choose its single nominee through its internal limited-submission process; the internal date for this cycle was not found publicly and has likely passed.",
+   "u": "https://research-support.yale.edu/office-of-sponsored-projects/funding/limited-submissions"
+  },
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "hartwell-individual-biomedical-research",
+  "n": "Hartwell Individual Biomedical Research Award",
+  "f": "The Hartwell Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Annual; institutional nominations went to the Foundation in Sept 2026 for awards in April 2027",
+  "a": "$100,000 per year direct for 3 years, plus a $50,000/yr x 2 Hartwell Fellowship for the institution",
+  "e": "Early-stage, innovative applied biomedical research that benefits children; recipients are usually junior investigators. US citizens only; nominated by the head of an invited 'Top Ten' center (Yale is one for 2026).",
+  "u": "https://thehartwellfoundation.com/Individual_Biomedical_Research_Awards.shtml",
+  "fields": [
+   "trans",
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": true,
+  "nom": true,
+  "yale": {
+   "d": null,
+   "t": "Yale was named a 2026 Top Ten Center and may nominate three people through an internal competition.",
+   "u": "https://thehartwellfoundation.com/2026/2026_Top_Ten.shtml"
+  },
+  "unv": "Whether Yale will be invited again for the 2027 competition is not posted.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "smith-family-excellence",
+  "n": "Smith Family Awards Program for Excellence in Biomedical Research",
+  "f": "Richard and Susan Smith Family Foundation (administered by Health Resources in Action)",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Next initial-stage call expected around late May–June 2027 (2027 full proposals were due Oct 8, 2026)",
+  "a": "$400,000 over 3 years (up to 5 awards)",
+  "e": "Open to junior faculty at nonprofit institutions in Massachusetts plus Brown and Yale (and affiliated hospitals). For the 2027 cycle, first independent appointment between Oct 1, 2024 and Apr 1, 2027; under $350,000/yr in direct funding; 75% protected research time.",
+  "u": "https://hria.org/wp-content/uploads/2026/08/Smith-Ex-Application-Guidelines-2027-Full-Stage.pdf",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "2028-cycle dates not posted; whether institutions must limit applications was not stated in the materials read.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "brf-seed-grant",
+  "n": "Brain Research Foundation Seed Grant",
+  "f": "Brain Research Foundation",
+  "c": "Pilot / seed",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 cycle LOI closed Nov 3, 2026 (full applications by invitation due Mar 4, 2027); next LOI expected around Nov 2027",
+  "a": "Up to $100,000 direct over 2 years; no indirect costs",
+  "e": "Full-time assistant professors (first priority) or associate professors starting a new direction, at invited US institutions. One LOI per institution, with institutional signature.",
+  "u": "https://www.thebrf.org/wp-content/uploads/2026/08/2027-SG-Guidelines.pdf",
+  "fields": [
+   "neuro"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "yale": {
+   "d": null,
+   "t": "Yale may submit one LOI; internal selection via InfoReady.",
+   "u": "https://research-support.yale.edu/office-of-sponsored-projects/funding/limited-submissions"
+  },
+  "unv": "Next-cycle dates not posted.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "afar-gfmr-junior-faculty",
+  "n": "AFAR Grants for Junior Faculty / Glenn Foundation (GFMR) Grants for Junior Faculty",
+  "f": "American Federation for Aging Research; Glenn Foundation for Medical Research",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-15",
+  "dt": "Letter of intent due Dec 15, 2026; full applications (by invitation) late April 2027",
+  "a": "Up to $160,000 over 1–2 years",
+  "e": "Independent MD or PhD investigators below associate professor, no more than 10 years from start of postdoc as of July 1, 2027, without R01-level PI funding (K, K99/R00, R21 allowed). Basic biology of aging; Alzheimer's excluded. Dean/chair commitment form needed; Glenn awards favor first three years on faculty.",
+  "u": "https://www.afar.org/grants/afar-research-grants-1",
+  "fields": [
+   "aging"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "afar-sagol-geromic",
+  "n": "Sagol Network GerOmic Award for Junior Faculty",
+  "f": "American Federation for Aging Research",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-15",
+  "dt": "Letter of intent due Dec 15, 2026",
+  "a": "not listed (one award)",
+  "e": "Independent junior faculty with their own research space working on aging-related -omics research.",
+  "u": "https://www.afar.org/funding-opportunities",
+  "fields": [
+   "aging",
+   "gen",
+   "comp"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Award amount and detailed eligibility not shown on the page read.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "acs-research-scholar-grant",
+  "n": "ACS Research Scholar Grants",
+  "f": "American Cancer Society",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "Deadlines June 1 and Dec 1 each year; next is Dec 1, 2026",
+  "a": "Up to $215,000/year direct plus 10% indirect, up to 4 years",
+  "e": "Independent investigators within 8 years of first independent faculty appointment, at US academic or nonprofit institutions, with no more than one R01-equivalent. Projects must fit an ACS priority area.",
+  "u": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/research-scholar-grants.html",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Page meta description says $200,000/year; body says $215,000. Citizenship rules not stated on page.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "srf-new-faculty-grant",
+  "n": "Scleroderma Research Foundation New Faculty and Established Investigator Grants",
+  "f": "Scleroderma Research Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 cycle application expected by end of 2026 or early 2027 (2026 deadline was Mar 31, 2026)",
+  "a": "not listed",
+  "e": "New faculty and established investigators studying scleroderma pathogenesis or therapies; investigators new to scleroderma are welcome. Overhead generally not allowed.",
+  "u": "https://srfcure.org/research/apply-for-a-grant/",
+  "fields": [
+   "fib",
+   "imm",
+   "derm"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "2027 deadline not posted.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "lra-lupus-innovation-award",
+  "n": "Lupus Innovation Award",
+  "f": "Lupus Research Alliance",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Most recent deadline has passed; next not posted",
+  "a": "$300,000 over 2 years",
+  "e": "Early-career and established investigators who are new to lupus research.",
+  "u": "https://www.lupusresearch.org/for-researchers/funding-opportunities/",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "ten",
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Page labels the deadline as '2027 deadline has passed', which may be a labeling error; next date not posted.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "lra-rrf-empowering-lupus-investigator",
+  "n": "LRA/RRF Empowering Lupus Research Investigator Award",
+  "f": "Lupus Research Alliance and Rheumatology Research Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Deadline set by Rheumatology Research Foundation; not posted on LRA page",
+  "a": "Up to $500,000 over 4 years (3 guaranteed)",
+  "e": "Early-career lupus investigators transitioning from postdoctoral training to independence.",
+  "u": "https://www.lupusresearch.org/for-researchers/funding-opportunities/",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "pd",
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Rheumatology Research Foundation page could not be retrieved; deadline and full eligibility not confirmed.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ }
+]

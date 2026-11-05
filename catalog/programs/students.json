@@ -1,0 +1,715 @@
+[
+ {
+  "id": "hhmi-gilliam-fellows",
+  "n": "HHMI Gilliam Fellows Program",
+  "f": "Howard Hughes Medical Institute",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 competition closed Oct 27, 2026; next call expected to open around Sep 2027",
+  "a": "Up to $65,000/yr for up to 3 years ($50K stipend, $5K discretionary, $10K institutional allowance)",
+  "e": "Student and PhD adviser apply together; student must be in year 2 or 3 of a biological/biomedical PhD (MD-PhD eligible). The adviser completes a year-long HHMI mentoring course. International students who can be funded by their institution are eligible; the 2027 guide lists no institutional nomination step.",
+  "u": "https://www.hhmi.org/programs/gilliam-fellows",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "hertz-fellowship",
+  "n": "Hertz Fellowship",
+  "f": "Fannie and John Hertz Foundation",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 application closed Oct 30, 2026; next cycle expected to open around summer/fall 2027",
+  "a": "Up to 5 years of support, valued at up to $250,000 (stipend plus tuition equivalent)",
+  "e": "For college seniors, gap-year applicants, and first-year grad students heading to a PhD in applied physical or biological sciences, math, or engineering. US citizens or permanent residents.",
+  "u": "https://www.hertzfoundation.org/hertz-fellowship/application-help/faq/",
+  "fields": [
+   "bioeng",
+   "comp"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "pd-soros-fellowship",
+  "n": "Paul & Daisy Soros Fellowships for New Americans",
+  "f": "Paul & Daisy Soros Fellowships for New Americans",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 application closed Oct 29, 2026; next deadline expected around late Oct 2027",
+  "a": "Up to $90,000 over up to 2 years (up to $25K/yr stipend plus up to $20K/yr tuition)",
+  "e": "For immigrants and children of immigrants (including green card holders, DACA recipients, and naturalized citizens) who are 30 or younger at the deadline and pursuing graduate study in the US, in any field.",
+  "u": "https://www.pdsoros.org/apply/criteria",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "ndseg-fellowship",
+  "n": "National Defense Science and Engineering Graduate (NDSEG) Fellowship",
+  "f": "U.S. Department of Defense",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "FY2027 application window ran Aug 3 to Oct 30, 2026; next window expected around Aug to Oct 2027",
+  "a": "3-year fellowship (stipend and tuition; amounts not listed on main page)",
+  "e": "US citizens or nationals only (permanent residents are not eligible); seniors or grad students in their first two years with at least 3 years left. Research must fit DoD strategy and BAA topics, so bio applicants should check that their field fits.",
+  "u": "https://ndseg.sysplus.com/",
+  "fields": [
+   "bioeng",
+   "comp",
+   "micro",
+   "neuro"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Eligibility page does not list biosciences by name; fit depends on DoD research topics."
+ },
+ {
+  "id": "doe-csgf",
+  "n": "DOE Computational Science Graduate Fellowship (CSGF)",
+  "f": "U.S. Department of Energy (administered by Krell Institute)",
+  "c": "Graduate fellowship",
+  "s": "open",
+  "d": "2027-01-07",
+  "dt": "Application due Jan 7, 2027 for the 2027-28 cohort",
+  "a": "not listed",
+  "e": "For seniors and first-year PhD students (no more than 1 year of full-time grad study) in physical, engineering, computer, math, or life sciences who use high-performance computing. US citizens or permanent residents.",
+  "u": "https://krellinst.org/csgf/how-apply",
+  "fields": [
+   "comp"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "aauw-american-doctoral-fellowship",
+  "n": "AAUW American Doctoral Fellowship",
+  "f": "American Association of University Women",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2027-28 application closed Sep 30, 2026; next portal expected to open around Aug 2027",
+  "a": "$25,000 stipend",
+  "e": "For women pursuing a first doctoral degree, enrolled full time, who will finish on or after Apr 1, 2028. US citizens, nationals, or permanent residents.",
+  "u": "https://aauw.org/resources/programs/fellowships-grants/current-opportunities/american/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "peo-scholar-awards",
+  "n": "P.E.O. Scholar Awards",
+  "f": "P.E.O. Sisterhood",
+  "c": "Graduate fellowship",
+  "s": "open",
+  "d": "2026-11-20",
+  "dt": "A local P.E.O. chapter must nominate between Aug 20 and Nov 20, 2026; the nominee then has 45 days to apply",
+  "a": "Partial support for study and research (amount not listed)",
+  "e": "For women in doctoral programs at US or Canadian institutions who are within about 2 years of finishing, with at least one full year left. US or Canadian citizens or permanent residents. A local P.E.O. chapter must sponsor the nomination.",
+  "u": "https://www.peointernational.org/psa-eligibility-requirements",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr"
+  ],
+  "us": false,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "fulbright-us-student",
+  "n": "Fulbright U.S. Student Program",
+  "f": "U.S. Department of State",
+  "c": "Training & travel",
+  "s": "watch",
+  "d": null,
+  "dt": "2027-28 competition opened Mar 31, 2026; national deadline not confirmed; next competition expected to open around spring 2027",
+  "a": "not listed",
+  "e": "Funds study, research, or teaching abroad for US citizens who are graduating seniors, recent grads, or grad students. Enrolled students usually apply through a campus Fulbright adviser, who sets an earlier deadline.",
+  "u": "https://us.fulbrightonline.org/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Official Fulbright site could not be fetched; dates come from university advising pages."
+ },
+ {
+  "id": "gates-cambridge",
+  "n": "Gates Cambridge Scholarship",
+  "f": "Gates Cambridge Trust",
+  "c": "Graduate fellowship",
+  "s": "open",
+  "d": "2026-12-08",
+  "dt": "US citizens living in the US: Oct 14, 2026 round (closed). All other eligible applicants: Dec 8, 2026 or Jan 6, 2027, depending on the course",
+  "a": "Full cost of study at Cambridge (amount not listed on timeline page)",
+  "e": "Full-time postgraduate study (PhD or master's) at the University of Cambridge for applicants who are not UK citizens. International (non-US) Yale students and US citizens living outside the US use the Dec/Jan round.",
+  "u": "https://gatescambridge.org/apply/timeline",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "marshall-scholarship",
+  "n": "Marshall Scholarship",
+  "f": "Marshall Aid Commemoration Commission",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 cycle closed (national deadline was Sep 29, 2026); 2028 applications open summer 2027",
+  "a": "Funds 1 to 3 years of master's or doctoral study at any UK university",
+  "e": "US citizens with a first bachelor's degree from a 4-year US college, GPA of at least 3.7, who graduated after Apr 2024. Applicants usually need an institutional endorsement.",
+  "u": "https://www.marshallscholarship.org/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": true,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Sep 29, 2026 deadline taken from a university advising page; endorsement requirement not confirmed on official page."
+ },
+ {
+  "id": "churchill-scholarship",
+  "n": "Churchill Scholarship",
+  "f": "Winston Churchill Foundation of the United States",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Nomination deadline was Nov 2, 2026 (closed); next expected around early Nov 2027",
+  "a": "Over $80,000 (tuition, travel, visa, stipend), plus an optional $4,000 research grant",
+  "e": "One year of STEM MPhil/MASt study at Cambridge for US citizens who are seniors or recent graduates (within 12 months) of a participating institution. Each school nominates up to 2 applicants.",
+  "u": "https://www.churchillscholarship.org/the-scholarship",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": true,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Did not confirm that Yale is on the participating-institutions list."
+ },
+ {
+  "id": "kanders-churchill-scholarship",
+  "n": "Kanders Churchill Scholarship (science policy)",
+  "f": "Winston Churchill Foundation of the United States",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 deadline was Oct 14, 2026 (closed); next expected around Oct 2027",
+  "a": "not listed",
+  "e": "Funds a science/technology policy master's at Cambridge. Applicants apply directly to Cambridge without a Foundation application.",
+  "u": "https://www.churchillscholarship.org/the-scholarship",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Award and full eligibility not shown on page fetched."
+ },
+ {
+  "id": "knight-hennessy-scholars",
+  "n": "Knight-Hennessy Scholars",
+  "f": "Stanford University",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 cohort closed Oct 6, 2026; 2028 cohort application opens summer 2027",
+  "a": "Full funding for graduate study at Stanford (details not on deadline page)",
+  "e": "Funds any Stanford graduate degree for applicants of any nationality. Applicants must also apply to a Stanford graduate program by that program's deadline or Dec 1.",
+  "u": "https://knight-hennessy.stanford.edu/admission/before-you-apply/dates-and-deadlines",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "rhodes-scholarship-us",
+  "n": "Rhodes Scholarship (United States)",
+  "f": "Rhodes Trust",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 US deadline was Oct 7, 2026 (closed); next cycle expected to open around Jul 2027 with an early Oct deadline",
+  "a": "Funds graduate study at Oxford (amount not listed)",
+  "e": "Funds graduate study at Oxford for US citizens who are seniors or recent graduates. Enrolled students usually need an institutional endorsement.",
+  "u": "https://www.rhodeshouse.ox.ac.uk/scholarships/apply/united-states",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": true,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Official Rhodes House page still showed 2025 cycle; Oct 7, 2026 date and endorsement rule taken from university advising pages."
+ },
+ {
+  "id": "keystone-symposia-scholarships",
+  "n": "Keystone Symposia Scholarships",
+  "f": "Keystone Symposia",
+  "c": "Training & travel",
+  "s": "open",
+  "d": "2026-11-12",
+  "dt": "Each meeting has its own deadline, e.g. Nov 12, 2026 (Tumor and Host Metabolism), Nov 17 (Cardiometabolism; Transposable Elements), Nov 18 (Myeloid Cells), Dec 8 (RNA Regulation), Dec 17 (Epigenetics), Feb 23, 2027 (Whistler meetings)",
+  "a": "Up to $1,500 (reimbursed)",
+  "e": "For grad students and postdocs within 8 years of a PhD/MD/DVM who attend in person and present a poster. Requires a paid abstract and a mentor letter. One award per meeting year.",
+  "u": "https://www.keystonesymposia.org/financial-aid/scholarships",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "keystone-ur-trainee-scholarships",
+  "n": "Keystone Symposia UR Trainee Scholarships",
+  "f": "Keystone Symposia",
+  "c": "Training & travel",
+  "s": "open",
+  "d": "2026-11-12",
+  "dt": "Each meeting has its own deadline (same scholarship deadlines as above, e.g. Nov 12, Nov 17, Dec 8, Dec 17, 2026)",
+  "a": "Up to $1,200 (reimbursed)",
+  "e": "For grad students and postdocs (within 8 years of degree) from underrepresented groups, with disabilities, or from disadvantaged backgrounds. Must present a poster in person. US citizens or permanent residents.",
+  "u": "https://keystonesymposia.org/financial-aid/URTS",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Assumes each meeting's listed scholarship deadline also applies to UR Trainee Scholarships; the UR page itself lists no dates."
+ },
+ {
+  "id": "ascb-cell-bio-travel-grants",
+  "n": "ASCB Cell Bio Travel and Familycare Grants",
+  "f": "American Society for Cell Biology",
+  "c": "Training & travel",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 applications closed (Cell Bio 2026 is Dec 12-15, San Diego); next round expected around mid-2027",
+  "a": "$500 (general, IFCB, Familycare); EMBO option up to EUR 1,350",
+  "e": "For ASCB members attending the annual Cell Bio meeting; EMBO and IFCB options are for trainees outside the US. One grant per applicant.",
+  "u": "https://www.ascb.org/grants-awards/travel-grants/",
+  "fields": [
+   "cell"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "isscr-travel-awards",
+  "n": "ISSCR Annual Meeting Travel Awards",
+  "f": "International Society for Stem Cell Research",
+  "c": "Training & travel",
+  "s": "watch",
+  "d": null,
+  "dt": "ISSCR 2027 (San Francisco, Jun 15-18, 2027) abstract submission not yet open; travel award consideration is tied to the abstract deadline",
+  "a": "not listed",
+  "e": "For students and postdocs who submit an abstract to the ISSCR Annual Meeting and opt in to be considered. Can cover travel, lodging, or dependent care.",
+  "u": "https://isscr.org/travel-award-fund",
+  "fields": [
+   "stem"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "gsa-delill-nasser-award",
+  "n": "GSA DeLill Nasser Award for Professional Development in Genetics",
+  "f": "Genetics Society of America",
+  "c": "Training & travel",
+  "s": "watch",
+  "d": null,
+  "dt": "Given twice a year (spring and fall rounds); next deadline not confirmed",
+  "a": "About $1,000 (2023 call)",
+  "e": "For grad student and postdoc GSA members, to attend conferences, lab courses, or career workshops.",
+  "u": "https://genetics-gsa.org/awards/delill-nasser-award-for-professional-development/",
+  "fields": [
+   "gen"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Official GSA award page could not be fetched; amount from a 2023 call notice."
+ },
+ {
+  "id": "nih-graduate-partnerships-program",
+  "n": "NIH Graduate Partnerships Program (GPP)",
+  "f": "National Institutes of Health (OITE)",
+  "c": "Graduate fellowship",
+  "s": "rolling",
+  "d": null,
+  "dt": "Individual partnerships accept applications year-round; institutional partnerships usually open in Aug and close in Dec",
+  "a": "NIH IRP stipend, plus health insurance and a $1,500 relocation benefit",
+  "e": "For full-time PhD (or MD/PhD, DVM/PhD) students at US or foreign universities to do dissertation research in an NIH intramural lab. Individual track is open to foreign nationals.",
+  "u": "https://www.training.nih.gov/research-training/pb/college_gpp/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "goldwater-scholarship",
+  "n": "Barry Goldwater Scholarship",
+  "f": "Barry Goldwater Scholarship and Excellence in Education Foundation",
+  "c": "Undergraduate program",
+  "s": "watch",
+  "d": null,
+  "dt": "University advising offices report a national deadline of Jan 29, 2027; each campus sets an earlier internal deadline",
+  "a": "Up to $7,500 per academic year (1 or 2 years)",
+  "e": "For STEM sophomores and juniors planning research careers. US citizens or permanent residents. Each institution nominates up to 4 students, plus 1 transfer student and 1 veteran.",
+  "u": "https://goldwaterscholarship.gov/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": true,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Official Goldwater site could not be fetched; Jan 29, 2027 deadline from Brown University's fellowship office page."
+ },
+ {
+  "id": "hhmi-cech-fellows",
+  "n": "HHMI Cech Fellows",
+  "f": "Howard Hughes Medical Institute",
+  "c": "Undergraduate program",
+  "s": "open",
+  "d": "2026-12-17",
+  "dt": "Applications open Nov 10, 2026 and close Dec 17, 2026",
+  "a": "not listed",
+  "e": "New HHMI competition for rising undergraduate juniors and seniors.",
+  "u": "https://www.hhmi.org/programs/cech-fellows",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Dates come from HHMI's press release on EurekAlert; HHMI program page URL and eligibility details not fetched."
+ },
+ {
+  "id": "amgen-scholars-us",
+  "n": "Amgen Scholars Program (U.S.)",
+  "f": "Amgen Foundation",
+  "c": "Undergraduate program",
+  "s": "open",
+  "d": "2027-02-01",
+  "dt": "Summer 2027 applications due Feb 1, 2027 (separate application for each host site)",
+  "a": "Varies by host site (housing, food, and travel support); symposium costs covered",
+  "e": "Summer research at 14 US host sites, including Yale, for sophomores, juniors, and non-graduating seniors with a GPA of 3.2+ who are interested in a PhD or MD-PhD. US citizens or permanent residents.",
+  "u": "https://amgenscholars.com/us-program",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-summer-internship-program",
+  "n": "NIH Summer Internship Program (SIP)",
+  "f": "National Institutes of Health (OITE)",
+  "c": "Undergraduate program",
+  "s": "open",
+  "d": "2027-01-26",
+  "dt": "Application due Jan 26, 2027 at noon ET; reference letters due Feb 2, 2027",
+  "a": "NIH stipend by education level (no housing)",
+  "e": "Summer research in NIH intramural labs for high school seniors and college, grad, or professional students who are 18 by Sep 30, 2027. US citizens or permanent residents.",
+  "u": "https://www.training.nih.gov/research-training/pb/sip/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-postbac-irta",
+  "n": "NIH Postbaccalaureate IRTA Program",
+  "f": "National Institutes of Health (OITE)",
+  "c": "Undergraduate program",
+  "s": "rolling",
+  "d": null,
+  "dt": "Portal open year-round; PIs choose candidates, and the page advises applying about 6 months before the start date",
+  "a": "NIH stipend by experience, plus health insurance and a $1,500 relocation benefit",
+  "e": "One to two years of full-time research at NIH for people within 3 years of a bachelor's degree (or 6 months of a master's). US citizens or permanent residents.",
+  "u": "https://www.training.nih.gov/research-training/pb/pb/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-undergraduate-scholarship-program",
+  "n": "NIH Undergraduate Scholarship Program (UGSP)",
+  "f": "National Institutes of Health (OITE)",
+  "c": "Undergraduate program",
+  "s": "open",
+  "d": "2027-03-31",
+  "dt": "Application opens Jan 5, 2027 and closes Mar 31, 2027 at noon ET; letters due Apr 7",
+  "a": "Up to $20,000/yr, renewable up to 3 years",
+  "e": "For full-time undergraduates with exceptional financial need and a GPA of 3.3+. Recipients owe NIH service (a 10-week summer internship plus a year of work after graduation for each award year). US citizens or permanent residents.",
+  "u": "https://www.training.nih.gov/research-training/pb/ugsp/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-academic-internship-program",
+  "n": "NIH Academic Internship Program (AIP)",
+  "f": "National Institutes of Health (OITE)",
+  "c": "Undergraduate program",
+  "s": "rolling",
+  "d": null,
+  "dt": "No formal deadline; apply directly to NIH PIs (Sep to May appointments)",
+  "a": "NIH IRP stipend (prorated for part time)",
+  "e": "School-year internships at NIH for students enrolled at least half time in college, grad, or professional school. US citizens or permanent residents. Summer applicants use SIP instead.",
+  "u": "https://www.training.nih.gov/research-training/pb/aip_pb/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "cshl-urp",
+  "n": "Cold Spring Harbor Laboratory Undergraduate Research Program (URP)",
+  "f": "Cold Spring Harbor Laboratory",
+  "c": "Undergraduate program",
+  "s": "open",
+  "d": "2027-01-15",
+  "dt": "Applications and letters due Jan 15, 2027 at 11:59 pm PST; program runs Jun 7 to Aug 7, 2027",
+  "a": "$7,000 stipend plus room and board",
+  "e": "For sophomores and juniors returning to college; first-year students only in exceptional cases. Students of any nationality may apply if enrolled full time at a US college (or a partner foreign university).",
+  "u": "https://cshl.edu/education/undergraduate-research-program",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "jax-summer-student-program",
+  "n": "Jackson Laboratory Summer Student Program",
+  "f": "The Jackson Laboratory",
+  "c": "Undergraduate program",
+  "s": "open",
+  "d": "2027-01-25",
+  "dt": "Applications open Nov 2, 2026 and are due Jan 25, 2027 at 5 pm ET (NSF-ETAP and JAX applications both required)",
+  "a": "$7,500 stipend plus room, board, and travel",
+  "e": "Undergraduates only (high school seniors no longer accepted). Sites are Bar Harbor, ME (residential) and Farmington, CT (non-residential, near Yale).",
+  "u": "https://www.jax.org/ssp",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Citizenship and class-year rules not shown on pages fetched."
+ },
+ {
+  "id": "jax-nyscf-summer-internship",
+  "n": "JAX-NYSCF Summer Science Internship",
+  "f": "The Jackson Laboratory and New York Stem Cell Foundation",
+  "c": "Undergraduate program",
+  "s": "open",
+  "d": "2027-03-15",
+  "dt": "Applications open Jan 4, 2027 and are due Mar 15, 2027 at 5 pm ET; program runs Jun 7 to Aug 13, 2027",
+  "a": "$7,000 stipend plus transit card (non-residential)",
+  "e": "For New York City residents who are full-time undergraduates with at least one year done and are 18 or older. Requires US work authorization. Hosted at NYSCF in Manhattan.",
+  "u": "https://www.jax.org/education-and-learning/high-school-students-and-undergraduates/nyscf-summer-research-internship",
+  "fields": [
+   "stem"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "rockefeller-surf",
+  "n": "Rockefeller University Summer Undergraduate Research Fellowship (SURF)",
+  "f": "The Rockefeller University",
+  "c": "Undergraduate program",
+  "s": "open",
+  "d": "2027-02-01",
+  "dt": "Applications due Feb 1, 2027; program runs Jun 7 to Aug 13, 2027",
+  "a": "$6,500 stipend plus free housing",
+  "e": "Ten-week summer research program for college sophomores and juniors; international students are eligible. About 25 students are accepted from 700+ applicants.",
+  "u": "https://www.rockefeller.edu/education-and-training/surf/application-information/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ }
+]

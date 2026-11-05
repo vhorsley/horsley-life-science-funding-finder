@@ -1,0 +1,1043 @@
+[
+ {
+  "id": "wellcome-discovery-awards",
+  "n": "Wellcome Discovery Awards",
+  "f": "Wellcome",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Current round opened Sep 2026 with a November 2026 cutoff; exact date not confirmed",
+  "a": "Average about £3.5M, up to 8 years",
+  "e": "Lead organisation must be in the UK or an eligible low- or middle-income country in Africa or South or South-East Asia, so a Yale PI cannot lead. US-based researchers can join as co-applicants.",
+  "u": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Page says both 'no deadlines' and 'deadline November 2026'; exact date not confirmed."
+ },
+ {
+  "id": "simons-collaborations-ecology-evolution",
+  "n": "Simons Collaborations in Ecology and Evolution",
+  "f": "Simons Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 cycle closed (vision statements were due Oct 16, 2025); next call not yet posted",
+  "a": "$1–4M per year per collaboration for 5 years, renewable",
+  "e": "Team grants for faculty-level PIs with research space; no citizenship rule. No funding to institutions in China or Hong Kong.",
+  "u": "https://www.simonsfoundation.org/grant/simons-collaborations-in-ecology-and-evolution/",
+  "fields": [
+   "eco",
+   "micro",
+   "comp"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "gates-grand-challenges",
+  "n": "Grand Challenges (rotating topic calls)",
+  "f": "Gates Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Topic-specific calls open and close through the year; none relevant confirmed open now",
+  "a": "Varies by call (recent pilots up to $100K–$200K)",
+  "e": "Open to academic, nonprofit and for-profit organizations worldwide. Topics are set by each call and focus on global health; many favour teams led from low- and middle-income countries.",
+  "u": "https://gcgh.grandchallenges.org/",
+  "fields": [
+   "micro",
+   "repro",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "afar-gfmr-discovery-award",
+  "n": "Glenn Foundation for Medical Research Discovery Award",
+  "f": "AFAR / Glenn Foundation for Medical Research",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 LOI deadline has passed; next cycle not posted",
+  "a": "$555,000 over 3 years (2 awards)",
+  "e": "Full-time assistant professor or higher working on the basic biology of aging. Investigators new to aging research are welcome.",
+  "u": "https://www.afar.org/funding-opportunities",
+  "fields": [
+   "aging"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "ada-research-grants",
+  "n": "ADA Innovative Basic Science / Clinical or Translational Science Awards",
+  "f": "American Diabetes Association",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 cycle closed (LOI Apr 28, full Jun 24, 2026); next call not yet posted",
+  "a": "Basic up to $345K over 3 years; clinical/translational up to $600K over 3 years",
+  "e": "Full-time independent faculty at a US nonprofit institution, with permission to work in the US (no citizenship requirement). Basic awards must address diabetes etiology or complications.",
+  "u": "https://professional.diabetes.org/research-grants/current-funding-opportunities-type-1-diabetes-rfa",
+  "fields": [
+   "metab"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "bt1d-project-concepts",
+  "n": "Project Concepts (Strategic Research Agreements)",
+  "f": "Breakthrough T1D",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2027-05-06",
+  "dt": "Semi-annual; Round 2 letters of intent due May 6, 2027 (Round 1 closed Nov 5, 2026)",
+  "a": "not listed",
+  "e": "Concepts must fit Breakthrough T1D's current research strategy. Open to academic investigators worldwide.",
+  "u": "https://www.breakthrought1d.org/explore-research/funding-opportunities/",
+  "fields": [
+   "metab",
+   "imm",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "bt1d-islet-stress-cell-loss",
+  "n": "Mitigating Stress-related Cell Loss in Islet Replacement Therapy",
+  "f": "Breakthrough T1D",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-11-19",
+  "dt": "Letter of intent due Nov 19, 2026",
+  "a": "not listed",
+  "e": "Targeted call on protecting transplanted islet or stem-cell-derived beta cells from stress-induced loss.",
+  "u": "https://www.breakthrought1d.org/explore-research/funding-opportunities/",
+  "fields": [
+   "metab",
+   "stem",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Award size and detailed eligibility are in the call document, which was not reviewed."
+ },
+ {
+  "id": "cff-research-grants",
+  "n": "CF Foundation Research Grants",
+  "f": "Cystic Fibrosis Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-08",
+  "dt": "Spring cycle applications due Dec 8, 2026, 5 pm ET; next cycle in May",
+  "a": "$150,000/yr plus 12% indirect, up to 2 years",
+  "e": "Hypothesis-driven basic research on CF causes and pathogenesis. CFTR repair or replacement work goes to Path to a Cure instead. One application per applicant in 2026.",
+  "u": "https://www.cff.org/researchers/research-grants",
+  "fields": [
+   "cell",
+   "micro",
+   "gen"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "cff-ptac-research-grants",
+  "n": "Path to a Cure Research Grants",
+  "f": "Cystic Fibrosis Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-08",
+  "dt": "Applications due Dec 8, 2026, 5 pm ET",
+  "a": "Up to $150,000/yr plus 12% indirect, up to 2 years",
+  "e": "Basic research that could lead to therapies restoring CFTR function or repairing or replacing the CFTR gene.",
+  "u": "https://www.cff.org/researchers/path-cure-academic-programs",
+  "fields": [
+   "gen",
+   "trans",
+   "cell"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "cff-clinical-pilot-feasibility",
+  "n": "Clinical Pilot and Feasibility Award",
+  "f": "Cystic Fibrosis Foundation",
+  "c": "Pilot / seed",
+  "s": "open",
+  "d": "2027-03-31",
+  "dt": "Fall 2027 cycle: LOI Mar 31, 2027; full application Aug 18, 2027 (Spring 2027 LOI closed Oct 1, 2026)",
+  "a": "Up to $80K/yr single-center or $150K/yr multi-center, plus 12% indirect, up to 2 years",
+  "e": "Independent investigators doing human-subjects CF research to gather preliminary data for larger trials. Industry-sponsored projects not eligible.",
+  "u": "https://www.cff.org/researchers/clinical-pilot-and-feasibility-award",
+  "fields": [
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "cff-clinical-research-award",
+  "n": "Clinical Research Award",
+  "f": "Cystic Fibrosis Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Spring 2027 LOI closed Oct 1, 2026; fall cycle LOI is in March",
+  "a": "Up to $150K/yr single-center or $350K/yr multi-center, plus 12% indirect, up to 3 years",
+  "e": "Independent investigators doing investigator-initiated clinical, translational or epidemiologic CF research. Must show access to CF patients.",
+  "u": "https://www.cff.org/researchers/clinical-research-award",
+  "fields": [
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Exact Fall 2027 LOI date not shown on the award page; the related pilot award lists Mar 31, 2027."
+ },
+ {
+  "id": "cff-nih-r01-unfunded",
+  "n": "CFF/NIH R01-Unfunded Award",
+  "f": "Cystic Fibrosis Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-11-30",
+  "dt": "Rolling until Nov 30, 2026, 5 pm ET",
+  "a": "Up to $125,000 for 1 year, direct costs only",
+  "e": "Bridge funding for a CF-relevant R01 (or equivalent) that scored 1–45 but was not funded and can be resubmitted within a year.",
+  "u": "https://www.cff.org/researchers/cffnih-r01-unfunded-award",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "mra-established-investigator",
+  "n": "MRA Established Investigator Awards",
+  "f": "Melanoma Research Alliance",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "2026–27 LOIs closed Aug 21, 2026; invited full proposals due Dec 10, 2026. Next RFP expected mid-2027",
+  "a": "not listed (about $7.9M total in the 2026–27 cycle)",
+  "e": "Preclinical, translational and early clinical melanoma research; open worldwide. Also has academic-industry, acral and uveal melanoma tracks.",
+  "u": "https://www.curemelanoma.org/research/request-for-proposals/mra-general-rfp",
+  "fields": [
+   "cancer",
+   "derm",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "pcf-challenge-awards",
+  "n": "PCF Challenge Awards",
+  "f": "Prostate Cancer Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 call closed Mar 16, 2026; next call not posted",
+  "a": "not listed",
+  "e": "Team-science projects on lethal prostate cancer from academic and community institutions worldwide.",
+  "u": "https://www.pcf.org/our-work/open-rfas-rfps/",
+  "fields": [
+   "cancer",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "lustgarten-innovation-collaboration",
+  "n": "Innovation & Collaboration Program",
+  "f": "Lustgarten Foundation",
+  "c": "Pilot / seed",
+  "s": "open",
+  "d": "2027-01-08",
+  "dt": "Applications due Jan 8, 2027 via ProposalCentral",
+  "a": "Up to $110,000 for 1 year, including indirect costs",
+  "e": "Independent faculty doing pancreatic cancer research (or relevant focus areas) as PI. International investigators may apply.",
+  "u": "https://lustgarten.org/current-funding-opportunities/",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "lustgarten-clinical-accelerator",
+  "n": "Robert F. Vizza Clinical Accelerator Initiative",
+  "f": "Lustgarten Foundation",
+  "c": "Translational / startup",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 LOIs closed Nov 2, 2026; next call not posted",
+  "a": "not listed",
+  "e": "Small, collaborative pancreatic cancer clinical studies with deep translational analysis.",
+  "u": "https://lustgarten.org/current-funding-opportunities/",
+  "fields": [
+   "cancer",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "mjff-therapeutics-pipeline",
+  "n": "Parkinson's Disease Therapeutics Pipeline Program",
+  "f": "Michael J. Fox Foundation",
+  "c": "Translational / startup",
+  "s": "rolling",
+  "d": null,
+  "dt": "Pre-proposals accepted any time; invited full proposals due Jan 14, Mar 11, May 20 and Jul 22, 2027",
+  "a": "$250K to over $5M; 1–3 years",
+  "e": "For industry and academic-industry teams developing Parkinson's therapies; academic-led projects may qualify in some cases.",
+  "u": "https://www.michaeljfox.org/grant/parkinsons-disease-therapeutics-pipeline-program",
+  "fields": [
+   "neuro",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "alz-zenith-fellows",
+  "n": "Zenith Fellows Award",
+  "f": "Alzheimer's Association",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "LOI due Dec 1, 2026 (Dec 3 for ISTAART members); invited full application Mar 30, 2027",
+  "a": "Up to $450,000 over 2–3 years",
+  "e": "Associate professor or above with major multi-year grants as PI and an independent lab in Alzheimer's/dementia research. Open to US and international researchers; no clinical trials.",
+  "u": "https://www.alz.org/research/for_researchers/grants/types-of-grants/the_zenith_fellows_award_program_-zenith",
+  "fields": [
+   "neuro",
+   "aging"
+  ],
+  "stages": [
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "brightfocus-adr-standard",
+  "n": "Alzheimer's Disease Research Standard Award",
+  "f": "BrightFocus Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "FY27 cycle closed Sep 1, 2026; next RFP expected to open around Jun 2027",
+  "a": "$300,000 over up to 3 years",
+  "e": "Independent Investigator track is open to people from outside the Alzheimer's field and to those without an R01 on the same topic. US and international applicants.",
+  "u": "https://www.brightfocus.org/about/for-scientists/apply-for-a-research-grant/alzheimers-disease-research-request-for-proposals/",
+  "fields": [
+   "neuro",
+   "aging"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "brightfocus-mdr-standard",
+  "n": "Macular Degeneration Research Standard Award",
+  "f": "BrightFocus Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Current cycle: invited full proposals due Dec 10, 2026; next open call not posted",
+  "a": "$300,000 over up to 2 years",
+  "e": "Investigators more than 10 years past their terminal degree working on age-related macular degeneration. US and international applicants.",
+  "u": "https://www.brightfocus.org/about/for-scientists/apply-for-a-research-grant/macular-degeneration-research-request-for-proposals/",
+  "fields": [
+   "neuro",
+   "aging"
+  ],
+  "stages": [
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "acs-mission-boost",
+  "n": "ACS Mission Boost Grant",
+  "f": "American Cancer Society",
+  "c": "Translational / startup",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "Due Dec 1, 2026 and Jun 1 each year",
+  "a": "Stage I up to $297,000 over 2 years; Stage II up to $545,000 direct over 18 months",
+  "e": "Independent full-time faculty at a US institution at any career stage, moving cancer research toward a product or clinical use. Stage II requires a Stage I award.",
+  "u": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/mission-boost-grants.html",
+  "fields": [
+   "cancer",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "acs-professor-award",
+  "n": "ACS Professor Award",
+  "f": "American Cancer Society",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "LOIs accepted Jun 1–Sep 1 each year; full application Dec 1 only if LOI approved. Next LOI window opens Jun 2027",
+  "a": "Up to $80,000/yr for 5 years, flexible use",
+  "e": "Full professors with 5 to 20 years at that rank and a strong record in cancer research, mentoring and leadership.",
+  "u": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/research-professor-grants.html",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "march-of-dimes-discovery",
+  "n": "Discovery Research Grants",
+  "f": "March of Dimes",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 cycle closed Sep 8, 2026; next window not posted (last one opened in June)",
+  "a": "$200,000 over 2 years including 10% indirect",
+  "e": "Faculty-level researchers anywhere (no citizenship rule) studying spontaneous preterm birth or pregnancy-related cardiovascular conditions.",
+  "u": "https://www.marchofdimes.org/our-work/research/grants-awards/discovery-research-grants",
+  "fields": [
+   "repro",
+   "cardio"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "df-type2-inflammation-midcareer",
+  "n": "Mechanisms of Type 2 Inflammation Mid-Career Award",
+  "f": "Dermatology Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "Applications due Dec 1, 2026; renewals Jan 1, 2027",
+  "a": "not listed",
+  "e": "Within 12 years of assistant professor appointment, with a primary appointment in a US dermatology department or division and at least 75% research time. Project must address type 2 inflammation in skin disease.",
+  "u": "https://dermatologyfoundation.org/rap/mechanisms-of-type-2-inflammation-mid-career-award/",
+  "fields": [
+   "derm",
+   "imm"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "df-pedra-midcareer",
+  "n": "DF PeDRA Pediatric Dermatology Mid-Career Research Award",
+  "f": "Dermatology Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "Applications due Dec 1, 2026",
+  "a": "not listed",
+  "e": "Mid-career award for pediatric dermatology research in a US dermatology department.",
+  "u": "https://dermatologyfoundation.org/rap/",
+  "fields": [
+   "derm"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Only the deadline was confirmed on the program overview page; detailed eligibility not reviewed."
+ },
+ {
+  "id": "df-bms-psoriasis",
+  "n": "Bristol Myers Squibb Psoriasis Research Award",
+  "f": "Dermatology Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "Applications due Dec 1, 2026 via the mid-career portal",
+  "a": "not listed",
+  "e": "Psoriasis research award run through the Dermatology Foundation's mid-career program, in a US dermatology department.",
+  "u": "https://dermatologyfoundation.org/rap/",
+  "fields": [
+   "derm",
+   "imm"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Only the deadline was confirmed on the program overview page; eligibility and amount not reviewed."
+ },
+ {
+  "id": "leo-foundation-research-grants",
+  "n": "LEO Foundation Research Grants (international call)",
+  "f": "LEO Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-11-23",
+  "dt": "International call closes Nov 23, 2026, 16:00 CET; a separate Europe-only call follows Jul 30, 2027",
+  "a": "not listed",
+  "e": "Open to researchers worldwide working on mechanisms or clinical problems of skin disease. Skin cancer research and projects involving companies are not funded; overhead capped at 5%.",
+  "u": "https://leo-foundation.org/en/grants-and-awards/research-grants/",
+  "fields": [
+   "derm"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "npf-discovery-grants",
+  "n": "NPF Discovery Grants",
+  "f": "National Psoriasis Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2027-01-15",
+  "dt": "Full application due Jan 15, 2027, 11:59 pm ET",
+  "a": "Up to $75,000 for 1 year",
+  "e": "MD, PhD or equivalent eligible to be PI at their institution, studying psoriatic disease.",
+  "u": "https://www.psoriasis.org/discovery-grants/",
+  "fields": [
+   "derm",
+   "imm",
+   "fib"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "npf-milestones-to-a-cure",
+  "n": "Milestones to a Cure",
+  "f": "National Psoriasis Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Current cycle LOIs closed Aug 31, 2026; invited full proposals due Dec 8, 2026",
+  "a": "Up to $250,000/yr, $500,000 over 2 years",
+  "e": "Independent investigators pursuing research aimed at curing psoriatic disease.",
+  "u": "https://www.psoriasis.org/milestones-to-a-cure-rfp/",
+  "fields": [
+   "derm",
+   "imm",
+   "fib"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "srf-established-new-faculty",
+  "n": "Established Investigator and New Faculty Grants",
+  "f": "Scleroderma Research Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 cycle closed Mar 31, 2026; 2027 call expected late 2026 or early 2027",
+  "a": "not listed",
+  "e": "Research on scleroderma molecular pathogenesis and new interventions. Investigators new to scleroderma are welcome. Indirect costs generally not allowed.",
+  "u": "https://srfcure.org/research/apply-for-a-grant/",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nsf-scleroderma-established",
+  "n": "Established Investigator Grant",
+  "f": "National Scleroderma Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "FY27 cycle closed; FY28 cycle expected to open in 2027",
+  "a": "$200,000 over 2 years including indirect (8% cap)",
+  "e": "Doctorate plus completed postdoc and prior PI experience on national grants. Domestic or foreign institutions.",
+  "u": "https://scleroderma.org/grant-opportunities/",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "lra-global-team-science",
+  "n": "Global Team Science Award",
+  "f": "Lupus Research Alliance",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 cycle closed (LOI Sep 30, 2025); next RFA not posted",
+  "a": "Up to $3M over 3 years",
+  "e": "Teams of 3–5 co-PIs from at least 3 institutions; the corresponding co-PI must be associate or full professor. No geographic or citizenship limits.",
+  "u": "https://www.lupusresearch.org/for-researchers/funding-opportunities/",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "lra-lupus-insight-prize",
+  "n": "Lupus Insight Prize",
+  "f": "Lupus Research Alliance",
+  "c": "Prize",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 request for nominations is posted; nomination deadline not confirmed",
+  "a": "not listed",
+  "e": "Nominated prize for an investigator with a new research insight relevant to lupus.",
+  "u": "https://www.lupusresearch.org/for-researchers/funding-opportunities/",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Nomination deadline is in the 2027 nominations document, which was not reviewed."
+ },
+ {
+  "id": "rrf-innovative-research-award",
+  "n": "Innovative Research Award",
+  "f": "Rheumatology Research Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Current cycle closed (LOI Jul 15, full Nov 2, 2026); next LOI expected mid-2027",
+  "a": "Up to $200,000/yr for 2 years",
+  "e": "Independent investigators in rheumatic disease research; the foundation lists physician-scientists, health professional researchers and clinicians.",
+  "u": "https://www.rheumresearch.org/innovative-research-award",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "anrf-research-grant",
+  "n": "Arthritis and Related Autoimmune Disease Research Grant",
+  "f": "Arthritis National Research Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2027-01-08",
+  "dt": "Applications due Jan 8, 2027 (opened Oct 2026)",
+  "a": "$50,000–$250,000 over 1–2 years",
+  "e": "MD and/or PhD investigators approaching independence or early in running their own labs. Not for established investigators.",
+  "u": "https://curearthritis.org/research-grants/",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "pd",
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "keck-research-program",
+  "n": "W. M. Keck Foundation Research Program",
+  "f": "W. M. Keck Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-07",
+  "dt": "Dec 7, 2026, 4:30 pm PT (June 2027 board); next deadline Jun 7, 2027",
+  "a": "$1M–$1.3M over 3 years; no indirect costs",
+  "e": "Early-stage, high-risk basic science; disease-specific and translational work not funded. Up to three applications per institution per cycle, submitted by the institution's liaison. PIs must be tenured or tenure-track.",
+  "u": "https://www.wmkeck.org/research-overview/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "mathers-foundation",
+  "n": "Mathers Foundation Grant Program",
+  "f": "G. Harold & Leila Y. Mathers Foundation",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2027-02-11",
+  "dt": "Spring 2027: institutional nomination and registration Jan 28, 2027; LOI Feb 11, 2027; invited proposal Apr 15, 2027. Fall 2027 LOI Jul 15, 2027",
+  "a": "Up to $700,000 over 3 years including 10% indirect",
+  "e": "Assistant, associate or full professors with independent labs at US nonprofit research institutions; up to three nominated LOIs per institution per cycle. Basic science in areas such as immunology, stem cells, genetics and neuroscience; no clinical trials or drug discovery.",
+  "u": "https://mathersfoundation.org/how-to-apply/",
+  "fields": [
+   "cell",
+   "imm",
+   "stem",
+   "gen",
+   "neuro",
+   "micro",
+   "struct",
+   "cancer"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "rainin-innovator-awards",
+  "n": "Innovator Awards (IBD)",
+  "f": "Kenneth Rainin Foundation",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 cycle LOIs closed Sep 30, 2026; invited full proposals Jan 8–Feb 5, 2027",
+  "a": "Up to $150K individual or $300K collaborative",
+  "e": "Researchers from any discipline worldwide proposing new ideas for inflammatory bowel disease; one LOI per PI. Postdocs cannot be PI.",
+  "u": "https://krfoundation.org/health/grants/innovator-awards/",
+  "fields": [
+   "imm",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "czbiohub-ny-investigator",
+  "n": "CZ Biohub New York Investigator Program",
+  "f": "Chan Zuckerberg Biohub New York",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Last call closed Dec 9, 2025; next call not posted",
+  "a": "$216,000/yr for 3 years ($648K), renewable 2 more years",
+  "e": "Faculty at Columbia, Rockefeller or Yale, focused on immune-system research. Awardees attend twice-monthly investigator meetings.",
+  "u": "https://www.czbiohub.org/ny/investigator-program/",
+  "fields": [
+   "imm",
+   "bioeng"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "czi-science-rfas",
+  "n": "CZI Science Requests for Applications",
+  "f": "Chan Zuckerberg Initiative",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "All listed science RFAs are closed; new topic calls are posted irregularly",
+  "a": "Varies by call (recent calls $500K–$1M per project)",
+  "e": "Topic-specific calls (e.g., imaging, single-cell biology, synthetic immunology) open to nonprofit institutions worldwide.",
+  "u": "https://chanzuckerberg.com/science/science-funding/",
+  "fields": [
+   "cell",
+   "imm",
+   "comp",
+   "bioeng"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "blavatnik-national-awards",
+  "n": "Blavatnik National Awards for Young Scientists",
+  "f": "Blavatnik Family Foundation / New York Academy of Sciences",
+  "c": "Prize",
+  "s": "open",
+  "d": "2026-12-02",
+  "dt": "Institutional nominations close Dec 2, 2026; letters of support due Dec 16, 2026",
+  "a": "$250,000 laureate; $15,000 per finalist",
+  "e": "Faculty PIs at invited US institutions born in 1985 or later. Institutions may nominate up to three people (one per category); no self-nominations.",
+  "u": "https://www.nyas.org/2027-national-nomination-flyer/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "vilcek-creative-promise",
+  "n": "Vilcek Prizes for Creative Promise in Biomedical Science",
+  "f": "Vilcek Foundation",
+  "c": "Prize",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 applications closed; next call not posted",
+  "a": "$50,000",
+  "e": "For young immigrant scientists with significant early-career contributions in the US.",
+  "u": "https://vilcek.org/prizes/vilcek-prizes-for-creative-promise/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "lurie-prize",
+  "n": "Lurie Prize in Biomedical Sciences",
+  "f": "Foundation for the NIH",
+  "c": "Prize",
+  "s": "watch",
+  "d": null,
+  "dt": "Nomination-only; external deadline not confirmed",
+  "a": "$100,000",
+  "e": "For promising scientists under age 52. Nominations at Yale go through the dean's office.",
+  "u": "https://fnih.org/?p=6492",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "yale": {
+   "d": null,
+   "t": "Yale School of Medicine internal nomination deadline listed as May 15 (year not stated)",
+   "u": "https://medicine.yale.edu/faculty/academic-professional-development/faculty-development/awards/nominations/"
+  },
+  "unv": "Current-cycle FNIH nomination dates not confirmed."
+ }
+]

@@ -1,0 +1,698 @@
+[
+ {
+  "id": "yale-ycrc-hpc-pi-group-account",
+  "n": "YCRC HPC PI Group Account",
+  "f": "Yale Center for Research Computing",
+  "c": "Resources & compute",
+  "s": "rolling",
+  "d": null,
+  "dt": "Request any time from YCRC",
+  "a": "Free access to shared public compute nodes and limited free storage; dedicated nodes and extra storage can be bought",
+  "e": "Yale faculty with a primary or secondary appointment in FAS or the School of Medicine can request one. Other faculty and staff need extra approval. McCleary is the cluster for medical school and life-science work, and Hopper handles sensitive data.",
+  "u": "https://research.computing.yale.edu/services/support-high-performance-computing",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Group members (students, postdocs) get accounts under a PI's group; free-tier limits not stated on page"
+ },
+ {
+  "id": "yale-drc-pilot-feasibility",
+  "n": "Yale Diabetes Research Center Pilot and Feasibility Grants",
+  "f": "Yale Diabetes Research Center",
+  "c": "Pilot / seed",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "Application emailed by Dec 1, 2026; awards start Apr 1, 2027",
+  "a": "$30,000–$37,000 for one year (renewable once for a second year)",
+  "e": "For Yale faculty who are new investigators with no non-mentored NIH PI support, established investigators new to diabetes, or diabetes researchers proposing a clear departure. Awardees from the past 5 years are ineligible unless the proposal is in a new area.",
+  "u": "https://medicine.yale.edu/internal-medicine/drc/pilot/",
+  "fields": [
+   "metab"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-colton-center-pilot-awards",
+  "n": "Colton Center for Autoimmunity Pilot Awards",
+  "f": "Colton Center for Autoimmunity at Yale",
+  "c": "Translational / startup",
+  "s": "open",
+  "d": "2026-11-19",
+  "dt": "Apply via InfoReady by Nov 19, 2026, 11:59 PM; awards announced May 1, 2027; funding starts Jul 1, 2027",
+  "a": "$50,000–$100,000 for 1 year, competitively renewable through year 3",
+  "e": "Open to all Yale faculty, ladder and non-ladder research track, and multi-PI teams are welcome. Postdocs apply through a supervising faculty member. Projects need a long-term translational goal (therapeutics, diagnostics, tolerogenic vaccines, platforms, mechanisms) in autoimmune or allergic disease.",
+  "u": "https://medicine.yale.edu/colton-center-for-autoimmunity/our-grants",
+  "fields": [
+   "imm",
+   "fib",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-liver-center-pilot-feasibility",
+  "n": "Yale Liver Center Pilot/Feasibility Grants",
+  "f": "Yale Liver Center",
+  "c": "Pilot / seed",
+  "s": "open",
+  "d": "2026-11-06",
+  "dt": "Letter of intent was due Oct 2, 2026; full application by Nov 6, 2026, 5 PM; revised application Jan 18, 2027; funding Jun 1, 2027",
+  "a": "$40,000 direct costs per project",
+  "e": "For new investigators bringing new approaches to liver biology, investigators from other fields entering liver research, or established investigators without independent R01 support. Final-year fellows with 2+ years of research, a mentor letter, and a commitment to stay at Yale may apply.",
+  "u": "https://medicine.yale.edu/internal-medicine/livercenter/pilot-feasibility-grants/application-information/",
+  "fields": [
+   "metab",
+   "trans",
+   "fib"
+  ],
+  "stages": [
+   "pd",
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Page does not say whether a full application can be filed without the Oct 2 letter of intent"
+ },
+ {
+  "id": "yale-pepper-pesc-pilot",
+  "n": "Yale Pepper Center Pilot and Exploratory Studies (PESC) Awards",
+  "f": "Yale Claude D. Pepper Older Americans Independence Center",
+  "c": "Pilot / seed",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 cycle: letter of intent closed Oct 5, 2026; full applications by invitation due Dec 9, 2026. Next call expected around Sept 2027",
+  "a": "Up to $40,000 direct costs for 1 year",
+  "e": "Full-time Yale faculty, or those starting full-time faculty roles by Jul 1, 2027, doing aging research. Junior investigators and first-time PESC applicants get priority.",
+  "u": "https://medicine.yale.edu/internal-medicine/geriatrics/peppercenter/about/opportunities",
+  "fields": [
+   "aging",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-pepper-scholar-rec",
+  "n": "Yale Pepper Scholar (Research Education Core) Career Development Award",
+  "f": "Yale Claude D. Pepper Older Americans Independence Center",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 cycle: letter of intent closed Oct 5, 2026; invited full applications due Dec 9, 2026. Next call expected around Sept 2027",
+  "a": "$45,000 direct costs per year for 2 years ($90,000 total)",
+  "e": "Full-time Yale faculty within 5 years of first hire (final-year trainees with a firm faculty offer qualify) with at least 75% protected research time (50% for surgeons). Must be a US citizen or permanent resident.",
+  "u": "https://medicine.yale.edu/internal-medicine/geriatrics/peppercenter/about/opportunities",
+  "fields": [
+   "aging",
+   "trans"
+  ],
+  "stages": [
+   "pd",
+   "tt"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-pepper-translational-geroscience-pilot",
+  "n": "Yale Pepper Center Translational Geroscience Pilot Program",
+  "f": "Yale Claude D. Pepper Older Americans Independence Center",
+  "c": "Pilot / seed",
+  "s": "open",
+  "d": "2027-03-15",
+  "dt": "Letter of intent Jan 12, 2027, 5 PM; invitations Feb 10, 2027; full application Mar 15, 2027; earliest start Jul 1, 2027",
+  "a": "not listed",
+  "e": "For Yale faculty starting translational geroscience projects that build new cross-disciplinary collaborations on the biology of aging.",
+  "u": "https://medicine.yale.edu/internal-medicine/geriatrics/peppercenter/about/opportunities",
+  "fields": [
+   "aging",
+   "trans",
+   "cell"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-pepper-core-development-projects",
+  "n": "Yale Pepper Center Biostatistics and Operations Core Development Projects",
+  "f": "Yale Claude D. Pepper Older Americans Independence Center",
+  "c": "Pilot / seed",
+  "s": "rolling",
+  "d": null,
+  "dt": "Rolling window Sept 1 to Jan 31; closes early once an eligible project is chosen",
+  "a": "Up to $35,000 direct costs; one award per core per year",
+  "e": "Full-time Yale faculty and staff with aging-research expertise proposing biostatistics methods work, or work on recruitment, retention, data collection, or informatics.",
+  "u": "https://medicine.yale.edu/internal-medicine/geriatrics/peppercenter/about/opportunities",
+  "fields": [
+   "aging",
+   "comp"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Page gives no year for the window; contact poa@yale.edu to confirm it is open for 2026-27"
+ },
+ {
+  "id": "yale-ycci-scholar-ypsd",
+  "n": "YCCI Scholar Awards and Yale Physician-Scientist Development Awards",
+  "f": "Yale Center for Clinical Investigation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Last cycle: letter of intent Jan 9, 2026 and application Feb 13, 2026. The 2027 call had not been posted as of Nov 5, 2026",
+  "a": "Up to 75% salary (capped at $130,000/yr with fringe) plus up to $25,000/yr research support, for 2 years",
+  "e": "For junior faculty doing basic to community-based research on human health. Applicants must be nominated or endorsed by a chair, section chief, or center director. Holders of active career development awards can get research support only.",
+  "u": "https://medicine.yale.edu/center-clinical-investigation/workforce-development-education/faculty/junior-faculty-scholars",
+  "fields": [
+   "trans",
+   "all"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "YCCI awards may depend on renewal of Yale's NCATS CTSA; the salary cap is $120,000 on the program page and $130,000 in the 2026 call"
+ },
+ {
+  "id": "yale-ycci-postdoc-translational",
+  "n": "YCCI Interdisciplinary Postdoctoral Training Program in Translational Research",
+  "f": "Yale Center for Clinical Investigation",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Last cycle's application was due Jan 16, 2026; 2027 call not yet posted",
+  "a": "1–2 years of support; amount not listed",
+  "e": "For Yale postdocs in Medicine, Nursing, Public Health, Engineering, or related graduate departments training in translational research.",
+  "u": "https://medicine.yale.edu/myysm/news-article/2026-ycci-funding-opportunities-open-for-applications/",
+  "fields": [
+   "trans"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Funding may depend on CTSA renewal"
+ },
+ {
+  "id": "yale-ycci-predoc-translational",
+  "n": "YCCI Interdisciplinary Predoctoral Training Program in Translational Research",
+  "f": "Yale Center for Clinical Investigation",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Last cycle's application was due Mar 6, 2026; 2027 call not yet posted",
+  "a": "not listed",
+  "e": "For Yale predoctoral students in Medicine, Nursing, Public Health, Engineering, and related departments training in clinical and translational research on human health.",
+  "u": "https://medicine.yale.edu/myysm/news-article/2026-ycci-funding-opportunities-open-for-applications/",
+  "fields": [
+   "trans"
+  ],
+  "stages": [
+   "gr"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Funding may depend on CTSA renewal"
+ },
+ {
+  "id": "yale-whry-pilot-project-program",
+  "n": "Women's Health Research at Yale Pilot Project Program",
+  "f": "Women's Health Research at Yale",
+  "c": "Pilot / seed",
+  "s": "watch",
+  "d": null,
+  "dt": "2025-26 cycle: letter of intent Dec 22, 2025 and invited full application Mar 2, 2026. The 2026-27 call was not posted as of Nov 5, 2026 (last call opened late Nov)",
+  "a": "Up to $50,000 (general); up to $70,000 (Naratil Pioneer Award; Women's Health and Cancer Research Award with Yale Cancer Center)",
+  "e": "Funds basic, translational, and clinical research on women's health or sex differences. Applicants must be members of the WHRY Collaborative.",
+  "u": "https://medicine.yale.edu/whr/science/pilot-funding",
+  "fields": [
+   "repro",
+   "trans",
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-cancer-center-internal-pilot",
+  "n": "Yale Cancer Center Internal Pilot Grants",
+  "f": "Yale Cancer Center",
+  "c": "Pilot / seed",
+  "s": "watch",
+  "d": null,
+  "dt": "Call usually released around April; next dates not posted",
+  "a": "About $65,000",
+  "e": "For Yale Cancer Center researchers proposing new cancer research. The call is posted on InfoReady and in the YCC funding newsletter.",
+  "u": "https://medicine.yale.edu/cancer/research/funding-opportunities/",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Eligibility details are in the InfoReady call, which was not publicly viewable"
+ },
+ {
+  "id": "yale-cancer-center-warner-postdoc",
+  "n": "Leslie H. Warner Postdoctoral Fellowships for Cancer Research",
+  "f": "Yale Cancer Center",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Call usually released around April; next dates not posted",
+  "a": "About $68,000",
+  "e": "For postdoctoral cancer researchers at Yale.",
+  "u": "https://medicine.yale.edu/cancer/research/funding-opportunities/",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Full eligibility is in the InfoReady call, which was not publicly viewable"
+ },
+ {
+  "id": "yale-cancer-center-acs-irg",
+  "n": "ACS Institutional Research Grant Pilot Awards at Yale Cancer Center",
+  "f": "Yale Cancer Center / American Cancer Society",
+  "c": "Pilot / seed",
+  "s": "watch",
+  "d": null,
+  "dt": "Call usually released around September; no current deadline posted",
+  "a": "About $56,000",
+  "e": "Cancer research pilots for assistant professors and research scientists.",
+  "u": "https://medicine.yale.edu/cancer/research/funding-opportunities/",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Citizenship rules (ACS IRGs often require US citizenship or permanent residency) and the 2026 call dates were not visible on the public page"
+ },
+ {
+  "id": "yale-cancer-center-team-challenge",
+  "n": "Yale Cancer Center Team Challenge Awards",
+  "f": "Yale Cancer Center",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Call usually released around August; no current deadline posted",
+  "a": "About $200,000",
+  "e": "For multidisciplinary teams of Yale Cancer Center members with complementary expertise.",
+  "u": "https://medicine.yale.edu/cancer/research/funding-opportunities/",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-spore-skin-cancer-drp",
+  "n": "Yale SPORE in Skin Cancer Developmental Research Program",
+  "f": "Yale SPORE in Skin Cancer (Yale Cancer Center / Dermatology)",
+  "c": "Pilot / seed",
+  "s": "watch",
+  "d": null,
+  "dt": "Call usually released around May; next dates not posted",
+  "a": "Up to $50,000 per year for 2 years",
+  "e": "Pilots in translational cutaneous oncology (e.g. melanoma) that could grow into external grants or SPORE projects. Investigators new to skin cancer are welcome.",
+  "u": "https://medicine.yale.edu/dermatology/research/spore-in-skin-cancer/awards/",
+  "fields": [
+   "derm",
+   "cancer",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-spore-skin-cancer-cep",
+  "n": "Yale SPORE in Skin Cancer Career Enhancement Program",
+  "f": "Yale SPORE in Skin Cancer (Yale Cancer Center / Dermatology)",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Call usually released around May; next dates not posted",
+  "a": "About $50,000 (per the Yale Cancer Center list); 2–3 faculty awards per year",
+  "e": "For junior Yale faculty or new recruits, and for established investigators moving into translational cutaneous oncology. Junior awardees are paired with an established mentor.",
+  "u": "https://medicine.yale.edu/dermatology/research/spore-in-skin-cancer/awards/",
+  "fields": [
+   "derm",
+   "cancer",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-blavatnik-development-award",
+  "n": "Blavatnik Fund for Innovation at Yale Development and Pilot Awards",
+  "f": "Blavatnik Fund for Innovation at Yale (Yale Ventures)",
+  "c": "Translational / startup",
+  "s": "watch",
+  "d": null,
+  "dt": "Opens each Sept 1 with an Oct 23 deadline (pitch slides); the 2026 cycle is closed. Next cycle expected fall 2027",
+  "a": "Development: up to $300,000 over 1–2 years; Pilot: up to $100,000 over 1 year",
+  "e": "For ladder-track Yale faculty commercializing life-science technologies (therapeutics, devices, diagnostics) for unmet medical needs. A spinout company, if any, must have raised no more than $500K in dilutive funding.",
+  "u": "https://ventures.yale.edu/programs/the-blavatnik-fund-for-innovation-at-yale/blavatnik-faq-criteria",
+  "fields": [
+   "trans",
+   "bioeng"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-blavatnik-accelerator-award",
+  "n": "Blavatnik Fund Accelerator (Mid-Cycle) Awards",
+  "f": "Blavatnik Fund for Innovation at Yale (Yale Ventures)",
+  "c": "Translational / startup",
+  "s": "watch",
+  "d": null,
+  "dt": "Opens Apr 1 with an Apr 30 deadline each year; the 2027 call is not yet posted",
+  "a": "$30,000 over 6 months",
+  "e": "For ladder-track Yale faculty who have never had a Blavatnik award, to collect validating data for early-stage life-science technologies.",
+  "u": "https://ventures.yale.edu/programs/the-blavatnik-fund-for-innovation-at-yale/blavatnik-faq-criteria",
+  "fields": [
+   "trans",
+   "bioeng"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-healthtech-works",
+  "n": "HealthTech Works Accelerator",
+  "f": "Yale Ventures",
+  "c": "Translational / startup",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 applications closed Sept 25, 2026 (PitchFest Dec 3). Next call expected around Sept 2027",
+  "a": "Up to $100,000, milestone-based and non-dilutive, plus mentorship",
+  "e": "For Yale faculty at any stage of commercializing digital health, medical devices, diagnostics, wellness, or AI/ML health tools.",
+  "u": "https://ventures.yale.edu/programs/healthtech-works",
+  "fields": [
+   "bioeng",
+   "trans",
+   "comp"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-wu-tsai-postdoc-fellowship",
+  "n": "Wu Tsai Institute Postdoctoral Fellowships",
+  "f": "Wu Tsai Institute, Yale",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2026-27 applications closed Oct 1, 2026. Next call expected to open around Aug 2027",
+  "a": "$80,000/yr salary for up to 3 years plus $2,000 discretionary funds",
+  "e": "For interdisciplinary neuroscience and cognition researchers with a PhD earned within the last 3 years. Open to non-US citizens. Current Yale postdocs and PhD students cannot apply.",
+  "u": "https://wti.yale.edu/initiatives/postdoctoral",
+  "fields": [
+   "neuro",
+   "comp"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-wu-tsai-undergrad-fellowship",
+  "n": "Wu Tsai Institute Undergraduate Fellowship",
+  "f": "Wu Tsai Institute, Yale",
+  "c": "Undergraduate program",
+  "s": "open",
+  "d": "2027-02-09",
+  "dt": "Application via the Yale fellowship portal by Feb 9, 2027, 7 PM",
+  "a": "Stipend; amount not listed",
+  "e": "For Yale undergraduates (first-years through non-graduating seniors) with at least two terms completed and a GPA of 3.0 or higher who are interested in interdisciplinary neuroscience research. Applicants must show a commitment to diversity in academia.",
+  "u": "https://wti.yale.edu/initiatives/undergraduate",
+  "fields": [
+   "neuro",
+   "comp"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Page lists the Feb 9, 2027 deadline but showed the application as not yet open"
+ },
+ {
+  "id": "yale-ai-seed-grants",
+  "n": "Yale AI Seed Grants",
+  "f": "Yale Office of the Provost (AI initiatives)",
+  "c": "Pilot / seed",
+  "s": "watch",
+  "d": null,
+  "dt": "The 2026 round closed Feb 6, 2026; a 2027 call had not been posted as of Nov 5, 2026",
+  "a": "Research projects up to $100,000; workshops up to $20,000",
+  "e": "For interdisciplinary teams of 2 or more faculty from at least 2 Yale departments, led by a full-time faculty or staff member eligible to be PI. Each PI may lead one proposal.",
+  "u": "https://ai.yale.edu/opportunities/ai-seed-grants-2026",
+  "fields": [
+   "comp",
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-planetary-solutions-grants",
+  "n": "Yale Planetary Solutions Grant Program",
+  "f": "Yale Planetary Solutions",
+  "c": "Pilot / seed",
+  "s": "watch",
+  "d": null,
+  "dt": "The 2026-27 cycle is closed (last info sessions Dec 2025). The 2027-28 call is not yet posted",
+  "a": "Initiation up to $25,000; Exploration up to $100,000; Constellation up to $250,000",
+  "e": "For interdisciplinary Yale teams working on climate change, biodiversity and ecosystems, and communities. Health links are possible (e.g. climate and pregnancy outcomes). Best fit for ecology and environmental health.",
+  "u": "https://planetarysolutions.yale.edu/programs/yps-grant-program",
+  "fields": [
+   "eco"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "PI eligibility is in the FAQ, which was not reviewed"
+ },
+ {
+  "id": "yale-yigh-spark-awards",
+  "n": "Yale Institute for Global Health Spark Awards",
+  "f": "Yale Institute for Global Health",
+  "c": "Pilot / seed",
+  "s": "watch",
+  "d": null,
+  "dt": "Reviewed in cycles (most recent Spring 2026); next deadline not posted",
+  "a": "Up to $10,000",
+  "e": "For Yale faculty who are YIGH affiliates, to start and prepare global health projects. One application per cycle. Salary effort is discouraged.",
+  "u": "https://medicine.yale.edu/yigh/faculty-support-initiative/funding-and-awards/spark-awards",
+  "fields": [
+   "micro",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-yigh-hecht-network-award",
+  "n": "Hecht Global Health Policy Innovation and Systems Impact Faculty Network Award",
+  "f": "Yale Institute for Global Health",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "No deadline posted (page updated Jun 2026); contact YIGH for timing",
+  "a": "Up to $50,000",
+  "e": "For YIGH affiliated faculty in a YIGH Faculty Network. Teams need primary appointments in at least two Yale schools, a trainee engagement plan, and a path to external funding.",
+  "u": "https://medicine.yale.edu/yigh/faculty-support-initiative/funding-and-awards/hecht",
+  "fields": [
+   "micro",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-postdoc-travel-fund",
+  "n": "Postdoctoral Scholar Travel Fund (FAS and SEAS)",
+  "f": "Yale Office for Postdoctoral Affairs",
+  "c": "Training & travel",
+  "s": "open",
+  "d": "2027-02-01",
+  "dt": "Three rounds a year: Oct 1, Feb 1, and Jun 1. Next round Feb 1, 2027 (for conferences Mar 1–Jun 30)",
+  "a": "Up to $2,000",
+  "e": "For FAS and SEAS postdocs presenting at conferences (biology postdocs must be in year 2 or later). Professional-school postdocs, including the School of Medicine, are not eligible. One-time award; other funding must be tried first.",
+  "u": "https://postdocs.yale.edu/professional-career-development/postdoctoral-appointment/funding-opportunities",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Page lists round dates without years; Feb 1, 2027 assumes the standing schedule"
+ },
+ {
+  "id": "yale-md-short-term-research",
+  "n": "Yale MD Program Short-Term Research Funding",
+  "f": "Yale School of Medicine, Office of Student Research",
+  "c": "Training & travel",
+  "s": "open",
+  "d": "2027-02-01",
+  "dt": "Deadlines (8 AM): Feb 1, 2027 for Mar–May research; Apr 26, 2027 for Jun–Aug",
+  "a": "$2,447 per 4-week period (4–12 weeks)",
+  "e": "Competitive stipends for Yale medical students doing full-time research with a faculty mentor. A mentor agreement form is required.",
+  "u": "https://medicine.yale.edu/md-program/research/short-term-research",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ }
+]

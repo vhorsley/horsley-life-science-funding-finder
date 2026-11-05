@@ -1,0 +1,435 @@
+[
+ {
+  "id": "nih-r01-parent",
+  "n": "NIH Research Project Grant (Parent R01)",
+  "f": "National Institutes of Health",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2027-02-05",
+  "dt": "New applications Feb 5, Jun 5, Oct 5 each year (next Feb 5, 2027); renewals/resubmissions Mar 5, Jul 5, Nov 5 (next Mar 5, 2027). Parent NOFOs PA-25-301 (clinical trial not allowed) and PA-25-305 (CT required) run through Jan 2028.",
+  "a": "Budget reflects project needs; usually up to 5 years",
+  "e": "Independent investigators at US institutions; foreign components allowed. Applications where all PIs are NIH Early Stage Investigators are flagged for special consideration at funding. NIH caps each PI at six counted applications per calendar year (NOT-OD-25-132); continuous submission ended Aug 2026 and late submissions are limited to 2 weeks with PI-related reasons (NOT-OD-26-064).",
+  "u": "https://grants.nih.gov/grants/guide/pa-files/pa-25-301.html",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Budget wording general; the >$500K direct-cost prior-approval rule was not re-checked this session.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-r21-parent",
+  "n": "NIH Exploratory/Developmental Research Grant (Parent R21)",
+  "f": "National Institutes of Health",
+  "c": "Pilot / seed",
+  "s": "open",
+  "d": "2026-11-16",
+  "dt": "Resubmissions/renewals Nov 16, 2026; new applications Feb 16, Jun 16, Oct 16 (next new Feb 16, 2027). Parent NOFOs PA-25-304 (CT not allowed) and PA-25-306 (CT required) expire Jan 2028.",
+  "a": "Up to 2 years; combined direct-cost cap set in NOFO",
+  "e": "Early-stage, high-risk exploratory projects; preliminary data not required. Not all NIH institutes accept parent R21s. NIH caps each PI at six counted applications per calendar year (NOT-OD-25-132); continuous submission ended Aug 2026 and late submissions are limited to 2 weeks with PI-related reasons (NOT-OD-26-064).",
+  "u": "https://grants.nih.gov/funding/explore-nih-opportunities/parent-announcements",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Direct-cost cap (traditionally $275K over 2 years) not re-checked on the NOFO this session.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-r03-parent",
+  "n": "NIH Small Research Grant (Parent R03)",
+  "f": "National Institutes of Health",
+  "c": "Pilot / seed",
+  "s": "open",
+  "d": "2026-11-16",
+  "dt": "Resubmissions Nov 16, 2026; new applications Feb 16, Jun 16, Oct 16 (next new Feb 16, 2027). Parent NOFO PA-25-302 expires Jan 2028.",
+  "a": "Up to 2 years; small budget set in NOFO",
+  "e": "Small pilot, secondary-data, or methods projects. Only some NIH institutes participate (e.g., NCI joined in 2026), so check the participating-IC list. NIH caps each PI at six counted applications per calendar year (NOT-OD-25-132); continuous submission ended Aug 2026 and late submissions are limited to 2 weeks with PI-related reasons (NOT-OD-26-064).",
+  "u": "https://grants.nih.gov/funding/explore-nih-opportunities/parent-announcements",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Budget cap (traditionally $50K direct/yr) not re-checked this session.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nigms-mira-esi",
+  "n": "NIGMS Maximizing Investigators' Research Award for Early Stage Investigators (R35 MIRA, PAR-27-032)",
+  "f": "NIH National Institute of General Medical Sciences",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2027-02-03",
+  "dt": "Due Feb 3, 2027, then Oct 4, 2027; twice yearly through Feb 6, 2029.",
+  "a": "Up to $275,000 direct costs per year for up to 5 years",
+  "e": "Single-PI, NIH Early Stage Investigators working within the NIGMS mission; at least 51% research effort. No resubmissions, no specific aims page, no subawards; an R01/DP2 award before MIRA funding makes you ineligible.",
+  "u": "https://nigms.nih.gov/node/93031",
+  "fields": [
+   "cell",
+   "struct",
+   "gen",
+   "comp",
+   "micro",
+   "stem"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nigms-mira-established",
+  "n": "NIGMS Maximizing Investigators' Research Award for Established and New Investigators (R35 MIRA, PAR-26-121)",
+  "f": "NIH National Institute of General Medical Sciences",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2027-01-27",
+  "dt": "Due Jan 27, 2027 and May 27, 2027; then Jan 27 and May 26, 2028 (NOFO expires May 2028).",
+  "a": "Up to $750,000 direct/yr for existing NIGMS grantees; ~$275,000 for New Investigators; up to 5 years",
+  "e": "Current MIRA holders (renewal), PIs with a single-PI NIGMS R01-equivalent within their eligibility window, or non-ESI New Investigators in the NIGMS mission. ESIs must use PAR-27-032; at least 45% research effort.",
+  "u": "https://nigms.nih.gov/node/93031",
+  "fields": [
+   "cell",
+   "struct",
+   "gen",
+   "comp",
+   "micro",
+   "stem"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-dp1-pioneer",
+  "n": "NIH Director's Pioneer Award (DP1)",
+  "f": "NIH Common Fund (High-Risk, High-Reward Program)",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Annual cycle; the FY2027 call (RFA-RM-27-001) closed Sep 9, 2026. Next call expected mid-2027.",
+  "a": "$700,000 direct costs per year for 5 years",
+  "e": "Individual investigators at any career stage proposing pioneering new directions; single PI, one application per person, at least 51% effort in years 1-3. Reference letters required.",
+  "u": "https://grants.nih.gov/funding/activity-codes/dp1",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-dp2-new-innovator",
+  "n": "NIH Director's New Innovator Award (DP2)",
+  "f": "NIH Common Fund (High-Risk, High-Reward Program)",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "FY2027 call (RFA-RM-27-002) closed Aug 17, 2026. A FY2028 forecast (RFA-RM-28-002) estimates a due date around Aug 19, 2027.",
+  "a": "Reported as $1.5M direct costs over 5 years",
+  "e": "Exceptionally creative NIH Early Stage Investigators at US institutions.",
+  "u": "https://www.grants.nih.gov/funding/activity-codes/DP2",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "FY2028 date and award size come from a grants.gov forecast relayed by a secondary site, not the official RFA; award amount not confirmed on an NIH page.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-dp5-early-independence",
+  "n": "NIH Director's Early Independence Award (DP5)",
+  "f": "NIH Common Fund (High-Risk, High-Reward Program)",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "FY2027 call (RFA-RM-27-004) closed Sep 10, 2026; next call expected mid-2027.",
+  "a": "Up to $250,000 direct/yr for up to 5 years (ceiling reported as $350K total costs/yr)",
+  "e": "Lets exceptional new PhD/MD graduates skip the postdoc and start an independent position. Institutions usually limit nominations, so check the Yale limited-submission process.",
+  "u": "https://grants.nih.gov/funding/activity-codes/dp5",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": true,
+  "unv": "Due date and amount seen only on a secondary listing; activity-code URL and the time-since-degree limit not confirmed this session.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-transformative-r01",
+  "n": "NIH Director's Transformative Research Award (R01)",
+  "f": "NIH Common Fund (High-Risk, High-Reward Program)",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Annual cycle; FY2027 call (RFA-RM-27-003) reportedly closed Sep 3, 2026. Next call expected mid-2027.",
+  "a": "Budget reflects project needs; about 7 awards per year",
+  "e": "Individuals or teams proposing unconventional, paradigm-shifting projects; US organizations only.",
+  "u": "https://grants.nih.gov/funding/activity-codes/r01",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "FY2027 date seen only on secondary listings; URL is the generic R01 activity-code page.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-k99-r00",
+  "n": "NIH Pathway to Independence Award (Parent K99/R00)",
+  "f": "National Institutes of Health",
+  "c": "Career award",
+  "s": "open",
+  "d": "2026-11-12",
+  "dt": "Resubmissions Nov 12, 2026; new applications Feb 12, 2027 (last new date under PA-24-193/PA-24-194, which expire May 2027; a reissue is expected).",
+  "a": "K99 up to 2 years mentored; R00 up to 3 years at up to $249,000 total costs/yr",
+  "e": "Postdocs with no more than 4 years of postdoctoral experience at the due date; no citizenship requirement. NCI left the parent K99 in 2025 and runs its own version. NIH gave temporary eligibility extensions after the 2025 funding lapse (NOT-OD-26-021).",
+  "u": "https://grants.nih.gov/grants/guide/pa-files/PA-24-194.html",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-k01-parent",
+  "n": "NIH Mentored Research Scientist Development Award (Parent K01)",
+  "f": "National Institutes of Health",
+  "c": "Career award",
+  "s": "open",
+  "d": "2026-11-12",
+  "dt": "Resubmissions Nov 12, 2026; new applications Feb 12, Jun 12, Oct 12 (next new Feb 12, 2027). Parent NOFOs PA-24-175/176 expire May 8, 2027.",
+  "a": "Salary plus research support for 3-5 years; amounts set by each institute",
+  "e": "Mentored research-doctorate scientists (often junior faculty or senior postdocs) building independence; only some institutes participate, each with its own rules.",
+  "u": "https://grants.nih.gov/funding/explore-nih-opportunities/parent-announcements",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "pd",
+   "tt"
+  ],
+  "us": true,
+  "nom": false,
+  "unv": "Citizenship/PR requirement is the usual K rule but was not re-read on the NOFO this session.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-k08-k23-parent",
+  "n": "NIH Mentored Clinical Scientist (K08) and Patient-Oriented Research (K23) Career Development Awards",
+  "f": "National Institutes of Health",
+  "c": "Career award",
+  "s": "open",
+  "d": "2026-11-12",
+  "dt": "Resubmissions Nov 12, 2026; new applications Feb 12, Jun 12, Oct 12 (next new Feb 12, 2027). Parent NOFOs PA-24-181/182 (K08) and PA-24-184/185 (K23) expire May 8, 2027.",
+  "a": "Salary plus research support for 3-5 years; amounts set by each institute",
+  "e": "Clinician-scientists with a clinical doctorate (MD, DO, DDS, etc.): K08 covers lab/translational research, K23 patient-oriented research. Requires a mentor and protected research effort.",
+  "u": "https://grants.nih.gov/funding/explore-nih-opportunities/parent-announcements",
+  "fields": [
+   "trans",
+   "all"
+  ],
+  "stages": [
+   "pd",
+   "tt"
+  ],
+  "us": true,
+  "nom": false,
+  "unv": "Citizenship/PR requirement and effort level are standard K rules, not re-read on the NOFOs this session.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-f30-parent",
+  "n": "NIH NRSA Individual MD/PhD Fellowship (Parent F30)",
+  "f": "National Institutes of Health",
+  "c": "Graduate fellowship",
+  "s": "open",
+  "d": "2026-12-08",
+  "dt": "F-series standard dates Apr 8, Aug 8, Dec 8 (next Dec 8, 2026). Two parents (PA-25-425 and PA-25-426) depending on whether the school has an NIH-funded dual-degree program; both expire May 2028.",
+  "a": "NRSA stipend, tuition/fees and institutional allowance for up to 6 years",
+  "e": "Dual-degree (e.g., MD/PhD) students. Citizen, national or permanent resident by award. F-series apps can no longer use the late-submission policy.",
+  "u": "https://grants.nih.gov/funding/explore-nih-opportunities/parent-announcements",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-f31-parent",
+  "n": "NIH NRSA Individual Predoctoral Fellowship (Parent F31)",
+  "f": "National Institutes of Health",
+  "c": "Graduate fellowship",
+  "s": "open",
+  "d": "2026-12-08",
+  "dt": "F-series standard dates Apr 8, Aug 8, Dec 8 (next Dec 8, 2026). Parent NOFO PA-25-422 expires May 2028.",
+  "a": "NRSA stipend, tuition/fees and institutional allowance for up to 5 years",
+  "e": "PhD students in dissertation research with a sponsor; citizen, national or permanent resident by award. NIGMS joined the parent F31 in March 2026. The separate F31 diversity track ended in 2025.",
+  "u": "https://grants.nih.gov/funding/explore-nih-opportunities/parent-announcements",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-f32-parent",
+  "n": "NIH NRSA Individual Postdoctoral Fellowship (Parent F32)",
+  "f": "National Institutes of Health",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2026-12-08",
+  "dt": "F-series standard dates Apr 8, Aug 8, Dec 8 (next Dec 8, 2026). Parent NOFO PA-25-423 expires May 2028.",
+  "a": "NRSA stipend ($63,480-$77,076 in FY2026 by experience) plus allowance, up to 3 years",
+  "e": "Postdocs; citizen, national or permanent resident by award. NCI stopped accepting F32s in Dec 2024; check that your target institute participates.",
+  "u": "https://grants.nih.gov/funding/explore-nih-opportunities/parent-announcements",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-f99-k00-parent",
+  "n": "NIH Predoctoral to Postdoctoral Transition Award (Parent F99/K00, PA-27-037)",
+  "f": "National Institutes of Health",
+  "c": "Graduate fellowship",
+  "s": "open",
+  "d": "2026-12-08",
+  "dt": "Due Dec 8, 2026, then Apr 8 and Aug 8, 2027; runs through Apr 2029. Now an NIH-wide parent, not the old NCI-only RFA.",
+  "a": "F99: 1-2 years predoctoral support; K00: up to 3 years postdoctoral salary and research funds",
+  "e": "PhD students (not clinical-degree students) in the dissertation phase, 1-2 years from finishing; citizen, national or permanent resident by award. Needs an institutional eligibility certification letter.",
+  "u": "https://simpler.grants.gov/opportunity/359702",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "unv": "Due dates read from a copy of the full NOFO PDF; simpler.grants.gov confirms the opportunity and the Apr 2029 close date. Institute participation not checked.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-loan-repayment",
+  "n": "NIH Extramural Loan Repayment Programs (LRP)",
+  "f": "National Institutes of Health",
+  "c": "Career award",
+  "s": "open",
+  "d": "2026-11-19",
+  "dt": "FY2027 cycle opened Sep 1, 2026; closes Nov 19, 2026.",
+  "a": "Up to $100,000 of educational debt repaid for a 2-year research commitment",
+  "e": "Researchers doing NIH-mission research at least 20 hrs/week at a nonprofit or government institution. FY2027 has three subcategories: Clinical (L30), Pediatric (L40), FOCUS (L70).",
+  "u": "https://grants.nih.gov/news-events/nih-extramural-nexus-news/2026/09/fy27-nih-extramural-loan-repayment-program-now-accepting-applications",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "pd",
+   "tt",
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "unv": "Citizenship/PR rule and debt threshold not shown on the announcement; US-only flag is the long-standing LRP rule.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nih-sbir-sttr",
+  "n": "NIH SBIR and STTR Grants (Parent R43/R44, R41/R42)",
+  "f": "National Institutes of Health (with CDC and FDA)",
+  "c": "Translational / startup",
+  "s": "open",
+  "d": "2027-01-05",
+  "dt": "Standard dates Sep 5, Jan 5, Apr 5 (next Jan 5, 2027). New parents PA-27-100 (SBIR), PA-27-102 (STTR), PA-27-101 (Phase IIB) and PAR-27-098 (Commercialization Readiness Pilot) followed the April 2026 reauthorization.",
+  "a": "Phase I about $323K; Phase II about $2.15M (higher on waiver topics)",
+  "e": "US small businesses (STTR requires a research-institution partner such as Yale). SBIR/STTR applications cannot use the late-submission policy.",
+  "u": "https://grants.nih.gov/funding/explore-nih-opportunities/parent-announcements",
+  "fields": [
+   "all",
+   "bioeng",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Award caps and the reported HHS limit of 9 submissions per company per year come from secondary sources, not the NOFO.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ }
+]

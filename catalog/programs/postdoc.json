@@ -1,0 +1,749 @@
+[
+ {
+  "id": "hhmi-hanna-gray-fellows",
+  "n": "HHMI Hanna H. Gray Fellows Program",
+  "f": "Howard Hughes Medical Institute",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2026-12-15",
+  "dt": "Application opened Nov 3, 2026; due Dec 15, 2026, 5 PM ET",
+  "a": "Postdoc salary plus yearly expense funds for up to 2 years; faculty-phase support as Freeman Hrabowski Scholars (dollar amount not listed on page)",
+  "e": "PhD/MD with no more than 7 years of postdoctoral experience as of Dec 15, 2026, in basic biological or biomedical science at an HHMI-eligible institution. Must plan to start a tenure-track job by May 1, 2030. Must be authorized to work in the US (no citizenship requirement).",
+  "u": "https://www.hhmi.org/hgf-mpd",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "lsrf-postdoc-fellowship",
+  "n": "LSRF Postdoctoral Fellowship",
+  "f": "Life Sciences Research Foundation",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next call expected summer 2027 (last cycle closed Oct 1, 2026; letters due Nov 1, 2026)",
+  "a": "not listed (number of awards depends on fundraising)",
+  "e": "Within 5 years of PhD/MD/DVM as of the deadline; can apply before defending. Open to US and non-US citizens; non-US citizens must work in a US lab. Basic life sciences.",
+  "u": "https://lsrf.org/apply/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "jane-coffin-childs-fellowship",
+  "n": "Jane Coffin Childs Postdoctoral Fellowship",
+  "f": "Jane Coffin Childs Memorial Fund for Medical Research",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2027-02-01",
+  "dt": "Application due Feb 1, 2027, 3 PM EST; decisions mid-May 2027; start July 1, 2027",
+  "a": "not listed on dates page (3-year fellowship)",
+  "e": "PhD conferred no earlier than Feb 1, 2025 (within 24 months of deadline); candidates may apply before the degree. Any citizenship, but non-US citizens must be sponsored by a US institution. Cancer biology and basic biomedical research.",
+  "u": "https://www.jccfund.org/eligibilty-criteria/important-dates-and-documents/",
+  "fields": [
+   "cancer",
+   "cell",
+   "gen",
+   "struct",
+   "imm"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Stipend amount not shown on the pages checked"
+ },
+ {
+  "id": "helen-hay-whitney-fellowship",
+  "n": "Helen Hay Whitney Foundation Research Fellowship",
+  "f": "Helen Hay Whitney Foundation",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next application expected to open late April 2027 with a mid-June deadline (last cycle due June 15, 2026)",
+  "a": "not listed on dates page (3-year fellowship)",
+  "e": "PhD within 2 years (MD within 4 years) of the deadline and no more than 1 year of postdoctoral work. Foreign applicants may apply but need a US visa. Basic biomedical research.",
+  "u": "https://hhwf.org/important-dates/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "damon-runyon-fellowship",
+  "n": "Damon Runyon Postdoctoral Fellowship Award",
+  "f": "Damon Runyon Cancer Research Foundation",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2027-03-15",
+  "dt": "Opens Jan 15, 2027 on Proposal Central; due Mar 15, 2027, 4 PM ET (twice yearly; next after that is mid-August)",
+  "a": "3-year award (stipend schedule on funder site)",
+  "e": "Level 1: degree conferred Sept 15, 2025 to Mar 15, 2027 and joined sponsor lab on or after Mar 15, 2026 (for the March 2027 round). Level 2: board-eligible physician-scientists before first faculty job. Cancer research.",
+  "u": "https://www.damonrunyon.org/for-scientists/application-guidelines/fellowship/forms",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "damon-runyon-quantitative-biology",
+  "n": "Damon Runyon Quantitative Biology Fellowship Award",
+  "f": "Damon Runyon Cancer Research Foundation",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "Due Dec 1, 2026, 4 PM ET via Proposal Central",
+  "a": "$76,000-$80,000/yr stipend plus $2,000/yr expenses for 3 years; up to $100,000 medical loan repayment",
+  "e": "Computational/quantitative scientists within 5 years of degree, with one dry-lab and one wet-lab cancer mentor; not more than 24 months in mentors' labs. Non-US citizens must work at a US institution.",
+  "u": "https://www.damonrunyon.org/for-scientists/application-guidelines/quantitative",
+  "fields": [
+   "cancer",
+   "comp"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "damon-runyon-st-jude-pediatric-fellowship",
+  "n": "Damon Runyon-St. Jude Pediatric Cancer Research Fellowship",
+  "f": "Damon Runyon Cancer Research Foundation",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next call expected summer 2027 (last cycle opened June 15, due Aug 14, 2026)",
+  "a": "3-year fellowship (amount not listed on page)",
+  "e": "Pediatric cancer research. Level 1: degree within 3 years; Level 2: physician-scientists within 2 years of clinical fellowship. Cannot apply to this and the main Damon Runyon Fellowship in the same August round.",
+  "u": "https://www.damonrunyon.org/for-scientists/application-guidelines/st-jude-fellowship/forms",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "cri-irvington-postdoc",
+  "n": "CRI Irvington Postdoctoral Fellowship",
+  "f": "Cancer Research Institute",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2027-03-01",
+  "dt": "Due Mar 1, 2027, 11:59 PM ET (deadlines Mar 1 and Sept 1 each year)",
+  "a": "$74,000/$76,000/$78,000 stipend over 3 years plus $5,000/yr sponsor allowance",
+  "e": "Doctoral degree by activation; ineligible if 5+ years of mentored research experience at activation. No citizenship restrictions. Cancer immunology and immunotherapy.",
+  "u": "https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship",
+  "fields": [
+   "imm",
+   "cancer"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "acs-postdoctoral-fellowship",
+  "n": "American Cancer Society Postdoctoral Fellowship",
+  "f": "American Cancer Society",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "Deadlines June 1 and Dec 1 each year (next business day if a weekend/holiday)",
+  "a": "$66,000/$68,000/$70,000 stipend plus $4,000/yr allowance, up to 3 years",
+  "e": "No more than 3 years since terminal doctorate or 3 years of postdoc training at application. US citizens or non-citizens with appropriate visa/immigration status. Cancer research.",
+  "u": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/postdoctoral-fellowships.html",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Official page lists recurring 'June 1 and December 1' without a year"
+ },
+ {
+  "id": "aha-postdoctoral-fellowship",
+  "n": "AHA Postdoctoral Fellowship",
+  "f": "American Heart Association",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next deadline expected around early Aug 2027 (2027 award proposals were due Aug 5, 2026)",
+  "a": "Stipend $63,480-$77,076/yr (by experience) plus $12,200 health insurance and $3,000/yr project support; 1-2 years",
+  "e": "Within 5 years of doctorate, no faculty rank, at a US nonprofit; qualifying immigration status (citizen, permanent resident or certain visas). Must be an AHA Professional Member. Cardiovascular and brain health.",
+  "u": "https://professional.heart.org/en/research-programs/application-information/postdoctoral-fellowship",
+  "fields": [
+   "cardio",
+   "neuro",
+   "metab"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "bcu-cdp-fellow",
+  "n": "Career Development Program: Fellow (formerly LLS)",
+  "f": "Blood Cancer United (formerly The Leukemia & Lymphoma Society)",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Annual cycle; last cycle had eligibility Oct 17, LOI Nov 1, full application Nov 15, 2025",
+  "a": "Up to $70,000/yr for 3 years (min. $65,000/yr salary) plus up to $3,600/yr childcare",
+  "e": "Postdocs with 3 years or less of postdoctoral training at award start. Research must be directly relevant to blood cancers.",
+  "u": "https://bloodcancerunited.org/research/grants/career-development-program-cdp",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "2026-2027 cycle dates not posted on official page as of Nov 5, 2026; usual timing (Oct-Nov) may already have passed"
+ },
+ {
+  "id": "bcu-cdp-special-fellow",
+  "n": "Career Development Program: Special Fellow (formerly LLS)",
+  "f": "Blood Cancer United (formerly The Leukemia & Lymphoma Society)",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Annual cycle; last cycle had eligibility Oct 17, LOI Nov 1, full application Nov 15, 2025",
+  "a": "Up to $75,000/yr for 2-3 years (min. $70,000/yr salary) plus up to $3,600/yr childcare",
+  "e": "Postdocs or instructors with 3-5 years of postdoctoral training at award start, still in a mentored blood cancer research position.",
+  "u": "https://bloodcancerunited.org/research/grants/career-development-program-cdp",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "2026-2027 cycle dates not posted on official page as of Nov 5, 2026"
+ },
+ {
+  "id": "simons-plant-biology-postdoc",
+  "n": "Simons Postdoctoral Fellowships in Plant Biology",
+  "f": "Simons Foundation",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2026-12-03",
+  "dt": "Due Dec 3, 2026, 12 PM ET; start July-Oct 2027",
+  "a": "Up to $360,000 over 3 years",
+  "e": "PhD no earlier than 3 years before deadline (or finishing by start). Any citizenship; must be at a US nonprofit university or institute. Sponsor cannot be the thesis adviser.",
+  "u": "https://www.simonsfoundation.org/grant/simons-postdoctoral-fellowships-in-plant-biology/",
+  "fields": [
+   "eco",
+   "cell",
+   "gen"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "simons-fellows-to-faculty",
+  "n": "Simons Fellows-to-Faculty Award (SFARI / Plasticity & Aging Brain / Ecological Neuroscience)",
+  "f": "Simons Foundation",
+  "c": "Career award",
+  "s": "open",
+  "d": "2027-01-13",
+  "dt": "Due Jan 13, 2027, 12 PM ET; institutional signing-official sign-off needed before submission",
+  "a": "$600,000 faculty award over 3 years; optional postdoc phase of $110,000/yr for up to 2 years",
+  "e": "Mentored postdocs who have not accepted a tenure-track offer and hold no R01-level funding or other transition award. No citizenship limit. Areas: autism (SFARI), plasticity and the aging brain (final RFA), and ecological neuroscience.",
+  "u": "https://www.simonsfoundation.org/funding/fellows-to-faculty-2027/",
+  "fields": [
+   "neuro",
+   "aging"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "schmidt-science-fellows",
+  "n": "Schmidt Science Fellows",
+  "f": "Schmidt Science Fellows (Schmidt Sciences / Rhodes Trust)",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next cohort expected: institutional nominations mid-May 2027, full application July 2027 (2027 cohort: May 15 and July 13, 2026)",
+  "a": "not listed on how-to-apply page",
+  "e": "Must be nominated by your PhD-granting institution (Yale is a nominating partner). Fellows pivot to a new field for an interdisciplinary postdoc.",
+  "u": "https://schmidtsciencefellows.org/selection/how-to-apply/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Yale GSAS internal nomination step exists (cover sheet on gsas.yale.edu) but internal date not confirmed"
+ },
+ {
+  "id": "embo-postdoctoral-fellowship",
+  "n": "EMBO Postdoctoral Fellowships",
+  "f": "European Molecular Biology Organization",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2027-01-22",
+  "dt": "Applications accepted all year; next cut-off Jan 22, 2027, 14:00 CET",
+  "a": "Salary/stipend, relocation allowance and child support for up to 2 years",
+  "e": "PhD within 2 years of application and at least one first-author paper. Must change country; mobility rules depend on EMBC member and partner countries. Hosted mainly in Europe.",
+  "u": "https://www.embo.org/fellowships/postdoctoral-fellowships/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "hfsp-long-term-fellowship",
+  "n": "HFSP Long-Term Fellowship",
+  "f": "Human Frontier Science Program Organization",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next call expected spring 2027 (2027 fellowships: LOI by May 2026, full proposal Sept 24, 2026)",
+  "a": "3-year fellowship (amount not confirmed)",
+  "e": "PhD in biology; aimed at researchers moving to a new country for frontier life-science research.",
+  "u": "https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Official hfsp.org page could not be fetched; dates confirmed via host-institution notices"
+ },
+ {
+  "id": "hfsp-cross-disciplinary-fellowship",
+  "n": "HFSP Cross-Disciplinary Fellowship",
+  "f": "Human Frontier Science Program Organization",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next call expected spring 2027 (same timeline as Long-Term Fellowships)",
+  "a": "3-year fellowship (amount not confirmed)",
+  "e": "For PhDs from non-biology fields (physics, chemistry, math, engineering, CS) who have not worked in life sciences and want to move into biology in a new country.",
+  "u": "https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships",
+  "fields": [
+   "comp",
+   "bioeng",
+   "all"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Official hfsp.org page could not be fetched; details confirmed via host-institution notices"
+ },
+ {
+  "id": "bwf-casi",
+  "n": "BWF Career Awards at the Scientific Interface (CASI)",
+  "f": "Burroughs Wellcome Fund",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Next LOI expected mid-Aug 2027 (2027 cycle LOI was Aug 14, 2026; invited full applications due Jan 11, 2027)",
+  "a": "$560,000 over 5 years (postdoc to early faculty)",
+  "e": "12-60 months of postdoctoral experience; physical/computational/engineering scientists working on biology. US/Canadian citizens, permanent residents, and temporary residents with valid visas.",
+  "u": "https://www.bwfund.org/grants/interfaces-in-science/career-awards-at-the-scientific-interface/",
+  "fields": [
+   "comp",
+   "bioeng"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "beckman-postdoctoral-fellows",
+  "n": "Arnold O. Beckman Postdoctoral Fellowship",
+  "f": "Arnold and Mabel Beckman Foundation",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Portal usually opens June-September; 2027 deadline not posted",
+  "a": "$224,000 over 2 years; optional third year $118,000; instrumentation fellows up to $200,000 extra",
+  "e": "Chemical sciences or chemical instrumentation (incl. chemical biology). PhD students finishing by May 1, 2027 or postdocs with 18 months or less of postdoc work. US citizens, permanent residents and DACA only.",
+  "u": "https://www.beckman-foundation.org/programs/beckman-postdoctoral-fellows/",
+  "fields": [
+   "struct",
+   "bioeng"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "hope-funds-postdoc",
+  "n": "Hope Funds for Cancer Research Postdoctoral Fellowship",
+  "f": "Hope Funds for Cancer Research",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next Step 1 summary expected late Sept 2027 (2026 cycle Step 1 was Sept 24, 2026; invited Step 2 due Jan 25, 2027)",
+  "a": "$56,000/$59,000/$62,000 stipend plus $1,500/yr travel over 3 years",
+  "e": "Hard-to-treat cancers (e.g., pancreatic, lung, liver, sarcoma, brain, ovarian, rare blood cancers). No more than 2 years in sponsor lab; US nonprofit host; cannot already hold another postdoc fellowship.",
+  "u": "https://www.hope-funds.org/grants/eligibility-and-application",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "df-dermatologist-investigator-fellowship",
+  "n": "Dermatologist Investigator Research Fellowship",
+  "f": "Dermatology Foundation",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next deadline expected mid-Oct 2027 (2027 awards were due Oct 15, 2026)",
+  "a": "$35,000 salary stipend",
+  "e": "Early-career dermatologists seeking research training, not faculty; research in a US ACGME-approved dermatology department. Some applicants from other fields moving into skin research may be considered.",
+  "u": "https://dermatologyfoundation.org/rap/fellowship/",
+  "fields": [
+   "derm"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "glenn-afar-postdoc-aging",
+  "n": "Glenn Foundation for Medical Research Postdoctoral Fellowships in Aging Research",
+  "f": "American Federation for Aging Research / Glenn Foundation for Medical Research",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next LOI expected late Jan 2027 (last LOI Jan 27, 2026; full application late June)",
+  "a": "$80,000 for 1 year",
+  "e": "Postdocs (MD/PhD) studying biology of aging; more than 5 years of postdoc training needs justification.",
+  "u": "https://www.afar.org/grants/glenn-postdoc",
+  "fields": [
+   "aging"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "2027 LOI date not yet posted"
+ },
+ {
+  "id": "pew-latin-american-fellows",
+  "n": "Pew Latin American Fellows Program in the Biomedical Sciences",
+  "f": "The Pew Charitable Trusts",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next deadline expected Aug 2027 (2027 fellows' applications were due Aug 19, 2026)",
+  "a": "$30,000/yr stipend for 2 years plus $70,000 to the lab if the fellow returns to Latin America",
+  "e": "Latin American scientists with recent PhD/MD for postdoc training in a US lab; must not have started postdoc in US/Europe before March 2025 (for 2027 class). Preference for degrees from Latin American institutions.",
+  "u": "https://www.pew.org/en/projects/pew-latin-american-fellows/program-details",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "alz-aarfa",
+  "n": "Alzheimer's Association Research Fellowship (AARFA)",
+  "f": "Alzheimer's Association",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next LOI expected mid-2027 (last cycle LOI Aug 14, 2026; full app Oct 20, 2026)",
+  "a": "Up to $200,000 total ($180,000 research plus $20,000 dissemination)",
+  "e": "Within 10 years of terminal degree at LOI. Alzheimer's disease and dementia research.",
+  "u": "https://www.alz.org/research/for_researchers/grants/types-of-grants/aarfa",
+  "fields": [
+   "neuro",
+   "aging"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "brightfocus-adr-postdoc",
+  "n": "BrightFocus Alzheimer's Disease Research Postdoctoral Fellowship",
+  "f": "BrightFocus Foundation",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next deadline expected Sept 2027 (FY27 proposals due Sept 1, 2026; no LOI)",
+  "a": "$200,000 over 2 years",
+  "e": "Within 5 years of degree; mentored training in an established lab. Open to US and international researchers.",
+  "u": "https://www.brightfocus.org/about/for-scientists/apply-for-a-research-grant/alzheimers-disease-research-request-for-proposals/",
+  "fields": [
+   "neuro",
+   "aging"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "anrf-physician-scientist-postdoc",
+  "n": "ANRF Postdoctoral Research Fellowship for Physician-Scientists",
+  "f": "Arthritis National Research Foundation",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2027-01-08",
+  "dt": "Opened Oct 1, 2026; due Jan 8, 2027",
+  "a": "$50,000-$250,000 over 1-2 years (range across ANRF grants)",
+  "e": "MD or MD/PhD physicians in or recently finishing an ACGME rheumatology fellowship; PhD-only applicants not eligible.",
+  "u": "https://curearthritis.org/research-grants/",
+  "fields": [
+   "fib",
+   "imm",
+   "trans"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Fellowship-specific amount not listed"
+ },
+ {
+  "id": "rrf-scientist-development-award",
+  "n": "Rheumatology Research Foundation Scientist Development Award",
+  "f": "Rheumatology Research Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Next LOI expected July 1, 2027 (FY2028 cycle: LOI July 1, full app Aug 3, 2026)",
+  "a": "Up to $75,000/yr for 2 years, renewable to 3 (max $225,000)",
+  "e": "Rheumatology fellows (MD/DO) or PhDs within 3 years of degree with research relevant to rheumatic disease. ACR/ARP membership required; no prior K award.",
+  "u": "https://www.rheumresearch.org/career-development-research-awards",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "srf-postdoc-fellowship",
+  "n": "Scleroderma Research Foundation Postdoctoral Fellowship",
+  "f": "Scleroderma Research Foundation",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 call expected late 2026 or early 2027 (2026 deadline was Mar 31, 2026)",
+  "a": "2-year fellowship (amount not listed)",
+  "e": "MD or PhD from a US (or equivalent) school; sponsor letter on scleroderma research commitment.",
+  "u": "https://srfcure.org/research/apply-for-a-grant/",
+  "fields": [
+   "fib",
+   "derm",
+   "imm"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "breakthrough-t1d-postdoc",
+  "n": "Breakthrough T1D Postdoctoral Fellowship",
+  "f": "Breakthrough T1D (formerly JDRF)",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next deadline expected early July 2027 (FY27 deadline was July 2, 2026)",
+  "a": "Stipend by experience plus $5,500/yr research allowance",
+  "e": "Doctorate no more than 5 years before application; not in residency. Type 1 diabetes research.",
+  "u": "https://www.breakthrought1d.org/wp-content/uploads/2026/04/FY27-PDF-RFA.pdf",
+  "fields": [
+   "metab",
+   "imm"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "breakthrough-t1d-advanced-postdoc",
+  "n": "Breakthrough T1D Advanced Postdoctoral Fellowship",
+  "f": "Breakthrough T1D (formerly JDRF)",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next deadline expected early July 2027 (FY27 deadline was July 2, 2026)",
+  "a": "not listed",
+  "e": "Senior postdocs moving toward independence in type 1 diabetes research.",
+  "u": "https://breakthrought1d.org.uk/about-breakthrough-t1d-uk-and-our-impact/our-research/information-for-researchers/current-research-funding-opportunities/international-breakthrough-t1d-funding-opportunities/",
+  "fields": [
+   "metab",
+   "imm"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05",
+  "unv": "Eligibility and amount not confirmed on official page"
+ },
+ {
+  "id": "ada-postdoctoral-fellowship",
+  "n": "ADA Postdoctoral Fellowship",
+  "f": "American Diabetes Association",
+  "c": "Postdoc fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "Next call expected Feb 2027 with an end-of-April deadline (2026 cycle due Apr 30, 2026)",
+  "a": "Up to $100,588/yr, max $294,084 over 3 years",
+  "e": "Doctorate within 5 years and no more than 4 years of postdoc training at submission; US work authorization; US institution. Diabetes research.",
+  "u": "https://professional.diabetes.org/content-page/spring-cycle",
+  "fields": [
+   "metab"
+  ],
+  "stages": [
+   "pd"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ }
+]
