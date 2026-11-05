@@ -9,7 +9,7 @@ Grants, fellowships, career awards, pilot funds and student programs for Yale li
 Features:
 
 - filters by research area and career stage (pick one or more of each), eligibility (US-only, nomination or limited submission), status, type and deadline window
-- Yale internal and limited-submission steps shown next to the funder's deadline
+- an **I'm at Yale** option (off by default) that adds Yale's own pilot funds and fellowships and shows Yale's internal and limited-submission steps next to each deadline. Link to `…/#yale` to open the page with it already on (e.g. `…/#yale-pd` for Yale postdocs)
 - tips for each career stage and a "What's changed at funders" panel (NIH application cap, late-submission rules, discontinued programs)
 - a **New** tag on programs added in the last 7 days (search for `new`)
 - tick boxes to export the programs you care about as a calendar file (`.ics`, with reminders 6 and 4 weeks before each deadline) or a CSV

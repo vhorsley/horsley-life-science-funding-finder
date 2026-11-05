@@ -4,7 +4,8 @@
     "items": [
       {
         "b": "Start limited submissions early.",
-        "t": "Yale runs internal competitions on InfoReady (NetID required): a letter of intent about 14 weeks and an internal application about 12 weeks before the funder's deadline. Rows tagged nomination / limited need this step."
+        "t": "Yale runs internal competitions on InfoReady (NetID required): a letter of intent about 14 weeks and an internal application about 12 weeks before the funder's deadline. Rows tagged nomination / limited need this step.",
+        "yale": true
       },
       {
         "b": "Scholar programs run once a year.",
@@ -21,7 +22,7 @@
     "items": [
       {
         "b": "Several large foundations limit applications per institution.",
-        "t": "W. M. Keck and Mathers each take up to three applications from Yale, so these go through an internal selection first."
+        "t": "W. M. Keck and Mathers each take up to three applications per institution, so these usually go through an internal selection first."
       },
       {
         "b": "Mid-career awards are easy to miss.",

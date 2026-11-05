@@ -29,7 +29,7 @@
 <div class="wrap">
   <header id="find">
     <h1>Funding for life-science research, fellowships and training</h1>
-    <p>NIH and other federal mechanisms, foundation grants, early-career and established-investigator awards, postdoctoral and graduate fellowships, undergraduate summer programs, and Yale pilot and seed funds, across cell and molecular biology, development and regeneration, immunology, neuroscience, cancer, genetics and the rest of the life sciences. Choose your area and career stage. Programs open to every field appear under every area, and Yale's internal and limited-submission steps are shown next to each external deadline.</p>
+    <p>NIH and other federal mechanisms, foundation grants, early-career and established-investigator awards, postdoctoral and graduate fellowships and undergraduate summer programs, across cell and molecular biology, development and regeneration, immunology, neuroscience, cancer, genetics and the rest of the life sciences. Choose your area and career stage. Programs open to every field appear under every area. At Yale? Tick <b>I'm at Yale</b> to add Yale's own pilot funds and fellowships and see Yale's internal and limited-submission steps next to each deadline.</p>
   </header>
 
   <div class="banner" id="banner">Loading the program list…</div>
@@ -46,6 +46,7 @@
 
   <div class="elig">
     <span class="steplbl">Eligibility</span>
+    <label><input type="checkbox" id="atYale"> <b>I'm at Yale</b>: show Yale programs and internal steps</label>
     <label><input type="checkbox" id="noUS"> Hide programs limited to US citizens and permanent residents</label>
     <label><input type="checkbox" id="noNom"> Hide programs that need a nomination or limited submission</label>
   </div>
@@ -141,18 +142,19 @@ const ls = {get:k=>{try{return localStorage.getItem(k);}catch(e){return null;}},
 let SNAP={programs:[],status:{},notes:{}};
 try{ SNAP=JSON.parse(document.getElementById("snapshot").textContent); }catch(e){}
 let DATA=arr(SNAP.programs), META=SNAP.status||{}, NOTES=SNAP.notes||{};
-let fieldSel=new Set(["*"]), stageSel=new Set(["tt"]), fStatus="active", fCat="All", q="", sortKey="deadline", sortDir=1, fDue="42", noUS=false, noNom=false;
+let fieldSel=new Set(["*"]), stageSel=new Set(["tt"]), fStatus="active", fCat="All", q="", sortKey="deadline", sortDir=1, fDue="42", noUS=false, noNom=false, atYale=false;
 {
   const okS=k=>STAGES.some(s=>s.k===k), list=v=>String(v||"").split(",").filter(Boolean);
-  const h=location.hash.replace("#",""), hs=list(h.replace(/-/g,",")).filter(okS);
+  const h=location.hash.replace("#",""), ht=list(h.replace(/-/g,",")), hs=ht.filter(okS);
   const sf=list(ls.get("lsff-field")).filter(k=>FNAME[k]), ss=list(ls.get("lsff-stage")).filter(okS);
   if(sf.length) fieldSel=new Set(sf.includes("*")?["*"]:sf);
   if(hs.length) stageSel=new Set(hs); else if(ss.length) stageSel=new Set(ss);
   noUS=ls.get("lsff-nous")==="1"; noNom=ls.get("lsff-nonom")==="1";
+  atYale=ht.includes("yale")||ls.get("lsff-yale")==="1";
 }
-$("noUS").checked=noUS; $("noNom").checked=noNom;
+$("noUS").checked=noUS; $("noNom").checked=noNom; $("atYale").checked=atYale;
 const sOrd=()=>STAGES.map(s=>s.k).filter(k=>stageSel.has(k)), fOrd=()=>FIELDS.map(f=>f.k).filter(k=>fieldSel.has(k));
-const save=()=>{ls.set("lsff-field",fOrd().join(","));ls.set("lsff-stage",sOrd().join(","));ls.set("lsff-nous",noUS?"1":"0");ls.set("lsff-nonom",noNom?"1":"0");};
+const save=()=>{ls.set("lsff-field",fOrd().join(","));ls.set("lsff-stage",sOrd().join(","));ls.set("lsff-nous",noUS?"1":"0");ls.set("lsff-nonom",noNom?"1":"0");ls.set("lsff-yale",atYale?"1":"0");};
 
 const inOneField = (x,f) => f==="*" || arr(x.fields).includes("all") || arr(x.fields).some(c=>(FCODES[f]||[]).includes(c));
 const inField = (x,f) => f ? inOneField(x,f) : [...fieldSel].some(k=>inOneField(x,k));
@@ -161,7 +163,9 @@ const toggle = (set,k,all) => { if(all&&k===all){set.clear();set.add(all);return
   if(set.has(k)){ if(set.size>1) set.delete(k); } else set.add(k); if(all&&!set.size) set.add(all); };
 const fLabel = () => fieldSel.has("*") ? FNAME["*"] : fOrd().map(k=>FNAME[k]).join(" + ");
 const sLabel = () => sOrd().map(k=>STAGES.find(s=>s.k===k).n).join(" + ");
-const eligible = x => !(noUS && x.us) && !(noNom && x.nom);
+const yaleOnly = x => String(x.id).startsWith("yale-") || /\byale\b/i.test(x.f||"");
+const ys = x => atYale ? x.yale : null;
+const eligible = x => !(noUS && x.us) && !(noNom && x.nom) && (atYale || !yaleOnly(x));
 const active = x => effStatus(x)!=="closed";
 const scope = () => DATA.filter(x=>inField(x)&&inStage(x)&&eligible(x));
 
@@ -199,9 +203,9 @@ function context(){
     `<span class="stat"><b>${rows.filter(x=>x.s==="watch").length}</b> on watch</span>`+
     `<span class="stat"><b>${rows.length}</b> programs</span>`;
 }
-const nextDate = x => { const c=[]; if(future(x)) c.push(x.d); if(x.yale && isoOk(x.yale.d) && days(x.yale.d)>=0) c.push(x.yale.d); return c.sort()[0]||null; };
+const nextDate = x => { const c=[]; if(future(x)) c.push(x.d); if(ys(x) && isoOk(ys(x).d) && days(ys(x).d)>=0) c.push(ys(x).d); return c.sort()[0]||null; };
 function notes(){
-  const ns=sOrd().map(k=>NOTES[k]).filter(n=>n&&arr(n.items).length); const box=$("notes");
+  const ns=sOrd().map(k=>NOTES[k]).filter(Boolean).map(n=>({title:n.title,items:arr(n.items).filter(i=>atYale||!i.yale)})).filter(n=>n.items.length); const box=$("notes");
   if(!ns.length){box.hidden=true;return;} box.hidden=false;
   box.innerHTML=ns.map(n=>`<h2>${esc(n.title||"")}</h2><ul>${arr(n.items).map(i=>`<li><b>${esc(i.b)}</b> ${esc(i.t)}</li>`).join("")}</ul>`).join("");
 }
@@ -234,7 +238,7 @@ function filtered(due=fDue){
     if(fCat!=="All"&&x.c!==fCat) return false;
     if(due!=="all"&&!noWin()){const nd=nextDate(x); if(!nd||days(nd)>+due) return false;}
     if(q==="new"){if(!isNew(x)) return false;}
-    else if(q){const h=[x.n,x.f,x.e,x.a,x.c,x.dt,arr(x.fields).map(f=>TAGN[f]||f).join(" "),x.yale?x.yale.t:""].join(" ").toLowerCase(); if(!h.includes(q)) return false;}
+    else if(q){const h=[x.n,x.f,x.e,x.a,x.c,x.dt,arr(x.fields).map(f=>TAGN[f]||f).join(" "),ys(x)?ys(x).t:""].join(" ").toLowerCase(); if(!h.includes(q)) return false;}
     return true;});
   const order={open:1,rolling:2,watch:3,closed:4};
   const key=x=>{const nd=nextDate(x); return nd?"0"+nd:order[effStatus(x)]+"";};
@@ -255,17 +259,17 @@ function render(){
   $("rows").innerHTML=r.map(x=>{
     const st=effStatus(x);
     let dl;
-    const yFut=x.yale&&isoOk(x.yale.d)&&days(x.yale.d)>=0, yFirst=yFut&&(!future(x)||x.yale.d<x.d);
+    const yFut=ys(x)&&isoOk(ys(x).d)&&days(ys(x).d)>=0, yFirst=yFut&&(!future(x)||ys(x).d<x.d);
     const cd=k=>`<span class="${dcls(k)}">(${k===0?"today":k+"d"})</span>`;
-    if(yFirst){const k=days(x.yale.d);
-      dl=`${fmt(x.yale.d)} ${cd(k)}<span class="ylab">Yale internal</span><span class="ext">External deadline: ${future(x)?fmt(x.d):"to be announced"}</span><small>${esc(x.dt)}</small>`;}
+    if(yFirst){const k=days(ys(x).d);
+      dl=`${fmt(ys(x).d)} ${cd(k)}<span class="ylab">Yale internal</span><span class="ext">External deadline: ${future(x)?fmt(x.d):"to be announced"}</span><small>${esc(x.dt)}</small>`;}
     else if(future(x)){dl=`${fmt(x.d)} ${cd(days(x.d))}<small>${esc(x.dt)}</small>`;}
     else if(isoOk(x.d)){dl=`—<small>Last: ${fmt(x.d)}. ${esc(x.dt)}</small>`;}
     else dl=`—<small>${esc(x.dt)}</small>`;
-    if(x.yale){ const yd=yFirst?"Yale step":isoOk(x.yale.d)?(days(x.yale.d)>=0?`Yale: ${fmt(x.yale.d)}`:`Yale internal deadline passed: ${fmt(x.yale.d)}`):"Yale step"; dl+=`<span class="yd">${esc(yd)}. ${esc(x.yale.t)}</span>`; }
+    if(ys(x)){ const yd=yFirst?"Yale step":isoOk(ys(x).d)?(days(ys(x).d)>=0?`Yale: ${fmt(ys(x).d)}`:`Yale internal deadline passed: ${fmt(ys(x).d)}`):"Yale step"; dl+=`<span class="yd">${esc(yd)}. ${esc(ys(x).t)}</span>`; }
     const tags=(isNew(x)?`<span class="tag new" title="Added ${esc(fmt(x.added))}">New</span>`:"")+(arr(x.fields).includes("all")?`<span class="tag">all fields</span>`:arr(x.fields).map(f=>`<span class="tag">${esc(TAGN[f]||f)}</span>`).join(""))
       +(x.us?`<span class="tag flag">US citizens/PR</span>`:"")+(x.nom?`<span class="tag flag">nomination / limited</span>`:"");
-    const yl=x.yale&&safeUrl(x.yale.u)?`<a href="${esc(safeUrl(x.yale.u))}" target="_blank" rel="noopener">Yale page</a>`:"";
+    const yl=ys(x)&&safeUrl(ys(x).u)?`<a href="${esc(safeUrl(ys(x).u))}" target="_blank" rel="noopener">Yale page</a>`:"";
     const meta=[expCalLinks(x),yl,isoOk(x.checked)?`checked ${fmt(x.checked)}`:""].filter(Boolean).map(m=>`<span>${m}</span>`).join("");
     return `<tr><td class="dl" data-l="">${dl}</td>
       <td data-l="" style="min-width:240px"><div class="pname"><input type="checkbox" class="pickbox" data-pick="${esc(x.id)}" ${EXP.picked.has(x.id)?"checked":""} aria-label="Tick ${esc(x.n)} for export" title="Tick to export">${safeUrl(x.u)?`<a href="${esc(safeUrl(x.u))}" target="_blank" rel="noopener">${esc(x.n)}</a>`:esc(x.n)}</div><div class="funder">${esc(x.f)} · ${esc(x.c)}</div><div class="tags">${tags}</div>${meta?`<div class="meta">${meta}</div>`:""}</td>
@@ -284,6 +288,7 @@ $("pickClearBtn").onclick=()=>{EXP.picked.clear();expSave();render();$("csvMsg")
 document.querySelectorAll("th button").forEach(b=>b.onclick=()=>{const k=b.dataset.sort;if(sortKey===k)sortDir*=-1;else{sortKey=k;sortDir=1;}render();});
 $("q").addEventListener("input",e=>{q=e.target.value.trim().toLowerCase();render();});
 $("noUS").onchange=e=>{noUS=e.target.checked;save();renderAll();};
+$("atYale").onchange=e=>{atYale=e.target.checked;save();renderAll();};
 $("noNom").onchange=e=>{noNom=e.target.checked;save();renderAll();};
 renderAll();
 </script>
