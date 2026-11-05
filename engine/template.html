@@ -35,13 +35,13 @@
   <div class="banner" id="banner">Loading the program list…</div>
 
   <section>
-    <span class="steplbl">Research area</span>
+    <span class="steplbl">Research area <span class="hint">· choose one or more</span></span>
     <div class="fields" id="fields"></div>
   </section>
 
   <section>
-    <span class="steplbl">Career stage</span>
-    <nav class="stages" role="tablist" id="stages" aria-label="Career stage"></nav>
+    <span class="steplbl">Career stage <span class="hint">· choose one or more</span></span>
+    <nav class="stages" id="stages" aria-label="Career stage"></nav>
   </section>
 
   <div class="elig">
@@ -141,18 +141,26 @@ const ls = {get:k=>{try{return localStorage.getItem(k);}catch(e){return null;}},
 let SNAP={programs:[],status:{},notes:{}};
 try{ SNAP=JSON.parse(document.getElementById("snapshot").textContent); }catch(e){}
 let DATA=arr(SNAP.programs), META=SNAP.status||{}, NOTES=SNAP.notes||{};
-let field="*", stage="tt", fStatus="active", fCat="All", q="", sortKey="deadline", sortDir=1, fDue="42", noUS=false, noNom=false;
+let fieldSel=new Set(["*"]), stageSel=new Set(["tt"]), fStatus="active", fCat="All", q="", sortKey="deadline", sortDir=1, fDue="42", noUS=false, noNom=false;
 {
-  const h=location.hash.replace("#",""); if(STAGES.some(s=>s.k===h)) stage=h;
-  const sf=ls.get("lsff-field"), ss=ls.get("lsff-stage");
-  if(sf && FNAME[sf]) field=sf; if(!h && ss && STAGES.some(s=>s.k===ss)) stage=ss;
+  const okS=k=>STAGES.some(s=>s.k===k), list=v=>String(v||"").split(",").filter(Boolean);
+  const h=location.hash.replace("#",""), hs=list(h.replace(/-/g,",")).filter(okS);
+  const sf=list(ls.get("lsff-field")).filter(k=>FNAME[k]), ss=list(ls.get("lsff-stage")).filter(okS);
+  if(sf.length) fieldSel=new Set(sf.includes("*")?["*"]:sf);
+  if(hs.length) stageSel=new Set(hs); else if(ss.length) stageSel=new Set(ss);
   noUS=ls.get("lsff-nous")==="1"; noNom=ls.get("lsff-nonom")==="1";
 }
 $("noUS").checked=noUS; $("noNom").checked=noNom;
-const save=()=>{ls.set("lsff-field",field);ls.set("lsff-stage",stage);ls.set("lsff-nous",noUS?"1":"0");ls.set("lsff-nonom",noNom?"1":"0");};
+const sOrd=()=>STAGES.map(s=>s.k).filter(k=>stageSel.has(k)), fOrd=()=>FIELDS.map(f=>f.k).filter(k=>fieldSel.has(k));
+const save=()=>{ls.set("lsff-field",fOrd().join(","));ls.set("lsff-stage",sOrd().join(","));ls.set("lsff-nous",noUS?"1":"0");ls.set("lsff-nonom",noNom?"1":"0");};
 
-const inField = (x,f=field) => f==="*" || arr(x.fields).includes("all") || arr(x.fields).some(c=>(FCODES[f]||[]).includes(c));
-const inStage = (x,s=stage) => arr(x.stages).includes(s);
+const inOneField = (x,f) => f==="*" || arr(x.fields).includes("all") || arr(x.fields).some(c=>(FCODES[f]||[]).includes(c));
+const inField = (x,f) => f ? inOneField(x,f) : [...fieldSel].some(k=>inOneField(x,k));
+const inStage = (x,s) => s ? arr(x.stages).includes(s) : arr(x.stages).some(k=>stageSel.has(k));
+const toggle = (set,k,all) => { if(all&&k===all){set.clear();set.add(all);return;} if(all) set.delete(all);
+  if(set.has(k)){ if(set.size>1) set.delete(k); } else set.add(k); if(all&&!set.size) set.add(all); };
+const fLabel = () => fieldSel.has("*") ? FNAME["*"] : fOrd().map(k=>FNAME[k]).join(" + ");
+const sLabel = () => sOrd().map(k=>STAGES.find(s=>s.k===k).n).join(" + ");
 const eligible = x => !(noUS && x.us) && !(noNom && x.nom);
 const active = x => effStatus(x)!=="closed";
 const scope = () => DATA.filter(x=>inField(x)&&inStage(x)&&eligible(x));
@@ -169,23 +177,23 @@ function fieldButtons(){
   const box=$("fields");
   box.innerHTML=FIELDS.map(f=>{
     const n=DATA.filter(x=>inField(x,f.k)&&inStage(x)&&eligible(x)&&active(x)).length;
-    return `<button class="fbtn${f.x?" x":""}" data-k="${f.k}" aria-pressed="${f.k===field}"><span class="fn">${f.n}</span><span class="fc">${n} program${n===1?"":"s"}</span></button>`;
+    return `<button class="fbtn${f.x?" x":""}" data-k="${f.k}" aria-pressed="${fieldSel.has(f.k)}"><span class="fn">${f.n}</span><span class="fc">${n} program${n===1?"":"s"}</span></button>`;
   }).join("");
-  box.querySelectorAll(".fbtn").forEach(b=>b.onclick=()=>{field=b.dataset.k;fCat="All";save();renderAll();});
+  box.querySelectorAll(".fbtn").forEach(b=>b.onclick=()=>{toggle(fieldSel,b.dataset.k,"*");fCat="All";save();renderAll();});
 }
 function stageTabs(){
   const nav=$("stages");
   nav.innerHTML=STAGES.map(s=>{
     const rows=DATA.filter(x=>inField(x)&&inStage(x,s.k)&&eligible(x));
     const soon=rows.filter(x=>future(x)&&active(x)&&days(x.d)<=30).length;
-    return `<button class="stage" role="tab" data-k="${s.k}" aria-selected="${s.k===stage}"><span class="sn">${s.n}</span><span class="sc">${rows.filter(active).length} active · ${soon} due in 30 d</span></button>`;
+    return `<button class="stage" data-k="${s.k}" aria-pressed="${stageSel.has(s.k)}"><span class="sn">${s.n}</span><span class="sc">${rows.filter(active).length} active · ${soon} due in 30 d</span></button>`;
   }).join("");
-  nav.querySelectorAll(".stage").forEach(b=>b.onclick=()=>{stage=b.dataset.k;fCat="All";save();renderAll();});
+  nav.querySelectorAll(".stage").forEach(b=>b.onclick=()=>{toggle(stageSel,b.dataset.k);fCat="All";save();renderAll();});
 }
 function context(){
-  const rows=scope(); const sN=STAGES.find(s=>s.k===stage).n;
+  const rows=scope(); const sN=sLabel();
   const up=rows.filter(x=>future(x)&&active(x));
-  $("context").innerHTML=`<span><b>${esc(FNAME[field])}</b> · ${esc(sN)}</span>`+
+  $("context").innerHTML=`<span><b>${esc(fLabel())}</b> · ${esc(sN)}</span>`+
     `<span class="stat"><b>${up.filter(x=>days(x.d)<=30).length}</b> due in 30 days</span>`+
     `<span class="stat"><b>${rows.filter(x=>x.s==="rolling").length}</b> rolling</span>`+
     `<span class="stat"><b>${rows.filter(x=>x.s==="watch").length}</b> on watch</span>`+
@@ -193,9 +201,9 @@ function context(){
 }
 const nextDate = x => { const c=[]; if(future(x)) c.push(x.d); if(x.yale && isoOk(x.yale.d) && days(x.yale.d)>=0) c.push(x.yale.d); return c.sort()[0]||null; };
 function notes(){
-  const n=NOTES[stage]; const box=$("notes");
-  if(!n||!arr(n.items).length){box.hidden=true;return;} box.hidden=false;
-  box.innerHTML=`<h2>${esc(n.title||"")}</h2><ul>${arr(n.items).map(i=>`<li><b>${esc(i.b)}</b> ${esc(i.t)}</li>`).join("")}</ul>`;
+  const ns=sOrd().map(k=>NOTES[k]).filter(n=>n&&arr(n.items).length); const box=$("notes");
+  if(!ns.length){box.hidden=true;return;} box.hidden=false;
+  box.innerHTML=ns.map(n=>`<h2>${esc(n.title||"")}</h2><ul>${arr(n.items).map(i=>`<li><b>${esc(i.b)}</b> ${esc(i.t)}</li>`).join("")}</ul>`).join("");
 }
 function changes(){
   const c=arr(NOTES.changes); $("changedSec").hidden=!c.length;
@@ -235,7 +243,7 @@ function filtered(due=fDue){
 }
 function render(){
   chips();
-  $("allTitle").textContent=`Programs and deadlines · ${FNAME[field]} · ${STAGES.find(s=>s.k===stage).n}`;
+  $("allTitle").textContent=`Programs and deadlines · ${fLabel()} · ${sLabel()}`;
   let r=filtered(), autoAll=false;
   if(fDue!=="all"&&!noWin()&&!r.length){const ra=filtered("all"); if(ra.length){r=ra;autoAll=true;}}
   expBar(r);

@@ -8,7 +8,7 @@ Grants, fellowships, career awards, pilot funds and student programs for Yale li
 
 Features:
 
-- filters by research area, career stage, eligibility (US-only, nomination or limited submission), status, type and deadline window
+- filters by research area and career stage (pick one or more of each), eligibility (US-only, nomination or limited submission), status, type and deadline window
 - Yale internal and limited-submission steps shown next to the funder's deadline
 - tips for each career stage and a "What's changed at funders" panel (NIH application cap, late-submission rules, discontinued programs)
 - a **New** tag on programs added in the last 7 days (search for `new`)
