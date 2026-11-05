@@ -1,0 +1,52 @@
+name: Suggest a program
+description: Tell us about a grant, fellowship or program the Funding Finder is missing, or a correction to one it lists.
+title: "Suggestion: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the list complete. Each suggestion is checked against the funder's own page before it is added, usually within a week.
+  - type: input
+    id: name
+    attributes:
+      label: Program name
+      placeholder: e.g. Pew Biomedical Scholars
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to the funder's page
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Next deadline, if known
+      placeholder: e.g. Feb 1, 2027
+  - type: checkboxes
+    id: stages
+    attributes:
+      label: Who can apply?
+      options:
+        - label: Undergraduates
+        - label: Graduate students
+        - label: Postdocs
+        - label: Early-career faculty
+        - label: Established faculty
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Is this a new program or a correction?
+      options:
+        - New program
+        - Correction to a listed program
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Research area, eligibility, or what needs correcting.

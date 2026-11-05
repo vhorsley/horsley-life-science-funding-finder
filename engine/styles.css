@@ -171,3 +171,4 @@ footer#foot{font-size:13px;color:var(--ink-3);max-width:90ch}
 .stage[aria-selected="true"],.chip[aria-pressed="true"],.ptbtn[aria-pressed="true"],.btn.primary{color:var(--accent-ink)}
 .site,.site a{color:#fff}
 header p{color:var(--ink-2)}
+a.btn{display:inline-block;text-decoration:none}a.btn.primary,a.btn.primary:hover{color:var(--accent-ink)}

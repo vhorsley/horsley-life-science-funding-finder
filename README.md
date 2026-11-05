@@ -35,6 +35,10 @@ Each program has these fields:
 | `unv` | Anything that could not be confirmed on the funder's page |
 | `added`, `checked` | Date added, date last checked |
 
+## Suggest a program
+
+Use the **Suggest a program** form on the page (it opens a GitHub issue labelled `suggestion`). The weekly recheck reads open suggestions, verifies them on the funder's page, adds or corrects the program, and closes the issue from the commit.
+
 ## Update it
 
 1. Edit or add rows in `catalog/programs/`. Check every date on the funder's own page.
