@@ -1,0 +1,499 @@
+[
+ {
+  "id": "nsf-grfp",
+  "n": "NSF Graduate Research Fellowship Program (GRFP)",
+  "f": "U.S. National Science Foundation",
+  "c": "Graduate fellowship",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 competition (NSF 26-526) Life Sciences deadline was Oct 19, 2026; reference letters were due Oct 16. Next cycle expected around Oct 2027.",
+  "a": "$37,000/yr stipend plus $16,000/yr cost-of-education to the institution; 3 years of support within 5 years (about $159,000)",
+  "e": "US citizens, nationals and permanent residents. Open to college seniors, bachelor's holders not yet in grad school, and first-year grad students (one try only once enrolled); second-year grad students are not eligible. Research-based STEM master's or PhD programs only.",
+  "u": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug",
+   "gr"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nsf-prfb",
+  "n": "NSF Postdoctoral Research Fellowships in Biology (PRFB)",
+  "f": "U.S. National Science Foundation",
+  "c": "Postdoc fellowship",
+  "s": "open",
+  "d": "2027-09-28",
+  "dt": "Full proposals due Sep 28, 2027, 5 p.m. local time (then the fourth Tuesday in September each year). The Sep 29, 2026 deadline has passed.",
+  "a": "$110,000/yr ($85,000 stipend + $25,000 research allowance) for 24 months; $220,000 total",
+  "e": "US citizens, nationals and permanent residents with a doctorate by the start date and no more than 15 months in doctoral-level jobs. Solicitation NSF 26-504 has one focus: AI and the biological sciences for biotechnology. Two lifetime submissions, one per year.",
+  "u": "https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology/nsf26-504/solicitation",
+  "fields": [
+   "comp",
+   "bioeng"
+  ],
+  "stages": [
+   "gr",
+   "pd"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nsf-career-bio",
+  "n": "NSF Faculty Early Career Development Program (CAREER), Biological Sciences",
+  "f": "U.S. National Science Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "Deadline is the fourth Wednesday in July each year (last was Jul 22, 2026); the 2027 date would be Jul 28 but is not yet confirmed on a current NSF page.",
+  "a": "BIO minimum $500,000 over 5 years",
+  "e": "Untenured assistant professors (or equivalent) at US institutions who integrate research and education. Eligibility is judged at the deadline. CAREER proposals in biology can go to BIO Core topics but follow the CAREER solicitation (NSF 22-586).",
+  "u": "https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Could not load the NSF CAREER solicitation page itself; the July rule and BIO minimum come from NSF's May 2026 BIO virtual office hours slides (nsf-gov-resources.nsf.gov) and an NSF webinar page.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nsf-bio-core",
+  "n": "NSF Core Research in Biological Sciences (BIO Core; replaces MCB and IOS core programs)",
+  "f": "U.S. National Science Foundation",
+  "c": "Research grant",
+  "s": "rolling",
+  "d": null,
+  "dt": "Proposals accepted anytime. Solicitation NSF 26-517 replaced the separate MCB (NSF 24-539), IOS (NSF 24-546) and DEB core solicitations.",
+  "a": "Range of budgets, up to 5 years; about $280M in total for an estimated 250-300 awards",
+  "e": "US universities and colleges, US nonprofit research organizations, and Tribal Nations. No limits on proposals per PI. Covers former MCB (cellular dynamics, genetic mechanisms, biophysics, systems/synthetic biology) and IOS (development, neural, physiological, behavioral systems) science.",
+  "u": "https://www.nsf.gov/funding/opportunities/bio-core-core-research-biological-sciences/nsf26-517/solicitation",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nsf-reu-sites",
+  "n": "NSF Research Experiences for Undergraduates (REU) Sites",
+  "f": "U.S. National Science Foundation",
+  "c": "Undergraduate program",
+  "s": "watch",
+  "d": null,
+  "dt": "Students apply directly to individual REU Sites, each with its own deadline (many in winter for the following summer). Faculty proposals to host a site are due the third Wednesday in August.",
+  "a": "Paid summer research; stipend and support set by each site",
+  "e": "Undergraduates (and accepted high school graduates not yet in college) who are US citizens, nationals or permanent residents. Find sites through NSF's REU directory; many use NSF's ETAP application system.",
+  "u": "https://www.nsf.gov/funding/opportunities/reu-research-experiences-undergraduates/nsf23-601/solicitation",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": true,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "nsf-icorps-teams",
+  "n": "NSF National I-Corps Teams",
+  "f": "U.S. National Science Foundation",
+  "c": "Translational / startup",
+  "s": "rolling",
+  "d": null,
+  "dt": "Proposals accepted anytime, but only after an I-Corps program officer approves an executive summary.",
+  "a": "Up to $50,000 over 12 months",
+  "e": "Teams at US colleges and universities with an Entrepreneurial Lead, Technical Lead (usually PI) and Industry Mentor. Team needs a related NSF award active or ended in the last 5 years, or completion of a Regional I-Corps program with a recommendation letter (NSF 25-549).",
+  "u": "https://www.nsf.gov/funding/opportunities/nsf-national-innovation-corps-teams-nsf-national-i-corps-tm/nsf25-549/solicitation",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "gr",
+   "pd",
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "cdmrp-prmrp",
+  "n": "Peer Reviewed Medical Research Program (PRMRP)",
+  "f": "U.S. Department of Defense, CDMRP",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "FY26 cycle closed (e.g., Discovery Award pre-application Jul 16, full Jul 30, 2026). No FY27 announcement posted as of Oct 28, 2026; expect pre-announcements in spring-summer 2027 if funded.",
+  "a": "Varies by mechanism; FY26 Discovery Award up to $385,000 over 2 years (FY26 program: $370M)",
+  "e": "Investigators at any career level at eligible organizations worldwide, no citizenship limit. Must fit a congressionally named topic; FY26 topics included scleroderma, eczema, pulmonary fibrosis, sarcoidosis and other autoimmune conditions. Lupus and wound healing were not FY26 PRMRP topics.",
+  "u": "https://cdmrp.health.mil/prmrp/default",
+  "fields": [
+   "trans",
+   "fib",
+   "imm",
+   "derm"
+  ],
+  "stages": [
+   "pd",
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "cdmrp-prcrp",
+  "n": "Peer Reviewed Cancer Research Program (PRCRP)",
+  "f": "U.S. Department of Defense, CDMRP",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "FY26 cycle closed (Idea Award pre-application Jun 26, full Oct 5, 2026). FY27 not yet announced.",
+  "a": "Varies; FY26 Idea Award up to $600,000 over 2 years, with an Early Career Investigator option (FY26 program: $165M)",
+  "e": "Independent investigators at eligible organizations worldwide. Limited to listed cancer topics; FY26 excluded melanoma and breast, kidney, lung, pancreas, prostate and ovarian cancers.",
+  "u": "https://cdmrp.health.mil/prcrp/default",
+  "fields": [
+   "cancer",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "cdmrp-lrp",
+  "n": "Lupus Research Program (LRP)",
+  "f": "U.S. Department of Defense, CDMRP",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "FY26 cycle closed (Idea Award pre-application Jul 29, full Aug 19, 2026). FY27 not yet announced.",
+  "a": "FY26 Idea Award up to $300,000 over 2 years (about 5 awards; FY26 program: $10M)",
+  "e": "Independent investigators or mentored postdocs with a terminal degree at eligible organizations worldwide; no citizenship limit. One Idea Award application per PI.",
+  "u": "https://cdmrp.health.mil/lrp/default",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "pd",
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "hfsp-research-grants",
+  "n": "HFSP Research Grants (Program and Early Career)",
+  "f": "Human Frontier Science Program Organization",
+  "c": "Research grant",
+  "s": "watch",
+  "d": null,
+  "dt": "Award-year 2027 cycle closed (LOI Mar 26, 2026; invited full proposals mid-Sep 2026). Next call expected to open around Mar 2027.",
+  "a": "About $300,000/yr (2 members) to $500,000/yr (4 members) per team for 3 years",
+  "e": "International teams of 2-4 labs, ideally intercontinental and new collaborators, doing frontier basic life science. Early Career Grants are for teams of researchers early in independent careers; Program Grants have no career limit. At least one member must be from an HFSP member country (US included).",
+  "u": "https://www.hfsp.org/funding/hfsp-funding/research-grants",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "hfsp.org could not be loaded; cycle dates and team amounts come from university pages quoting the award-year 2027 call (Univ. of South Bohemia, Univ. of Cape Town). Early Career window not confirmed.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "wellcome-leap-ampt",
+  "n": "Wellcome Leap AMPt (Autoimmunity in Menopause and Postpartum Transitions)",
+  "f": "Wellcome Leap",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2026-12-02",
+  "dt": "Abstract portal opens Nov 25, 2026; 7-page abstracts due Dec 2, 2026, 11:59 p.m. ET. Invited 25-page full proposals due Jan 21, 2027; decisions Feb 20, 2027.",
+  "a": "$50M program over 3 years (co-funded by Pivotal); per-award size not listed",
+  "e": "Open to universities, companies, and government or nonprofit labs in any country; awardees must sign Wellcome Leap's MARFA/CORFA. Focus on autoimmune flares and onset (RA, MS, lupus) around postpartum and menopause: immune-endocrine modeling, blood biomarkers for prediction, and timed interventions.",
+  "u": "https://wellcomeleap.org/program/ampt/",
+  "fields": [
+   "imm",
+   "fib",
+   "repro"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "arpa-h-mission-office-iso",
+  "n": "ARPA-H Mission Office Innovative Solutions Openings (ISOs)",
+  "f": "Advanced Research Projects Agency for Health (ARPA-H)",
+  "c": "Research grant",
+  "s": "rolling",
+  "d": null,
+  "dt": "Rolling. Send a solution summary first; full proposals only after ARPA-H written feedback. Four office ISOs: Health Science Futures (ARPA-H-SOL-24-104), Proactive Health (-106), Resilient Systems (-103), Scalable Solutions (-105). These replaced the agency-wide Open BAA.",
+  "a": "not listed; awards are usually other transaction agreements",
+  "e": "Universities, companies and other organizations proposing high-risk, transformative health research outside existing ARPA-H programs. Health Science Futures fits basic biomedical work that removes scientific limits.",
+  "u": "https://arpa-h.gov/research-and-funding/mission-office-iso",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "ARPA-H page lists no closing dates; the HSF ISO response date of Mar 6, 2029 (Amendment 3) was seen only on a SAM.gov mirror site.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "df-career-development-awards",
+  "n": "Dermatology Foundation Career Development Awards (Research, Physician Scientist and others)",
+  "f": "Dermatology Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 awards were due Oct 15, 2026 (renewals Jan 1, 2027). Next new-application deadline expected mid-Oct 2027.",
+  "a": "$75,000/yr salary stipend, 2 years",
+  "e": "Junior faculty up to assistant professor with a primary appointment in a US ACGME-approved dermatology department. MD/DO within 12 years and PhD within 8 years of terminal degree. Research CDA is open to PhDs; Physician Scientist CDA needs a US dermatology residency.",
+  "u": "https://dermatologyfoundation.org/rap/cda/",
+  "fields": [
+   "derm"
+  ],
+  "stages": [
+   "pd",
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Eligibility year limits come from the 2026-cycle applicant instructions; 2027 instructions not checked.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "aha-career-development-award",
+  "n": "AHA Career Development Award",
+  "f": "American Heart Association",
+  "c": "Career award",
+  "s": "open",
+  "d": "2026-12-01",
+  "dt": "Proposals due Dec 1, 2026, 3 p.m. Central (ProposalCentral opened Oct 1); awards start Apr 1, 2027.",
+  "a": "$77,000/yr including 10% indirects, 3 years ($231,000)",
+  "e": "Faculty up to assistant professor within 6 years of first faculty appointment (postdocs may apply if appointed by start). Citizens, permanent residents and several visa types (e.g., H-1B, O-1). Must be an AHA Professional Member; K99/R00 and R01 holders not eligible. Cardiovascular and brain health research.",
+  "u": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/career-development-award",
+  "fields": [
+   "cardio",
+   "neuro"
+  ],
+  "stages": [
+   "pd",
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "AHA program web page failed to load; details taken from AHA's own 2027 CDA RFP PDF on professional.heart.org.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "rrf-investigator-award",
+  "n": "Rheumatology Research Foundation Investigator Award",
+  "f": "Rheumatology Research Foundation",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "FY2028 cycle closed (LOI Jul 1, full Aug 3, 2026). Next LOI expected around Jul 2027.",
+  "a": "Up to $125,000/yr for up to 3 years ($375,000)",
+  "e": "Early-career faculty (instructor or assistant professor) with 75% protected research time. MD/DO within 7 years of starting rheumatology fellowship; PhDs within 5 years of degree with rheumatic disease relevance. ACR/ARP membership required; no prior K-level awards.",
+  "u": "https://www.rheumresearch.org/career-development-research-awards",
+  "fields": [
+   "fib",
+   "imm"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "mra-young-investigator",
+  "n": "MRA Young Investigator Award",
+  "f": "Melanoma Research Alliance",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "2026-27 cycle closes today (full proposals due Nov 5, 2026). Next RFP expected mid-2027.",
+  "a": "Up to $85,000/yr for 3 years ($255,000)",
+  "e": "Independent assistant professors (or equivalent) within the first 5 years of their first faculty appointment, open worldwide. Melanoma research.",
+  "u": "https://www.curemelanoma.org/research/request-for-proposals/mra-general-rfp",
+  "fields": [
+   "cancer",
+   "derm"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "unv": "Award size and eligibility taken from a summary of the 2026-27 RFP; the RFP PDF itself was not opened.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "pew-stewart-cancer",
+  "n": "Pew-Stewart Scholars for Cancer Research",
+  "f": "The Pew Charitable Trusts",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 cycle closed (nominations May 13, applications Aug 27, 2026). Invitations to institutions expected around Apr 2027.",
+  "a": "$300,000 over 4 years",
+  "e": "Full-time assistant professors running an independent cancer lab at an invited NCI-designated or cancer-focused institution, within about 3 years of first assistant professor appointment. One nominee per invited institution.",
+  "u": "https://www.pew.org/en/projects/pew-stewart-scholars-for-cancer-research/program-details",
+  "fields": [
+   "cancer"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": true,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "bwf-path",
+  "n": "BWF Investigators in the Pathogenesis of Infectious Disease (PATH)",
+  "f": "Burroughs Wellcome Fund",
+  "c": "Career award",
+  "s": "watch",
+  "d": null,
+  "dt": "2027 cycle: LOIs closed Jul 16, 2026; invited full proposals due Nov 12, 2026. Next LOI expected around Jul 2027.",
+  "a": "$505,000 over 5 years",
+  "e": "Assistant professors with at least 3 years in rank (not associate professors) in the US or Canada; citizens, residents and several visa holders. Research on host-pathogen interplay in infectious disease.",
+  "u": "https://www.bwfund.org/grants/infectious-diseases/investigators-in-the-pathogenesis-of-infectious-disease/",
+  "fields": [
+   "micro",
+   "imm"
+  ],
+  "stages": [
+   "tt"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "goldwater-scholarship",
+  "n": "Barry Goldwater Scholarship",
+  "f": "Barry Goldwater Scholarship and Excellence in Education Foundation",
+  "c": "Undergraduate program",
+  "s": "open",
+  "d": "2027-01-29",
+  "dt": "Institutional nominations due the last Friday in January, 5 p.m. Central (Jan 29, 2027). Yale sets an earlier internal deadline.",
+  "a": "Up to $7,500/yr for 1-2 years",
+  "e": "Sophomores and juniors planning research careers in natural sciences, math or engineering, GPA 3.0+. US citizens, nationals or permanent residents. Students must be nominated by their institution.",
+  "u": "https://goldwaterscholarship.gov/",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": true,
+  "nom": true,
+  "unv": "Funder's dates page gives the rule (last Friday in January) without a year; Jan 29, 2027 is computed from that rule.",
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-first-year-summer-research",
+  "n": "Yale College First-Year Summer Research Fellowship in the Sciences & Engineering",
+  "f": "Yale College",
+  "c": "Undergraduate program",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 deadline was Mar 4, 2026; 2027 deadline not yet posted (expected early Mar 2027).",
+  "a": "$5,000 stipend for 10 weeks",
+  "e": "Yale College first-years doing full-time summer research at Yale with a Yale faculty mentor in natural sciences, engineering, math or CS. Apply via studentgrants.yale.edu.",
+  "u": "https://science.yalecollege.yale.edu/node/76",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ },
+ {
+  "id": "yale-deans-research-fellowship",
+  "n": "Yale College Dean's Research Fellowship & Rosenfeld Science Scholars",
+  "f": "Yale College",
+  "c": "Undergraduate program",
+  "s": "watch",
+  "d": null,
+  "dt": "2026 deadline was Feb 19, 2026; 2027 deadline not yet posted (expected mid-Feb 2027).",
+  "a": "$5,000 stipend for 10+ weeks",
+  "e": "Yale College sophomores and juniors doing full-time summer research at Yale with a Yale faculty mentor; no clinical research. Rosenfeld track needs significant prior research and GPA 3.8+.",
+  "u": "https://science.yalecollege.yale.edu/node/78",
+  "fields": [
+   "all"
+  ],
+  "stages": [
+   "ug"
+  ],
+  "us": false,
+  "nom": false,
+  "checked": "2026-11-05",
+  "added": "2026-11-05"
+ }
+]

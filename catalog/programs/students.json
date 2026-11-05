@@ -466,29 +466,6 @@
   "added": "2026-11-05"
  },
  {
-  "id": "goldwater-scholarship",
-  "n": "Barry Goldwater Scholarship",
-  "f": "Barry Goldwater Scholarship and Excellence in Education Foundation",
-  "c": "Undergraduate program",
-  "s": "watch",
-  "d": null,
-  "dt": "University advising offices report a national deadline of Jan 29, 2027; each campus sets an earlier internal deadline",
-  "a": "Up to $7,500 per academic year (1 or 2 years)",
-  "e": "For STEM sophomores and juniors planning research careers. US citizens or permanent residents. Each institution nominates up to 4 students, plus 1 transfer student and 1 veteran.",
-  "u": "https://goldwaterscholarship.gov/",
-  "fields": [
-   "all"
-  ],
-  "stages": [
-   "ug"
-  ],
-  "us": true,
-  "nom": true,
-  "checked": "2026-11-05",
-  "added": "2026-11-05",
-  "unv": "Official Goldwater site could not be fetched; Jan 29, 2027 deadline from Brown University's fellowship office page."
- },
- {
   "id": "hhmi-cech-fellows",
   "n": "HHMI Cech Fellows",
   "f": "Howard Hughes Medical Institute",
