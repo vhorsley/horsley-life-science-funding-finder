@@ -123,7 +123,7 @@ const FIELDS = [
 ];
 const TAGN = {cell:"Cell & molecular",struct:"Biochemistry & structural",stem:"Stem cells & regeneration",derm:"Skin & dermatology",imm:"Immunology",fib:"Fibrosis & autoimmunity",cancer:"Cancer",neuro:"Neuroscience",gen:"Genetics & genomics",micro:"Microbiology & infection",metab:"Metabolism & endocrinology",aging:"Aging",repro:"Women's & reproductive health",cardio:"Cardiovascular",comp:"Computational biology",trans:"Translational & clinical",bioeng:"Bioengineering",eco:"Ecology & evolution",all:"All areas"};
 const STAGES = [
-  {k:"tt", n:"Faculty (early career)"},{k:"ten", n:"Faculty (established)"},{k:"pd", n:"Postdocs"},{k:"gr", n:"Graduate students"},{k:"ug", n:"Undergraduates"}
+  {k:"ug", n:"Undergraduates"},{k:"gr", n:"Graduate students"},{k:"pd", n:"Postdocs"},{k:"tt", n:"Faculty (early career)"},{k:"ten", n:"Faculty (established)"}
 ];
 const STATUS = {open:"Open", rolling:"Rolling", watch:"Watch", closed:"Closed"};
 const FNAME = Object.fromEntries(FIELDS.map(f=>[f.k,f.n])); const FCODES = Object.fromEntries(FIELDS.map(f=>[f.k,f.c||[]]));
