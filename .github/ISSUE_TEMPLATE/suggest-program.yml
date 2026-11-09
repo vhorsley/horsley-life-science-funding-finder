@@ -18,9 +18,18 @@ body:
     id: link
     attributes:
       label: Link to the funder's page
+      description: Leave blank only for a Yale internal call that has no web page, and attach its PDF below.
       placeholder: https://
-    validations:
-      required: true
+  - type: textarea
+    id: pdf
+    attributes:
+      label: Yale internal call with no web page? Attach the call document (PDF)
+      description: Drag the PDF into this box. Only for Yale programs, and the PDF must name the Yale office or contact person running the call. PDFs for non-Yale programs can't be accepted; please link the funder's page instead.
+  - type: input
+    id: contact
+    attributes:
+      label: Yale office or contact for the call (PDF only)
+      placeholder: e.g. Yale Center for X, jane.doe@yale.edu
   - type: input
     id: deadline
     attributes:
