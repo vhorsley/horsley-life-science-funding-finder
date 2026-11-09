@@ -4,7 +4,7 @@ Grants, fellowships, career awards, pilot funds and student programs for Yale li
 
 ## Use it
 
-Live page: https://vhorsley.github.io/horsley-life-science-finder/
+Live page: https://vhorsley.github.io/horsley-life-science-funding-finder/
 
 `index.html` is a single file with all its data built in. Open it in a browser, or publish it with GitHub Pages (Settings → Pages → Deploy from branch → `main`, folder `/`).
 
@@ -42,7 +42,7 @@ Each program has these fields:
 
 Use the **Suggest a program** form on the page (it opens a GitHub issue labelled `suggestion`). The weekly recheck reads open suggestions, verifies them on the funder's page, adds or corrects the program, and closes the issue from the commit.
 
-Yale internal calls that have no web page can be suggested by attaching the call PDF to the form. These are accepted only when the program is run by Yale and the PDF names the Yale office or contact person running it; PDFs for non-Yale programs are not accepted. An accepted PDF is saved in `calls/` (named after the program id), the row links to the copy on the site (`https://vhorsley.github.io/horsley-life-science-finder/calls/<id>.pdf`), and the row's `unv` note says the details come from a submitted call document. Remove the row when the call closes unless a newer PDF or web page is sent in.
+Yale internal calls that have no web page can be suggested by attaching the call PDF to the form. These are accepted only when the program is run by Yale and the PDF names the Yale office or contact person running it; PDFs for non-Yale programs are not accepted. An accepted PDF is saved in `calls/` (named after the program id), the row links to the copy on the site (`https://vhorsley.github.io/horsley-life-science-funding-finder/calls/<id>.pdf`), and the row's `unv` note says the details come from a submitted call document. Remove the row when the call closes unless a newer PDF or web page is sent in.
 
 ## Update it
 
