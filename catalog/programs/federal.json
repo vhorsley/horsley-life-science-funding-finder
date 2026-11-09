@@ -434,5 +434,54 @@
   "unv": "Award caps and the reported HHS limit of 9 submissions per company per year come from secondary sources, not the NOFO.",
   "checked": "2026-11-05",
   "added": "2026-11-05"
+ },
+ {
+  "id": "nimh-menopause-mood-psychosis-r01",
+  "n": "Mood and Psychosis Symptoms during the Menopause Transition (R01, PAR-25-281)",
+  "f": "National Institutes of Health (NIMH; ORWH may co-fund)",
+  "c": "Research grant",
+  "s": "open",
+  "d": "2027-02-05",
+  "dt": "Standard R01 dates: new applications Feb 5, Jun 5, Oct 5 (next Feb 5, 2027); renewals, resubmissions and revisions Mar 5, Jul 5, Nov 5 (next Mar 5, 2027). 5 PM local time. NOFO expires Jan 8, 2028.",
+  "a": "Budget not capped (should reflect actual needs); up to 5 years",
+  "e": "Mechanistic and translational research on why mood disruption and psychosis start or worsen during perimenopause, aiming at targets for treatment or prevention. Participants' menopause-transition status must be verified. Clinical trials optional. Any PI with the needed skills; foreign organizations eligible. Reissue of PAR-23-097; companion R21 is PAR-25-282.",
+  "u": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-281.html",
+  "fields": [
+   "neuro",
+   "repro",
+   "trans"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "added": "2026-11-09",
+  "checked": "2026-11-09"
+ },
+ {
+  "id": "nimh-menopause-mood-psychosis-r21",
+  "n": "Mood and Psychosis Symptoms during the Menopause Transition (R21, PAR-25-282)",
+  "f": "National Institutes of Health (NIMH; ORWH may co-fund)",
+  "c": "Pilot / seed",
+  "s": "open",
+  "d": "2026-11-16",
+  "dt": "Resubmissions/revisions Nov 16, 2026; new applications Feb 16, Jun 16, Oct 16 (next new Feb 16, 2027). 5 PM local time. NOFO expires Jan 8, 2028.",
+  "a": "Up to $275,000 direct costs over 2 years, no more than $200,000 in any year",
+  "e": "Exploratory, higher-risk projects on mood disruption and psychosis during the menopause transition; suits work with little preliminary data or using existing datasets. Participants' menopause-transition status must be verified. Clinical trials optional; no renewals. Any PI with the needed skills; foreign organizations eligible. Companion R01 is PAR-25-281.",
+  "u": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-282.html",
+  "fields": [
+   "neuro",
+   "repro"
+  ],
+  "stages": [
+   "tt",
+   "ten"
+  ],
+  "us": false,
+  "nom": false,
+  "added": "2026-11-09",
+  "checked": "2026-11-09"
  }
 ]
