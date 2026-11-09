@@ -8,7 +8,7 @@ Grants, fellowships, career awards, pilot funds and student programs for Yale li
 
 Features:
 
-- filters by research area and career stage (pick one or more of each), eligibility (US-only, nomination or limited submission), status, type and deadline window
+- filters by research area and career stage (pick one or more of each), eligibility (US-only, nomination or limited submission, career development awards), status, type and deadline window
 - an **I'm at Yale** option (off by default) that adds Yale's own pilot funds and fellowships and shows Yale's internal and limited-submission steps next to each deadline. Link to `…/#yale` to open the page with it already on (e.g. `…/#yale-pd` for Yale postdocs)
 - tips for each career stage and a "What's changed at funders" panel (NIH application cap, late-submission rules, discontinued programs)
 - a **New** tag on programs added in the last 7 days (search for `new`)
@@ -31,6 +31,7 @@ Each program has these fields:
 | `fields` | Research areas (`all` = every field): `cell`, `struct`, `stem`, `derm`, `imm`, `fib`, `cancer`, `neuro`, `gen`, `micro`, `metab`, `aging`, `repro`, `cardio`, `comp`, `trans`, `bioeng`, `eco` |
 | `stages` | `ug`, `gr`, `pd`, `tt` (early-career faculty), `ten` (established faculty) |
 | `us`, `nom` | US citizens/permanent residents only; needs nomination or limited submission |
+| `cd` | Career development award (mentored or training-focused: K awards, CDAs, NSF CAREER and similar); the page can hide these |
 | `yale` | Yale internal step `{d, t, u}` |
 | `unv` | Anything that could not be confirmed on the funder's page |
 | `added`, `checked` | Date added, date last checked |

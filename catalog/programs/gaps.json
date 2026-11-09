@@ -65,6 +65,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "unv": "Could not load the NSF CAREER solicitation page itself; the July rule and BIO minimum come from NSF's May 2026 BIO virtual office hours slides (nsf-gov-resources.nsf.gov) and an NSF webinar page.",
   "checked": "2026-11-05",
   "added": "2026-11-05"
@@ -308,6 +309,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "unv": "Eligibility year limits come from the 2026-cycle applicant instructions; 2027 instructions not checked.",
   "checked": "2026-11-05",
   "added": "2026-11-05"
@@ -333,6 +335,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "unv": "AHA program web page failed to load; details taken from AHA's own 2027 CDA RFP PDF on professional.heart.org.",
   "checked": "2026-11-05",
   "added": "2026-11-05"
@@ -357,6 +360,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "checked": "2026-11-05",
   "added": "2026-11-05"
  },

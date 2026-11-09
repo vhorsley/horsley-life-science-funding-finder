@@ -249,6 +249,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "unv": "AHA program web page failed to load; details taken from AHA's own 2027 CDA RFP PDF on professional.heart.org.",
   "added": "2026-11-05",
   "checked": "2026-11-05"
@@ -777,6 +778,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -1139,6 +1141,7 @@
   ],
   "us": false,
   "nom": true,
+  "cd": true,
   "yale": {
    "d": null,
    "t": "Limited to three nominations per institution; Yale's internal selection step was not found publicly.",
@@ -1284,6 +1287,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "unv": "Eligibility year limits come from the 2026-cycle applicant instructions; 2027 instructions not checked.",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -2136,6 +2140,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "unv": "Rheumatology Research Foundation page could not be retrieved; deadline and full eligibility not confirmed.",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -2748,6 +2753,7 @@
   ],
   "us": true,
   "nom": false,
+  "cd": true,
   "unv": "Citizenship/PR requirement is the usual K rule but was not re-read on the NOFO this session.",
   "added": "2026-11-05",
   "checked": "2026-11-05"
@@ -2773,6 +2779,7 @@
   ],
   "us": true,
   "nom": false,
+  "cd": true,
   "unv": "Citizenship/PR requirement and effort level are standard K rules, not re-read on the NOFOs this session.",
   "added": "2026-11-05",
   "checked": "2026-11-05"
@@ -2796,6 +2803,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -3105,6 +3113,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "unv": "Could not load the NSF CAREER solicitation page itself; the July rule and BIO minimum come from NSF's May 2026 BIO virtual office hours slides (nsf-gov-resources.nsf.gov) and an NSF webinar page.",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -3539,6 +3548,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -3562,6 +3572,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -4367,6 +4378,7 @@
   ],
   "us": true,
   "nom": false,
+  "cd": true,
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -4464,6 +4476,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -4630,6 +4643,7 @@
   ],
   "us": false,
   "nom": true,
+  "cd": true,
   "unv": "YCCI awards may depend on renewal of Yale's NCATS CTSA; the salary cap is $120,000 on the program page and $130,000 in the 2026 call",
   "added": "2026-11-05",
   "checked": "2026-11-05",

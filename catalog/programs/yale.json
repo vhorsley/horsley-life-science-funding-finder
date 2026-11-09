@@ -143,6 +143,7 @@
   ],
   "us": true,
   "nom": false,
+  "cd": true,
   "checked": "2026-11-05",
   "added": "2026-11-05"
  },
@@ -216,6 +217,7 @@
   ],
   "us": false,
   "nom": true,
+  "cd": true,
   "checked": "2026-11-05",
   "added": "2026-11-05",
   "unv": "YCCI awards may depend on renewal of Yale's NCATS CTSA; the salary cap is $120,000 on the program page and $130,000 in the 2026 call"
@@ -431,6 +433,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "checked": "2026-11-05",
   "added": "2026-11-05"
  },

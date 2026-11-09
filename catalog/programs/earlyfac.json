@@ -214,6 +214,7 @@
   ],
   "us": false,
   "nom": true,
+  "cd": true,
   "yale": {
    "d": null,
    "t": "Limited to three nominations per institution; Yale's internal selection step was not found publicly.",
@@ -599,6 +600,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "unv": "Rheumatology Research Foundation page could not be retrieved; deadline and full eligibility not confirmed.",
   "checked": "2026-11-05",
   "added": "2026-11-05"

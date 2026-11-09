@@ -22,7 +22,7 @@ FIELDS = {"all", "cell", "stem", "neuro", "imm", "cancer", "gen", "micro", "stru
           "trans", "derm", "aging", "metab", "repro", "fib", "cardio", "bioeng"}
 STAGES = {"ug", "gr", "pd", "tt", "ten"}
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-KEEP = ["id", "n", "f", "c", "s", "d", "dt", "a", "e", "u", "fields", "stages", "us", "nom",
+KEEP = ["id", "n", "f", "c", "s", "d", "dt", "a", "e", "u", "fields", "stages", "us", "nom", "cd",
         "yale", "unv", "added", "checked"]
 
 
@@ -47,6 +47,10 @@ def clean(x, problems):
     if not r["stages"]:
         problems.append(f"{pid}: no career stage"); return None
     r["us"], r["nom"] = bool(x.get("us")), bool(x.get("nom"))
+    if x.get("cd"):
+        r["cd"] = True
+    else:
+        r.pop("cd", None)
     d = r.get("d")
     if d and not ISO.match(str(d)):
         problems.append(f"{pid}: bad date {d}"); r["d"] = None

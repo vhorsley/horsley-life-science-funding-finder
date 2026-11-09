@@ -239,6 +239,7 @@
   ],
   "us": false,
   "nom": false,
+  "cd": true,
   "checked": "2026-11-05",
   "added": "2026-11-05"
  },
@@ -262,6 +263,7 @@
   ],
   "us": true,
   "nom": false,
+  "cd": true,
   "unv": "Citizenship/PR requirement is the usual K rule but was not re-read on the NOFO this session.",
   "checked": "2026-11-05",
   "added": "2026-11-05"
@@ -287,6 +289,7 @@
   ],
   "us": true,
   "nom": false,
+  "cd": true,
   "unv": "Citizenship/PR requirement and effort level are standard K rules, not re-read on the NOFOs this session.",
   "checked": "2026-11-05",
   "added": "2026-11-05"
