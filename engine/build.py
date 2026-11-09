@@ -21,8 +21,12 @@ TYPES = {"Research grant", "Career award", "Postdoc fellowship", "Graduate fello
 FIELDS = {"all", "cell", "stem", "neuro", "imm", "cancer", "gen", "micro", "struct", "comp", "eco",
           "trans", "derm", "aging", "metab", "repro", "fib", "cardio", "bioeng"}
 STAGES = {"ug", "gr", "pd", "tt", "ten"}
+# disease/topic tags shown as chips; keep in sync with TOPICS in engine/template.html
+TOPICS = {"melanoma", "blood-cancer", "pancreatic", "prostate", "pediatric-cancer", "lupus", "scleroderma",
+          "psoriasis", "arthritis", "ibd", "cf", "alzheimers", "parkinsons", "mental-health", "eye",
+          "diabetes", "liver", "menopause", "pregnancy", "plant", "global-health"}
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-KEEP = ["id", "n", "f", "c", "s", "d", "dt", "a", "e", "u", "fields", "stages", "us", "nom", "cd",
+KEEP = ["id", "n", "f", "c", "s", "d", "dt", "a", "e", "u", "fields", "stages", "us", "nom", "cd", "t",
         "yale", "unv", "added", "checked"]
 
 
@@ -43,6 +47,12 @@ def clean(x, problems):
     if r.get("c") not in TYPES:
         problems.append(f"{pid}: unknown type {r.get('c')!r}")
     r["fields"] = [f for f in x.get("fields", []) if f in FIELDS] or ["all"]
+    bad = [t for t in x.get("t", []) if t not in TOPICS]
+    if bad:
+        problems.append(f"{pid}: unknown topic {bad}")
+    r["t"] = [t for t in x.get("t", []) if t in TOPICS]
+    if not r["t"]:
+        r.pop("t")
     r["stages"] = [s for s in x.get("stages", []) if s in STAGES]
     if not r["stages"]:
         problems.append(f"{pid}: no career stage"); return None

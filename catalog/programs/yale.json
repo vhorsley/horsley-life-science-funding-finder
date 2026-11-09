@@ -37,6 +37,9 @@
   "fields": [
    "metab"
   ],
+  "t": [
+   "diabetes"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -86,6 +89,9 @@
    "metab",
    "trans",
    "fib"
+  ],
+  "t": [
+   "liver"
   ],
   "stages": [
    "pd",
@@ -402,6 +408,9 @@
    "cancer",
    "trans"
   ],
+  "t": [
+   "melanoma"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -426,6 +435,9 @@
    "derm",
    "cancer",
    "trans"
+  ],
+  "t": [
+   "melanoma"
   ],
   "stages": [
    "tt",
@@ -620,6 +632,9 @@
    "micro",
    "trans"
   ],
+  "t": [
+   "global-health"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -643,6 +658,9 @@
   "fields": [
    "micro",
    "trans"
+  ],
+  "t": [
+   "global-health"
   ],
   "stages": [
    "tt",

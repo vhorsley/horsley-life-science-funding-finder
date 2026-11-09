@@ -544,6 +544,9 @@
    "imm",
    "derm"
   ],
+  "t": [
+   "scleroderma"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -569,6 +572,9 @@
    "fib",
    "imm"
   ],
+  "t": [
+   "lupus"
+  ],
   "stages": [
    "ten",
    "tt"
@@ -593,6 +599,9 @@
   "fields": [
    "fib",
    "imm"
+  ],
+  "t": [
+   "lupus"
   ],
   "stages": [
    "pd",

@@ -110,6 +110,9 @@
   "fields": [
    "metab"
   ],
+  "t": [
+   "diabetes"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -135,6 +138,9 @@
    "imm",
    "trans"
   ],
+  "t": [
+   "diabetes"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -159,6 +165,9 @@
    "metab",
    "stem",
    "trans"
+  ],
+  "t": [
+   "diabetes"
   ],
   "stages": [
    "tt",
@@ -186,6 +195,9 @@
    "micro",
    "gen"
   ],
+  "t": [
+   "cf"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -211,6 +223,9 @@
    "trans",
    "cell"
   ],
+  "t": [
+   "cf"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -233,6 +248,9 @@
   "u": "https://www.cff.org/researchers/clinical-pilot-and-feasibility-award",
   "fields": [
    "trans"
+  ],
+  "t": [
+   "cf"
   ],
   "stages": [
    "tt",
@@ -257,6 +275,9 @@
   "fields": [
    "trans"
   ],
+  "t": [
+   "cf"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -279,7 +300,13 @@
   "e": "Bridge funding for a CF-relevant R01 (or equivalent) that scored 1–45 but was not funded and can be resubmitted within a year.",
   "u": "https://www.cff.org/researchers/cffnih-r01-unfunded-award",
   "fields": [
-   "all"
+   "cell",
+   "micro",
+   "gen",
+   "trans"
+  ],
+  "t": [
+   "cf"
   ],
   "stages": [
    "tt",
@@ -306,6 +333,9 @@
    "derm",
    "trans"
   ],
+  "t": [
+   "melanoma"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -330,6 +360,9 @@
    "cancer",
    "trans"
   ],
+  "t": [
+   "prostate"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -352,6 +385,9 @@
   "u": "https://lustgarten.org/current-funding-opportunities/",
   "fields": [
    "cancer"
+  ],
+  "t": [
+   "pancreatic"
   ],
   "stages": [
    "tt",
@@ -377,6 +413,9 @@
    "cancer",
    "trans"
   ],
+  "t": [
+   "pancreatic"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -400,6 +439,9 @@
   "fields": [
    "neuro",
    "trans"
+  ],
+  "t": [
+   "parkinsons"
   ],
   "stages": [
    "tt",
@@ -425,6 +467,9 @@
    "neuro",
    "aging"
   ],
+  "t": [
+   "alzheimers"
+  ],
   "stages": [
    "ten"
   ],
@@ -447,6 +492,9 @@
   "fields": [
    "neuro",
    "aging"
+  ],
+  "t": [
+   "alzheimers"
   ],
   "stages": [
    "tt",
@@ -471,6 +519,9 @@
   "fields": [
    "neuro",
    "aging"
+  ],
+  "t": [
+   "eye"
   ],
   "stages": [
    "ten"
@@ -541,6 +592,9 @@
    "repro",
    "cardio"
   ],
+  "t": [
+   "pregnancy"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -564,6 +618,9 @@
   "fields": [
    "derm",
    "imm"
+  ],
+  "t": [
+   "psoriasis"
   ],
   "stages": [
    "tt",
@@ -612,6 +669,9 @@
   "fields": [
    "derm",
    "imm"
+  ],
+  "t": [
+   "psoriasis"
   ],
   "stages": [
    "tt",
@@ -662,6 +722,9 @@
    "imm",
    "fib"
   ],
+  "t": [
+   "psoriasis"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -687,6 +750,9 @@
    "imm",
    "fib"
   ],
+  "t": [
+   "psoriasis"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -710,6 +776,9 @@
   "fields": [
    "fib",
    "imm"
+  ],
+  "t": [
+   "scleroderma"
   ],
   "stages": [
    "tt",
@@ -735,6 +804,9 @@
    "fib",
    "imm"
   ],
+  "t": [
+   "scleroderma"
+  ],
   "stages": [
    "ten"
   ],
@@ -758,6 +830,9 @@
    "fib",
    "imm"
   ],
+  "t": [
+   "lupus"
+  ],
   "stages": [
    "ten"
   ],
@@ -780,6 +855,9 @@
   "fields": [
    "fib",
    "imm"
+  ],
+  "t": [
+   "lupus"
   ],
   "stages": [
    "tt",
@@ -806,6 +884,9 @@
    "fib",
    "imm"
   ],
+  "t": [
+   "arthritis"
+  ],
   "stages": [
    "tt",
    "ten"
@@ -829,6 +910,9 @@
   "fields": [
    "fib",
    "imm"
+  ],
+  "t": [
+   "arthritis"
   ],
   "stages": [
    "pd",
@@ -906,6 +990,9 @@
   "fields": [
    "imm",
    "trans"
+  ],
+  "t": [
+   "ibd"
   ],
   "stages": [
    "tt",

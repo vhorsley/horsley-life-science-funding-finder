@@ -206,6 +206,9 @@
    "fib",
    "imm"
   ],
+  "t": [
+   "lupus"
+  ],
   "stages": [
    "pd",
    "tt",
@@ -255,6 +258,12 @@
    "imm",
    "fib",
    "repro"
+  ],
+  "t": [
+   "lupus",
+   "arthritis",
+   "menopause",
+   "pregnancy"
   ],
   "stages": [
    "tt",
@@ -355,6 +364,9 @@
    "fib",
    "imm"
   ],
+  "t": [
+   "arthritis"
+  ],
   "stages": [
    "tt"
   ],
@@ -378,6 +390,9 @@
   "fields": [
    "cancer",
    "derm"
+  ],
+  "t": [
+   "melanoma"
   ],
   "stages": [
    "tt"

@@ -131,6 +131,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "diabetes"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -154,6 +157,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "diabetes"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -297,6 +303,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "alzheimers"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -321,6 +330,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "alzheimers"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -367,6 +379,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "arthritis"
+  ],
   "unv": "Fellowship-specific amount not listed",
   "added": "2026-11-05",
   "checked": "2026-11-05"
@@ -392,6 +407,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "arthritis"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -460,6 +478,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "blood-cancer"
+  ],
   "unv": "2026-2027 cycle dates not posted on official page as of Nov 5, 2026; usual timing (Oct-Nov) may already have passed",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -483,6 +504,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "blood-cancer"
+  ],
   "unv": "2026-2027 cycle dates not posted on official page as of Nov 5, 2026",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -582,6 +606,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "diabetes"
+  ],
   "unv": "Eligibility and amount not confirmed on official page",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -606,6 +633,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "diabetes"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -657,6 +687,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "alzheimers"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -681,6 +714,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "alzheimers"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -704,6 +740,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "eye"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -730,6 +769,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "diabetes"
+  ],
   "unv": "Award size and detailed eligibility are in the call document, which was not reviewed.",
   "added": "2026-11-05",
   "checked": "2026-11-05"
@@ -756,6 +798,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "diabetes"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -827,6 +872,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "lupus"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -902,6 +950,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "cf"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -924,6 +975,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "cf"
+  ],
   "unv": "Exact Fall 2027 LOI date not shown on the award page; the related pilot award lists Mar 31, 2027.",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -941,7 +995,10 @@
   "e": "Bridge funding for a CF-relevant R01 (or equivalent) that scored 1–45 but was not funded and can be resubmitted within a year.",
   "u": "https://www.cff.org/researchers/cffnih-r01-unfunded-award",
   "fields": [
-   "all"
+   "cell",
+   "micro",
+   "gen",
+   "trans"
   ],
   "stages": [
    "tt",
@@ -949,6 +1006,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "cf"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -974,6 +1034,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "cf"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -999,6 +1062,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "cf"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -1239,6 +1305,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "pediatric-cancer"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -1264,6 +1333,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "psoriasis"
+  ],
   "unv": "Only the deadline was confirmed on the program overview page; eligibility and amount not reviewed.",
   "added": "2026-11-05",
   "checked": "2026-11-05"
@@ -1360,6 +1432,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "psoriasis"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -2066,6 +2141,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "lupus"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -2090,6 +2168,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "lupus"
+  ],
   "unv": "Page labels the deadline as '2027 deadline has passed', which may be a labeling error; next date not posted.",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -2115,6 +2196,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "lupus"
+  ],
   "unv": "Nomination deadline is in the 2027 nominations document, which was not reviewed.",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -2141,6 +2225,9 @@
   "us": false,
   "nom": false,
   "cd": true,
+  "t": [
+   "lupus"
+  ],
   "unv": "Rheumatology Research Foundation page could not be retrieved; deadline and full eligibility not confirmed.",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -2218,6 +2305,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "pancreatic"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -2242,6 +2332,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "pancreatic"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -2293,6 +2386,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "pregnancy"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -2394,6 +2490,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "parkinsons"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -2419,6 +2518,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "melanoma"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -2442,6 +2544,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "melanoma"
+  ],
   "unv": "Award size and eligibility taken from a summary of the 2026-27 RFP; the RFP PDF itself was not opened.",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -3044,6 +3149,10 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "mental-health",
+   "menopause"
+  ],
   "added": "2026-11-09",
   "checked": "2026-11-09"
  },
@@ -3068,6 +3177,10 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "mental-health",
+   "menopause"
+  ],
   "added": "2026-11-09",
   "checked": "2026-11-09"
  },
@@ -3093,6 +3206,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "psoriasis"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -3117,6 +3233,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "psoriasis"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -3281,6 +3400,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "scleroderma"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -3333,6 +3455,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "prostate"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -3474,6 +3599,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "ibd"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -3574,6 +3702,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "arthritis"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -3598,6 +3729,9 @@
   "us": false,
   "nom": false,
   "cd": true,
+  "t": [
+   "arthritis"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -3622,6 +3756,9 @@
   "us": false,
   "nom": false,
   "cd": true,
+  "t": [
+   "arthritis"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -3753,6 +3890,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "plant"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -3823,6 +3963,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "scleroderma"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -3848,6 +3991,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "scleroderma"
+  ],
   "unv": "2027 deadline not posted.",
   "added": "2026-11-05",
   "checked": "2026-11-05",
@@ -3873,6 +4019,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "scleroderma"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -4000,6 +4149,12 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "lupus",
+   "arthritis",
+   "menopause",
+   "pregnancy"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -4259,6 +4414,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "diabetes"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05"
  },
@@ -4332,6 +4490,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "liver"
+  ],
   "unv": "Page does not say whether a full application can be filed without the Oct 2 letter of intent",
   "added": "2026-11-05",
   "checked": "2026-11-05"
@@ -4526,6 +4687,9 @@
   "us": false,
   "nom": false,
   "cd": true,
+  "t": [
+   "melanoma"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -4551,6 +4715,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "melanoma"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -4742,6 +4909,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "global-health"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null
@@ -4766,6 +4936,9 @@
   ],
   "us": false,
   "nom": false,
+  "t": [
+   "global-health"
+  ],
   "added": "2026-11-05",
   "checked": "2026-11-05",
   "d": null

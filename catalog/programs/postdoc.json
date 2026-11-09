@@ -155,6 +155,9 @@
   "fields": [
    "cancer"
   ],
+  "t": [
+   "pediatric-cancer"
+  ],
   "stages": [
    "pd"
   ],
@@ -248,6 +251,9 @@
   "fields": [
    "cancer"
   ],
+  "t": [
+   "blood-cancer"
+  ],
   "stages": [
    "pd"
   ],
@@ -270,6 +276,9 @@
   "u": "https://bloodcancerunited.org/research/grants/career-development-program-cdp",
   "fields": [
    "cancer"
+  ],
+  "t": [
+   "blood-cancer"
   ],
   "stages": [
    "pd"
@@ -295,6 +304,9 @@
    "eco",
    "cell",
    "gen"
+  ],
+  "t": [
+   "plant"
   ],
   "stages": [
    "gr",
@@ -575,6 +587,9 @@
    "neuro",
    "aging"
   ],
+  "t": [
+   "alzheimers"
+  ],
   "stages": [
    "pd"
   ],
@@ -597,6 +612,9 @@
   "fields": [
    "neuro",
    "aging"
+  ],
+  "t": [
+   "alzheimers"
   ],
   "stages": [
    "pd"
@@ -622,6 +640,9 @@
    "imm",
    "trans"
   ],
+  "t": [
+   "arthritis"
+  ],
   "stages": [
    "pd"
   ],
@@ -645,6 +666,9 @@
   "fields": [
    "fib",
    "imm"
+  ],
+  "t": [
+   "arthritis"
   ],
   "stages": [
    "pd"
@@ -671,6 +695,9 @@
    "derm",
    "imm"
   ],
+  "t": [
+   "scleroderma"
+  ],
   "stages": [
    "pd"
   ],
@@ -693,6 +720,9 @@
   "fields": [
    "metab",
    "imm"
+  ],
+  "t": [
+   "diabetes"
   ],
   "stages": [
    "pd"
@@ -717,6 +747,9 @@
    "metab",
    "imm"
   ],
+  "t": [
+   "diabetes"
+  ],
   "stages": [
    "pd"
   ],
@@ -739,6 +772,9 @@
   "u": "https://professional.diabetes.org/content-page/spring-cycle",
   "fields": [
    "metab"
+  ],
+  "t": [
+   "diabetes"
   ],
   "stages": [
    "pd"
