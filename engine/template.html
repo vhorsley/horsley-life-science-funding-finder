@@ -40,7 +40,7 @@
   </section>
 
   <section>
-    <span class="steplbl">Narrow by topic <span class="hint">· optional; pick any to show only programs aimed at those topics</span></span>
+    <span class="steplbl">Narrow by topic or disease <span class="hint">· optional</span></span>
     <div id="topics" class="topics"></div>
     <label class="tgen"><input type="checkbox" id="noAll"> Hide programs open to every field (NIH parent grants, general fellowships and prizes)</label>
   </section>
@@ -112,21 +112,32 @@ function expBar(r){EXP_SHOWN=r;const n=expPicked().length;$("icsBtn").disabled=!
 
 const TODAY = new Date(); TODAY.setHours(0,0,0,0);
 const FIELDS = [
-  {k:"cell", n:"Cell, Genetic & Evolutionary Biology", c:["cell","struct","stem","gen","eco"]},
-  {k:"imm", n:"Immunology, Inflammation, Skin & Infection", c:["imm","fib","derm","micro"]},
+  {k:"cell", n:"Cell & Molecular Biology", c:["cell","struct"]},
+  {k:"stem", n:"Stem Cells, Development & Regeneration", c:["stem"]},
+  {k:"gen", n:"Genetics & Genomics", c:["gen"]},
+  {k:"eco", n:"Ecology, Evolution & Plants", c:["eco"]},
+  {k:"imm", n:"Immunology & Inflammation", c:["imm"]},
+  {k:"fib", n:"Autoimmunity, Fibrosis & Rheumatology", c:["fib"]},
+  {k:"derm", n:"Skin Biology & Dermatology", c:["derm"]},
+  {k:"micro", n:"Microbiology & Infectious Disease", c:["micro"]},
   {k:"cancer", n:"Cancer", c:["cancer"]},
   {k:"neuro", n:"Neuroscience & Mental Health", c:["neuro"]},
-  {k:"metab", n:"Metabolism, Aging, Heart & Women's Health", c:["metab","aging","cardio","repro"]},
-  {k:"trans", n:"Translational, Computational & Bioengineering", c:["trans","comp","bioeng"]},
+  {k:"metab", n:"Metabolism, Diabetes & Liver", c:["metab"]},
+  {k:"aging", n:"Aging", c:["aging"]},
+  {k:"repro", n:"Women's & Reproductive Health", c:["repro"]},
+  {k:"cardio", n:"Cardiovascular", c:["cardio"]},
+  {k:"comp", n:"Computational & Quantitative Biology", c:["comp"]},
+  {k:"trans", n:"Translational & Clinical", c:["trans"]},
+  {k:"bioeng", n:"Bioengineering & Devices", c:["bioeng"]},
   {k:"*", n:"All areas", x:true}
 ];
-const OLDF = {stem:"cell",gen:"cell",eco:"cell",struct:"cell",derm:"imm",fib:"imm",micro:"imm",aging:"metab",repro:"metab",cardio:"metab",comp:"trans",bioeng:"trans"};
+const OLDF = {};
 const TOPICS = [
   {k:"melanoma",n:"Melanoma & skin cancer",th:"cancer"},{k:"blood-cancer",n:"Blood cancers",th:"cancer"},{k:"pancreatic",n:"Pancreatic cancer",th:"cancer"},{k:"prostate",n:"Prostate cancer",th:"cancer"},{k:"pediatric-cancer",n:"Pediatric cancer",th:"cancer"},
-  {k:"lupus",n:"Lupus",th:"imm"},{k:"scleroderma",n:"Scleroderma",th:"imm"},{k:"psoriasis",n:"Psoriasis & inflammatory skin disease",th:"imm"},{k:"arthritis",n:"Arthritis & rheumatic disease",th:"imm"},{k:"ibd",n:"Inflammatory bowel disease",th:"imm"},{k:"cf",n:"Cystic fibrosis",th:"imm"},
+  {k:"lupus",n:"Lupus",th:"fib"},{k:"scleroderma",n:"Scleroderma",th:"fib"},{k:"arthritis",n:"Arthritis & rheumatic disease",th:"fib"},{k:"ibd",n:"Inflammatory bowel disease",th:"imm"},{k:"psoriasis",n:"Psoriasis & inflammatory skin disease",th:"derm"},{k:"cf",n:"Cystic fibrosis",th:"gen"},
   {k:"alzheimers",n:"Alzheimer's & dementia",th:"neuro"},{k:"parkinsons",n:"Parkinson's disease",th:"neuro"},{k:"mental-health",n:"Mood & psychosis",th:"neuro"},{k:"eye",n:"Eye & vision",th:"neuro"},
-  {k:"diabetes",n:"Diabetes",th:"metab"},{k:"liver",n:"Liver disease",th:"metab"},{k:"menopause",n:"Menopause",th:"metab"},{k:"pregnancy",n:"Pregnancy & preterm birth",th:"metab"},
-  {k:"plant",n:"Plant biology",th:"cell"},{k:"global-health",n:"Global health",th:"trans"}
+  {k:"diabetes",n:"Diabetes",th:"metab"},{k:"liver",n:"Liver disease",th:"metab"},{k:"menopause",n:"Menopause",th:"repro"},{k:"pregnancy",n:"Pregnancy & preterm birth",th:"repro"},
+  {k:"plant",n:"Plant biology",th:"eco"},{k:"global-health",n:"Global health",th:"trans"}
 ];
 const TOPN = Object.fromEntries(TOPICS.map(t=>[t.k,t.n]));
 const TAGN = {cell:"Cell & molecular",struct:"Biochemistry & structural",stem:"Stem cells & regeneration",derm:"Skin & dermatology",imm:"Immunology",fib:"Fibrosis & autoimmunity",cancer:"Cancer",neuro:"Neuroscience",gen:"Genetics & genomics",micro:"Microbiology & infection",metab:"Metabolism & endocrinology",aging:"Aging",repro:"Women's & reproductive health",cardio:"Cardiovascular",comp:"Computational biology",trans:"Translational & clinical",bioeng:"Bioengineering",eco:"Ecology & evolution",all:"All areas"};
@@ -194,7 +205,7 @@ function fieldButtons(){
   const box=$("fields");
   box.innerHTML=FIELDS.map(f=>{
     const n=DATA.filter(x=>inField(x,f.k)&&inStage(x)&&eligible(x)&&active(x)).length;
-    return `<button class="fbtn${f.x?" x":""}" data-k="${f.k}" aria-pressed="${fieldSel.has(f.k)}"><span class="fn">${f.n}</span><span class="fc">${n} program${n===1?"":"s"}</span></button>`;
+    return `<button class="fbtn${f.x?" x":""}" data-k="${f.k}" aria-pressed="${fieldSel.has(f.k)}" title="${n} program${n===1?"":"s"}"><span class="fn">${f.n}</span><span class="fc">${n}</span></button>`;
   }).join("");
   box.querySelectorAll(".fbtn").forEach(b=>b.onclick=()=>{toggle(fieldSel,b.dataset.k,"*");pruneTopics();fCat="All";save();renderAll();});
 }
@@ -318,6 +329,7 @@ $("atYale").onchange=e=>{atYale=e.target.checked;save();renderAll();};
 $("noNom").onchange=e=>{noNom=e.target.checked;save();renderAll();};
 $("noCD").onchange=e=>{noCD=e.target.checked;save();renderAll();};
 $("noAll").onchange=e=>{noAll=e.target.checked;save();renderAll();};
+pruneTopics();
 renderAll();
 </script>
 </body>

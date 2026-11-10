@@ -10,7 +10,7 @@ Live page: https://vhorsley.github.io/horsley-life-science-funding-finder/
 
 Features:
 
-- six broad research areas, each with optional topic and disease chips (e.g. lupus, diabetes, melanoma, Alzheimer's) and a box to hide programs open to every field
+- 17 research areas (cell and molecular biology, skin biology, autoimmunity and fibrosis, cancer, neuroscience, women's health and more), with optional topic and disease chips (e.g. lupus, diabetes, melanoma, Alzheimer's) and a box to hide programs open to every field
 - filters by research area and career stage (pick one or more of each), eligibility (US-only, nomination or limited submission, career development awards), status, type and deadline window
 - an **I'm at Yale** option (off by default) that adds Yale's own pilot funds and fellowships and shows Yale's internal and limited-submission steps next to each deadline. Link to `…/#yale` to open the page with it already on (e.g. `…/#yale-pd` for Yale postdocs)
 - tips for each career stage and a "What's changed at funders" panel (NIH application cap, late-submission rules, discontinued programs)
